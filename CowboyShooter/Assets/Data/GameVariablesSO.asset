@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53fd097fa170ec844af550126da4a3f2, type: 3}
   m_Name: GameVariablesSO
   m_EditorClassIdentifier: Assembly-CSharp::GameVariablesSO
-  winCondition: 1
+  winCondition: 0
   pointsToWin: 500
   timeToWin: 60

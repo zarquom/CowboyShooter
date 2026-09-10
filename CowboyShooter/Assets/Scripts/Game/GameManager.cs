@@ -15,7 +15,14 @@ public class GameManager : MonoBehaviour
     private float enemySpawnInterval = 2f;
     private float enemySpawnTimer = 0f;
 
+    private float timeRemaining = 0f;
+
     private bool gameRunning = true;
+
+    private void Awake()
+    {
+        timeRemaining = gameVariables.timeToWin;
+    }
     public void SetPlayer(PlayerController playerObj)
     {
         playerController = playerObj;
@@ -53,9 +60,7 @@ public class GameManager : MonoBehaviour
         if (playerLives <= 0)
         {
             Debug.Log("Game Over, player lost all lives");
-            gameRunning = false;
-            playerController.StopInput();
-            gameUIManager.ShowGameOverScreen(false, playerPoints);
+            GameFinished(false);
         }
     }
 
@@ -69,6 +74,22 @@ public class GameManager : MonoBehaviour
     {
         if(!gameRunning) return;
         EnemyCreation();
+        TimerCheck();
+    }
+
+    private void TimerCheck()
+    {
+        if(gameVariables.winCondition == WinCondition.Time)
+        {
+            timeRemaining -= Time.deltaTime;
+            if (timeRemaining <= 0) timeRemaining = 0f;
+            gameUIManager.UpdateTimer(timeRemaining);
+            if (timeRemaining <= 0)
+            {
+                Debug.Log("Player win, time ran out");
+                GameFinished(true);
+            }
+        }
     }
 
     private void EnemyCreation()
@@ -89,19 +110,29 @@ public class GameManager : MonoBehaviour
     {
         OnDeactivateEnemy(enemy);
     }
-
+    private void OnDeactivateEnemy(EnemyController enemy)
+    {
+        enemy.OnEnemyDeactivated -= HandleEnemyDeactivated;
+        enemy.OnEnemyDestroyed -= HandleEnemyDestroyed;
+        gameObjectsPoolManager.ReleaseEnemyToPool(enemy);
+    }
     private void HandleEnemyDestroyed(EnemyController enemy)
     {
         Debug.Log("Enemy destroyed");
         playerPoints++;
         gameUIManager.UpdatePoints(playerPoints);
         OnDeactivateEnemy(enemy);
+        if (gameVariables.winCondition == WinCondition.Points && playerPoints >= gameVariables.pointsToWin)
+        {
+            Debug.Log("Player win, scored enough points");
+            GameFinished(true);
+        }
     }
 
-    private void OnDeactivateEnemy(EnemyController enemy)
+    private void GameFinished(bool win)
     {
-        enemy.OnEnemyDeactivated -= HandleEnemyDeactivated;
-        enemy.OnEnemyDestroyed -= HandleEnemyDestroyed;
-        gameObjectsPoolManager.ReleaseEnemyToPool(enemy);
+        gameRunning = false;
+        playerController.StopInput();
+        gameUIManager.ShowGameOverScreen(win, playerPoints);
     }
 }

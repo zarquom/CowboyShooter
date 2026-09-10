@@ -7,6 +7,7 @@ public class GameUIManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI pointsText;
     [SerializeField] private TextMeshProUGUI livesText;
+    [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private GameObject gameOverGameObject;
     [SerializeField] private TextMeshProUGUI gameoverText;
     [SerializeField] private Button playAgainButton;
@@ -52,6 +53,12 @@ public class GameUIManager : MonoBehaviour
     public void UpdateLives(int lives)
     {
         livesText.text = $"Lives: {lives}";
+    }
+
+    public void UpdateTimer(float timeRemaining)
+    {
+        TimeSpan timeSpan = TimeSpan.FromSeconds(timeRemaining);
+        timerText.text = $"Time: {timeSpan.Minutes:D2}:{timeSpan.Seconds:D2}";
     }
 
     public void ShowGameOverScreen(bool isWin, int finalPoints)
