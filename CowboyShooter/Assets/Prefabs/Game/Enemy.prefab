@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8332557620169995912}
   - component: {fileID: 2821090976851177882}
   - component: {fileID: 3009412095463278358}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: HorseSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5511727889564527585, guid: fc5314846981ba54c925f8c54df9de1e, type: 3}
+  m_Sprite: {fileID: 4026893037264738480, guid: d65bfa2f1e09453498bb65784114bdd7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +102,7 @@ Animator:
   m_GameObject: {fileID: 5688810982546904882}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1ef700957b2c2a14a9cde5dc74bb069d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 37d31ac9c2a9a2f41825d89be6216311, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -123,11 +123,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2224049763736594298}
-  - component: {fileID: 1999972733911779221}
+  - component: {fileID: 3909558384887055290}
   - component: {fileID: 2369856880261090846}
   - component: {fileID: 5248040576451624633}
-  m_Layer: 6
-  m_Name: Player
+  m_Layer: 7
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,7 +149,7 @@ Transform:
   - {fileID: 8332557620169995912}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1999972733911779221
+--- !u!114 &3909558384887055290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,11 +158,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7620706879153047672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a197ec1253a1c74db8b4625a7d5fea2, type: 3}
+  m_Script: {fileID: 11500000, guid: 8008c2989dd0de24c9ae047ad7522fb6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 5
-  playerRigidbody: {fileID: 5248040576451624633}
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
 --- !u!61 &2369856880261090846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -179,7 +177,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -224,7 +222,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

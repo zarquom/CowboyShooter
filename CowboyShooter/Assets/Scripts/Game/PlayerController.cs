@@ -6,7 +6,8 @@ using static UnityEngine.InputSystem.InputAction;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private Rigidbody2D rigidbody;
+    [SerializeField] private Rigidbody2D playerRigidbody;
+    public event Action OnAttack;
     private InputSystem_Actions inputActions;
     void Start()
     {
@@ -18,11 +19,12 @@ public class PlayerController : MonoBehaviour
     void OnDestroy()
     {
         inputActions.Player.Attack.performed -= OnAttackPerformed;
+        OnAttack = null;
     }
 
     private void OnAttackPerformed(InputAction.CallbackContext context)
     {
-        // Handle attack input
+        OnAttack?.Invoke();
     }
 
     void FixedUpdate()
@@ -33,6 +35,6 @@ public class PlayerController : MonoBehaviour
     private void HandleMovement()
     {
         Vector2 moveInput = inputActions.Player.Move.ReadValue<Vector2>();
-        rigidbody.linearVelocity = moveInput * moveSpeed;
+        playerRigidbody.linearVelocity = moveInput * moveSpeed;
     }
 }

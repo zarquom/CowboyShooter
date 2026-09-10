@@ -1,16 +1,19 @@
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private GameObjectsPoolManager gameObjectsPoolManager;
+    private PlayerController playerController;
+    public void SetPlayer(GameObject playerObj)
     {
-        
+        playerController = playerObj.GetComponent<PlayerController>();
+        playerController.OnAttack += HandlePlayerAttack;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void HandlePlayerAttack()
     {
-        
+        BulletController bullet = gameObjectsPoolManager.GetBulletFromPool();
+        bullet.transform.position = playerController.transform.position;
     }
 }

@@ -15,11 +15,23 @@ MonoBehaviour:
   m_GroupName: Packed Assets
   m_GUID: 3b286fa75b8ebfb4191ae610d09335b3
   m_SerializeEntries:
+  - m_GUID: 012671003afeb4b478ad5a204bfd3615
+    m_Address: Enemy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 53f9a0eb81dfce94aaeee2b835c262c2
     m_Address: MainMenu
     m_ReadOnly: 0
     m_SerializedLabels:
     - Menu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b0dd0402ee9cfc429e63bff42835908
+    m_Address: Bullet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fcc2c18bf381b664db3b7b3de235df6f
     m_Address: Player

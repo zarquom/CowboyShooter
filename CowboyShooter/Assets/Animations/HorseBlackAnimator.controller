@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HorseWalk
+  m_Name: WalkPlayer
   m_Speed: 0.2
   m_CycleOffset: 0
   m_Transitions: []
@@ -54,7 +54,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HorseSprite
+  m_Name: HorseBlackAnimator
   serializedVersion: 6
   m_AnimatorParameters: []
   m_AnimatorLayers:
