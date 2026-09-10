@@ -1,0 +1,3549 @@
+fileFormatVersion: 2
+guid: cae1918fbf1be254fb76f8e694d0c54c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5425430335542851944
+    second: Horse_socks_brown_brownsaddled_riding_0
+  - first:
+      213: -5192147767616382487
+    second: Horse_socks_brown_brownsaddled_riding_1
+  - first:
+      213: -2168360500284167891
+    second: Horse_socks_brown_brownsaddled_riding_2
+  - first:
+      213: 8301025637565812531
+    second: Horse_socks_brown_brownsaddled_riding_3
+  - first:
+      213: -3624674344032739389
+    second: Horse_socks_brown_brownsaddled_riding_4
+  - first:
+      213: -5059311590890029706
+    second: Horse_socks_brown_brownsaddled_riding_5
+  - first:
+      213: 7299808146771640355
+    second: Horse_socks_brown_brownsaddled_riding_6
+  - first:
+      213: -5678361966686510271
+    second: Horse_socks_brown_brownsaddled_riding_7
+  - first:
+      213: 841302694405206903
+    second: Horse_socks_brown_brownsaddled_riding_8
+  - first:
+      213: 473770863592942270
+    second: Horse_socks_brown_brownsaddled_riding_9
+  - first:
+      213: -8724649356944709029
+    second: Horse_socks_brown_brownsaddled_riding_10
+  - first:
+      213: 326368024659978487
+    second: Horse_socks_brown_brownsaddled_riding_11
+  - first:
+      213: 722521318751874631
+    second: Horse_socks_brown_brownsaddled_riding_12
+  - first:
+      213: 5297723784391795088
+    second: Horse_socks_brown_brownsaddled_riding_13
+  - first:
+      213: 6072964082812558951
+    second: Horse_socks_brown_brownsaddled_riding_14
+  - first:
+      213: -2174920658763180149
+    second: Horse_socks_brown_brownsaddled_riding_15
+  - first:
+      213: 8903743500443127971
+    second: Horse_socks_brown_brownsaddled_riding_16
+  - first:
+      213: -4559288723370347138
+    second: Horse_socks_brown_brownsaddled_riding_17
+  - first:
+      213: -5861896260512673883
+    second: Horse_socks_brown_brownsaddled_riding_18
+  - first:
+      213: -7867735726192660415
+    second: Horse_socks_brown_brownsaddled_riding_19
+  - first:
+      213: -5507528169555280390
+    second: Horse_socks_brown_brownsaddled_riding_20
+  - first:
+      213: 8107693124031614285
+    second: Horse_socks_brown_brownsaddled_riding_21
+  - first:
+      213: 4544611474233463257
+    second: Horse_socks_brown_brownsaddled_riding_22
+  - first:
+      213: 1302023054087163039
+    second: Horse_socks_brown_brownsaddled_riding_23
+  - first:
+      213: -7543333147868160842
+    second: Horse_socks_brown_brownsaddled_riding_24
+  - first:
+      213: -5170263574976073221
+    second: Horse_socks_brown_brownsaddled_riding_25
+  - first:
+      213: -6163457004817432941
+    second: Horse_socks_brown_brownsaddled_riding_26
+  - first:
+      213: 4263495411717327038
+    second: Horse_socks_brown_brownsaddled_riding_27
+  - first:
+      213: 6821920089780293552
+    second: Horse_socks_brown_brownsaddled_riding_28
+  - first:
+      213: 4535810225914859744
+    second: Horse_socks_brown_brownsaddled_riding_29
+  - first:
+      213: 6201186108447423309
+    second: Horse_socks_brown_brownsaddled_riding_30
+  - first:
+      213: 4795586104002841297
+    second: Horse_socks_brown_brownsaddled_riding_31
+  - first:
+      213: -5679943107519161060
+    second: Horse_socks_brown_brownsaddled_riding_32
+  - first:
+      213: -4545280990927901858
+    second: Horse_socks_brown_brownsaddled_riding_33
+  - first:
+      213: 3652776841077519187
+    second: Horse_socks_brown_brownsaddled_riding_34
+  - first:
+      213: -4977364946071616353
+    second: Horse_socks_brown_brownsaddled_riding_35
+  - first:
+      213: -1787660201527848394
+    second: Horse_socks_brown_brownsaddled_riding_36
+  - first:
+      213: 3033138852838103627
+    second: Horse_socks_brown_brownsaddled_riding_37
+  - first:
+      213: 8870128673460141922
+    second: Horse_socks_brown_brownsaddled_riding_38
+  - first:
+      213: 601714055531011919
+    second: Horse_socks_brown_brownsaddled_riding_39
+  - first:
+      213: 7969836275057118587
+    second: Horse_socks_brown_brownsaddled_riding_40
+  - first:
+      213: -1324662388655167209
+    second: Horse_socks_brown_brownsaddled_riding_41
+  - first:
+      213: -977942352121431120
+    second: Horse_socks_brown_brownsaddled_riding_42
+  - first:
+      213: 3924906665620074160
+    second: Horse_socks_brown_brownsaddled_riding_43
+  - first:
+      213: 5418915618108960284
+    second: Horse_socks_brown_brownsaddled_riding_44
+  - first:
+      213: -3803964592444770264
+    second: Horse_socks_brown_brownsaddled_riding_45
+  - first:
+      213: 5430873212255510909
+    second: Horse_socks_brown_brownsaddled_riding_46
+  - first:
+      213: 2990846184228571170
+    second: Horse_socks_brown_brownsaddled_riding_47
+  - first:
+      213: -7695753697295705040
+    second: Horse_socks_brown_brownsaddled_riding_48
+  - first:
+      213: -10246105519916528
+    second: Horse_socks_brown_brownsaddled_riding_49
+  - first:
+      213: 6480534077536955524
+    second: Horse_socks_brown_brownsaddled_riding_50
+  - first:
+      213: 4889063680508745819
+    second: Horse_socks_brown_brownsaddled_riding_51
+  - first:
+      213: -7208118415837668768
+    second: Horse_socks_brown_brownsaddled_riding_52
+  - first:
+      213: -5651805565478671779
+    second: Horse_socks_brown_brownsaddled_riding_53
+  - first:
+      213: 1756154989651790494
+    second: Horse_socks_brown_brownsaddled_riding_54
+  - first:
+      213: -4874880448226826926
+    second: Horse_socks_brown_brownsaddled_riding_55
+  - first:
+      213: -2628261382301732364
+    second: Horse_socks_brown_brownsaddled_riding_56
+  - first:
+      213: -2269406738069862896
+    second: Horse_socks_brown_brownsaddled_riding_57
+  - first:
+      213: 7616065407018632829
+    second: Horse_socks_brown_brownsaddled_riding_58
+  - first:
+      213: -4078622520760521192
+    second: Horse_socks_brown_brownsaddled_riding_59
+  - first:
+      213: -7063838919431305415
+    second: Horse_socks_brown_brownsaddled_riding_60
+  - first:
+      213: -2801931577120304526
+    second: Horse_socks_brown_brownsaddled_riding_61
+  - first:
+      213: 2715373517325875051
+    second: Horse_socks_brown_brownsaddled_riding_62
+  - first:
+      213: -8312882083613553420
+    second: Horse_socks_brown_brownsaddled_riding_63
+  - first:
+      213: -5381011203901197793
+    second: Horse_socks_brown_brownsaddled_riding_64
+  - first:
+      213: 6621633446015017054
+    second: Horse_socks_brown_brownsaddled_riding_65
+  - first:
+      213: -2436394390981061780
+    second: Horse_socks_brown_brownsaddled_riding_66
+  - first:
+      213: 2665761825165905783
+    second: Horse_socks_brown_brownsaddled_riding_67
+  - first:
+      213: 8683996743718679651
+    second: Horse_socks_brown_brownsaddled_riding_68
+  - first:
+      213: -6835537813318462309
+    second: Horse_socks_brown_brownsaddled_riding_69
+  - first:
+      213: -2169770027384542618
+    second: Horse_socks_brown_brownsaddled_riding_70
+  - first:
+      213: -426914045653369660
+    second: Horse_socks_brown_brownsaddled_riding_71
+  - first:
+      213: -795570204961568361
+    second: Horse_socks_brown_brownsaddled_riding_72
+  - first:
+      213: 623933480339868341
+    second: Horse_socks_brown_brownsaddled_riding_73
+  - first:
+      213: -3684935049608830441
+    second: Horse_socks_brown_brownsaddled_riding_74
+  - first:
+      213: -656391702859394568
+    second: Horse_socks_brown_brownsaddled_riding_75
+  - first:
+      213: 7259335306039002773
+    second: Horse_socks_brown_brownsaddled_riding_76
+  - first:
+      213: 6300818838347281882
+    second: Horse_socks_brown_brownsaddled_riding_77
+  - first:
+      213: -6880440488449068959
+    second: Horse_socks_brown_brownsaddled_riding_78
+  - first:
+      213: -4462291146439610056
+    second: Horse_socks_brown_brownsaddled_riding_79
+  - first:
+      213: -6393215877375141831
+    second: Horse_socks_brown_brownsaddled_riding_80
+  - first:
+      213: 5362699131203445856
+    second: Horse_socks_brown_brownsaddled_riding_81
+  - first:
+      213: -3865330053663814233
+    second: Horse_socks_brown_brownsaddled_riding_82
+  - first:
+      213: -9051009911686151886
+    second: Horse_socks_brown_brownsaddled_riding_83
+  - first:
+      213: 6204144051779426685
+    second: Horse_socks_brown_brownsaddled_riding_84
+  - first:
+      213: -1786695158981648670
+    second: Horse_socks_brown_brownsaddled_riding_85
+  - first:
+      213: 2132553167874682797
+    second: Horse_socks_brown_brownsaddled_riding_86
+  - first:
+      213: -3162170414265712778
+    second: Horse_socks_brown_brownsaddled_riding_87
+  - first:
+      213: -7971871033658717321
+    second: Horse_socks_brown_brownsaddled_riding_88
+  - first:
+      213: -1584001370270354922
+    second: Horse_socks_brown_brownsaddled_riding_89
+  - first:
+      213: 2526288510956509049
+    second: Horse_socks_brown_brownsaddled_riding_90
+  - first:
+      213: -3545369793860997212
+    second: Horse_socks_brown_brownsaddled_riding_91
+  - first:
+      213: 7190358046648785210
+    second: Horse_socks_brown_brownsaddled_riding_92
+  - first:
+      213: 5450572974469279130
+    second: Horse_socks_brown_brownsaddled_riding_93
+  - first:
+      213: 8007136944155019482
+    second: Horse_socks_brown_brownsaddled_riding_94
+  - first:
+      213: -1269657408521000013
+    second: Horse_socks_brown_brownsaddled_riding_95
+  - first:
+      213: -1380719654946793172
+    second: Horse_socks_brown_brownsaddled_riding_96
+  - first:
+      213: -3689414183107975902
+    second: Horse_socks_brown_brownsaddled_riding_97
+  - first:
+      213: -8448806836439739894
+    second: Horse_socks_brown_brownsaddled_riding_98
+  - first:
+      213: -527866434070956372
+    second: Horse_socks_brown_brownsaddled_riding_99
+  - first:
+      213: -3266368526541880312
+    second: Horse_socks_brown_brownsaddled_riding_100
+  - first:
+      213: -543344564915434027
+    second: Horse_socks_brown_brownsaddled_riding_101
+  - first:
+      213: 9078347025669014384
+    second: Horse_socks_brown_brownsaddled_riding_102
+  - first:
+      213: -720504073613703425
+    second: Horse_socks_brown_brownsaddled_riding_103
+  - first:
+      213: -4841696354723664584
+    second: Horse_socks_brown_brownsaddled_riding_104
+  - first:
+      213: 186311871901857334
+    second: Horse_socks_brown_brownsaddled_riding_105
+  - first:
+      213: -8389147191011697583
+    second: Horse_socks_brown_brownsaddled_riding_106
+  - first:
+      213: 7314512910794759236
+    second: Horse_socks_brown_brownsaddled_riding_107
+  - first:
+      213: -6177334745425225831
+    second: Horse_socks_brown_brownsaddled_riding_108
+  - first:
+      213: 2731924633409544053
+    second: Horse_socks_brown_brownsaddled_riding_109
+  - first:
+      213: -3516800359860336425
+    second: Horse_socks_brown_brownsaddled_riding_110
+  - first:
+      213: 1568067845498206558
+    second: Horse_socks_brown_brownsaddled_riding_111
+  - first:
+      213: -1740345241385884684
+    second: Horse_socks_brown_brownsaddled_riding_112
+  - first:
+      213: -8896522760388442540
+    second: Horse_socks_brown_brownsaddled_riding_113
+  - first:
+      213: -1397975585155098863
+    second: Horse_socks_brown_brownsaddled_riding_114
+  - first:
+      213: -621916174630567021
+    second: Horse_socks_brown_brownsaddled_riding_115
+  - first:
+      213: -8312454256075489501
+    second: Horse_socks_brown_brownsaddled_riding_116
+  - first:
+      213: -2157188570110276803
+    second: Horse_socks_brown_brownsaddled_riding_117
+  - first:
+      213: 3113669497183130744
+    second: Horse_socks_brown_brownsaddled_riding_118
+  - first:
+      213: -4307686038274177151
+    second: Horse_socks_brown_brownsaddled_riding_119
+  - first:
+      213: -5386207406953868965
+    second: Horse_socks_brown_brownsaddled_riding_120
+  - first:
+      213: 4984367632985263699
+    second: Horse_socks_brown_brownsaddled_riding_121
+  - first:
+      213: -2189051031766103972
+    second: Horse_socks_brown_brownsaddled_riding_122
+  - first:
+      213: -1794998217459519841
+    second: Horse_socks_brown_brownsaddled_riding_123
+  - first:
+      213: -5649513652253710894
+    second: Horse_socks_brown_brownsaddled_riding_124
+  - first:
+      213: -7606252962020337119
+    second: Horse_socks_brown_brownsaddled_riding_125
+  - first:
+      213: 4380220820723812072
+    second: Horse_socks_brown_brownsaddled_riding_126
+  - first:
+      213: 3756252378679692402
+    second: Horse_socks_brown_brownsaddled_riding_127
+  - first:
+      213: 534277313121545408
+    second: Horse_socks_brown_brownsaddled_riding_128
+  - first:
+      213: -9155829810087245736
+    second: Horse_socks_brown_brownsaddled_riding_129
+  - first:
+      213: 2263551744869777404
+    second: Horse_socks_brown_brownsaddled_riding_130
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8960750eadff4b4b0800000000000000
+      internalID: -5425430335542851944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e953e15d19c1f7b0800000000000000
+      internalID: -5192147767616382487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29e29b0d9f68e1e0800000000000000
+      internalID: -2168360500284167891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f458e26da233370800000000000000
+      internalID: 8301025637565812531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1087
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfd47173e192bdc0800000000000000
+      internalID: -3624674344032739389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1087
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dbbf8d9e6b9c9b0800000000000000
+      internalID: -5059311590890029706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_6
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1087
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32083dc55d02e4560800000000000000
+      internalID: 7299808146771640355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_7
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1087
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143ef8560e76231b0800000000000000
+      internalID: -5678361966686510271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_8
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1087
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773f998d758ecab00800000000000000
+      internalID: 841302694405206903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1087
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba236d171c239600800000000000000
+      internalID: 473770863592942270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_10
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a687192a1dbe680800000000000000
+      internalID: -8724649356944709029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1023
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f867ef3dfd778400800000000000000
+      internalID: 326368024659978487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1023
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e2ad2bf49e60a00800000000000000
+      internalID: 722521318751874631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1023
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091afce96bb458940800000000000000
+      internalID: 5297723784391795088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e9fb948a0874450800000000000000
+      internalID: 6072964082812558951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8713cf1f2121d1e0800000000000000
+      internalID: -2174920658763180149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_16
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a01b132a83709b70800000000000000
+      internalID: 8903743500443127971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_17
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1023
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75f01fef072ab0c0800000000000000
+      internalID: -4559288723370347138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_18
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1023
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af83f1a86c56aea0800000000000000
+      internalID: -5861896260512673883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 959
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140f2a5ca0030d290800000000000000
+      internalID: -7867735726192660415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 959
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd33375f445193b0800000000000000
+      internalID: -5507528169555280390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 959
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d08cd90ff448070800000000000000
+      internalID: 8107693124031614285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 959
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d199d3be04b11f30800000000000000
+      internalID: 4544611474233463257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 959
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c0c3cb117b11210800000000000000
+      internalID: 1302023054087163039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 959
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc93e2e772b05790800000000000000
+      internalID: -7543333147868160842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_25
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 959
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1f86afba88f38b0800000000000000
+      internalID: -5170263574976073221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_26
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 959
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39eb67f6280077aa0800000000000000
+      internalID: -6163457004817432941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 959
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb84becec7afa2b30800000000000000
+      internalID: 4263495411717327038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 897
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf84757d245cae50800000000000000
+      internalID: 6821920089780293552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 895
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e05d346e5f62fe30800000000000000
+      internalID: 4535810225914859744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 895
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b781c09e90f0650800000000000000
+      internalID: 6201186108447423309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 896
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da83ea47285d8240800000000000000
+      internalID: 4795586104002841297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 898
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d54eb56d9cc21b0800000000000000
+      internalID: -5679943107519161060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_33
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 895
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b286b450bebe0c0800000000000000
+      internalID: -4545280990927901858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_34
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 895
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353f2380f2541b230800000000000000
+      internalID: 3652776841077519187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_35
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 895
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f948be7e3f8dceab0800000000000000
+      internalID: -4977364946071616353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63254d4a484f037e0800000000000000
+      internalID: -1787660201527848394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 831
+        width: 73
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ad9d567bfd71a20800000000000000
+      internalID: 3033138852838103627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_38
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 831
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f39955807091b70800000000000000
+      internalID: 8870128673460141922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_39
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 835
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f1948deb7b95800800000000000000
+      internalID: 601714055531011919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_40
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 831
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d4dccbddb8a9e60800000000000000
+      internalID: 7969836275057118587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 831
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71963ec639add9de0800000000000000
+      internalID: -1324662388655167209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_42
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbfdf2bc96ad62f0800000000000000
+      internalID: -977942352121431120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_43
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee8dc31d1187630800000000000000
+      internalID: 3924906665620074160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_44
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e63354b0bd33b40800000000000000
+      internalID: 5418915618108960284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_45
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8287a218b5a953bc0800000000000000
+      internalID: -3803964592444770264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_46
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 767
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71acac99665e5b40800000000000000
+      internalID: 5430873212255510909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_47
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 767
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228c6c422ce918920800000000000000
+      internalID: 2990846184228571170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_48
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 767
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c5ac149c0333590800000000000000
+      internalID: -7695753697295705040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_49
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 767
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a7728a8399bdff0800000000000000
+      internalID: -10246105519916528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_50
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 767
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c676e786b7fe950800000000000000
+      internalID: 6480534077536955524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_51
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 767
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58dcf8938179d340800000000000000
+      internalID: 4889063680508745819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_52
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a5b05bd7e97fb90800000000000000
+      internalID: -7208118415837668768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_53
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 703
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a611268c0c091b0800000000000000
+      internalID: -5651805565478671779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_54
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 703
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a89b898ad1f5810800000000000000
+      internalID: 1756154989651790494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_55
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 703
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25561f08f02f85cb0800000000000000
+      internalID: -4874880448226826926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_56
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1370ba23a868bd0800000000000000
+      internalID: -2628261382301732364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_57
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016c77678927180e0800000000000000
+      internalID: -2269406738069862896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_58
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d768c73d223b1b960800000000000000
+      internalID: 7616065407018632829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_59
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 703
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e29254d62d567c0800000000000000
+      internalID: -4078622520760521192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_60
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 703
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937c7b8bde338fd90800000000000000
+      internalID: -7063838919431305415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 639
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2725bcc631a8d19d0800000000000000
+      internalID: -2801931577120304526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 639
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6736bcc3d1fea520800000000000000
+      internalID: 2715373517325875051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_63
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 639
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc418ad9c5b2ac80800000000000000
+      internalID: -8312882083613553420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_64
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 639
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f127213e1dec255b0800000000000000
+      internalID: -5381011203901197793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_65
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 639
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5022964984c4eb50800000000000000
+      internalID: 6621633446015017054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_66
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 639
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63d1d0c530303ed0800000000000000
+      internalID: -2436394390981061780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_67
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 639
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f8fc49140bef420800000000000000
+      internalID: 2665761825165905783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_68
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 639
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36430045701c38870800000000000000
+      internalID: 8683996743718679651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_69
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 639
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b941764339a4321a0800000000000000
+      internalID: -6835537813318462309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 577
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a6471f7ad63e1e0800000000000000
+      internalID: -2169770027384542618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_71
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 575
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccb437ffeb431af0800000000000000
+      internalID: -426914045653369660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_72
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 575
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799816b1d1195f4f0800000000000000
+      internalID: -795570204961568361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_73
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 576
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba8123d138a8a800800000000000000
+      internalID: 623933480339868341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_74
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 578
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712eda3981b7cdcc0800000000000000
+      internalID: -3684935049608830441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_75
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 575
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f15d85593704e6f0800000000000000
+      internalID: -656391702859394568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_76
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 575
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59608edcff65eb460800000000000000
+      internalID: 7259335306039002773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_77
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 575
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad577cda951017750800000000000000
+      internalID: 6300818838347281882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_78
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 511
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16037c374d3c380a0800000000000000
+      internalID: -6880440488449068959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_79
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 511
+        width: 73
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831b81438d1c212c0800000000000000
+      internalID: -4462291146439610056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_80
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 511
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938daa0480cb647a0800000000000000
+      internalID: -6393215877375141831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_81
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 515
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0646da072722c6a40800000000000000
+      internalID: 5362699131203445856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_82
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 511
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad0abbabc69b5ac0800000000000000
+      internalID: -3865330053663814233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_83
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 511
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231486b807a546280800000000000000
+      internalID: -9051009911686151886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_84
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d795aa5e42c891650800000000000000
+      internalID: 6204144051779426685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_85
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee1dfe18326437e0800000000000000
+      internalID: -1786695158981648670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_86
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafedc3bec9589d10800000000000000
+      internalID: 2132553167874682797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_87
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f317a13c6bd14d0800000000000000
+      internalID: -3162170414265712778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_88
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 385
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bcb8b18893e5190800000000000000
+      internalID: -7971871033658717321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_89
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 386
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612bd49652f740ae0800000000000000
+      internalID: -1584001370270354922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_90
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 383
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97796bf040e2f0320800000000000000
+      internalID: 2526288510956509049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_91
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 384
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afe387e4f05ccec0800000000000000
+      internalID: -3545369793860997212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_92
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 386
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a395f5a1c8849c360800000000000000
+      internalID: 7190358046648785210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_93
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 387
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9de59ded3354ab40800000000000000
+      internalID: 5450572974469279130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_94
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 386
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8444880a01f1f60800000000000000
+      internalID: 8007136944155019482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_95
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 383
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bba9aa5055416ee0800000000000000
+      internalID: -1269657408521000013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_96
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 319
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c291f780ac2b6dce0800000000000000
+      internalID: -1380719654946793172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_97
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 322
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225af8a09519cccc0800000000000000
+      internalID: -3689414183107975902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_98
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 319
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a021e1a22fecfba80800000000000000
+      internalID: -8448806836439739894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_99
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 319
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca639546644aca8f0800000000000000
+      internalID: -527866434070956372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_100
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 322
+        width: 21
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80484fd81278ba2d0800000000000000
+      internalID: -3266368526541880312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_101
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 324
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd83993ff6a578f0800000000000000
+      internalID: -543344564915434027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_102
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 323
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073c9bc4584ccfd70800000000000000
+      internalID: 9078347025669014384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_103
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 319
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff68809cc514006f0800000000000000
+      internalID: -720504073613703425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_104
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 255
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d646a51d6deccb0800000000000000
+      internalID: -4841696354723664584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_105
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 255
+        width: 20
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636f52e09a9e59200800000000000000
+      internalID: 186311871901857334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_106
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 258
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c184fc313c39b80800000000000000
+      internalID: -8389147191011697583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_107
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 262
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c1ee80dbe528560800000000000000
+      internalID: 7314512910794759236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_108
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 259
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997504827c2b54aa0800000000000000
+      internalID: -6177334745425225831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_109
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 257
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fd38fcafeb9e520800000000000000
+      internalID: 2731924633409544053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 20
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d80f8c94b0d13fc0800000000000000
+      internalID: -3516800359860336425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_111
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 128
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59f1a2c565e2c510800000000000000
+      internalID: 1568067845498206558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_112
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 128
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f327a4493d09d7e0800000000000000
+      internalID: -1740345241385884684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_113
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 127
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4568eda6fa3398480800000000000000
+      internalID: -8896522760388442540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_114
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 128
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1175922bc94699ce0800000000000000
+      internalID: -1397975585155098863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_115
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 130
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3934313c8828e57f0800000000000000
+      internalID: -621916174630567021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_116
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 130
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fbfe635ea34ac80800000000000000
+      internalID: -8312454256075489501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_117
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 128
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b4b0dbc602012e0800000000000000
+      internalID: -2157188570110276803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_118
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874d19729e9f53b20800000000000000
+      internalID: 3113669497183130744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_119
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 67
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18702cc0f560834c0800000000000000
+      internalID: -4307686038274177151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_120
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51dfe596e85045b0800000000000000
+      internalID: -5386207406953868965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_121
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 63
+        width: 20
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e8a0234f70c2540800000000000000
+      internalID: 4984367632985263699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_122
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5801684fadee91e0800000000000000
+      internalID: -2189051031766103972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_123
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 67
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9eaddba1a2e617e0800000000000000
+      internalID: -1794998217459519841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_124
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5a2b30445e891b0800000000000000
+      internalID: -5649513652253710894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_125
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ad30f0b39217690800000000000000
+      internalID: -7606252962020337119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_126
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6430901aba9cc30800000000000000
+      internalID: 4380220820723812072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_127
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c4bed03a3e02430800000000000000
+      internalID: 3756252378679692402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_128
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cce824b2622a6700800000000000000
+      internalID: 534277313121545408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_129
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 3
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85841d12c45ffe080800000000000000
+      internalID: -9155829810087245736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_socks_brown_brownsaddled_riding_130
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffbda3b150c96f10800000000000000
+      internalID: 2263551744869777404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Horse_socks_brown_brownsaddled_riding_0: -5425430335542851944
+      Horse_socks_brown_brownsaddled_riding_1: -5192147767616382487
+      Horse_socks_brown_brownsaddled_riding_10: -8724649356944709029
+      Horse_socks_brown_brownsaddled_riding_100: -3266368526541880312
+      Horse_socks_brown_brownsaddled_riding_101: -543344564915434027
+      Horse_socks_brown_brownsaddled_riding_102: 9078347025669014384
+      Horse_socks_brown_brownsaddled_riding_103: -720504073613703425
+      Horse_socks_brown_brownsaddled_riding_104: -4841696354723664584
+      Horse_socks_brown_brownsaddled_riding_105: 186311871901857334
+      Horse_socks_brown_brownsaddled_riding_106: -8389147191011697583
+      Horse_socks_brown_brownsaddled_riding_107: 7314512910794759236
+      Horse_socks_brown_brownsaddled_riding_108: -6177334745425225831
+      Horse_socks_brown_brownsaddled_riding_109: 2731924633409544053
+      Horse_socks_brown_brownsaddled_riding_11: 326368024659978487
+      Horse_socks_brown_brownsaddled_riding_110: -3516800359860336425
+      Horse_socks_brown_brownsaddled_riding_111: 1568067845498206558
+      Horse_socks_brown_brownsaddled_riding_112: -1740345241385884684
+      Horse_socks_brown_brownsaddled_riding_113: -8896522760388442540
+      Horse_socks_brown_brownsaddled_riding_114: -1397975585155098863
+      Horse_socks_brown_brownsaddled_riding_115: -621916174630567021
+      Horse_socks_brown_brownsaddled_riding_116: -8312454256075489501
+      Horse_socks_brown_brownsaddled_riding_117: -2157188570110276803
+      Horse_socks_brown_brownsaddled_riding_118: 3113669497183130744
+      Horse_socks_brown_brownsaddled_riding_119: -4307686038274177151
+      Horse_socks_brown_brownsaddled_riding_12: 722521318751874631
+      Horse_socks_brown_brownsaddled_riding_120: -5386207406953868965
+      Horse_socks_brown_brownsaddled_riding_121: 4984367632985263699
+      Horse_socks_brown_brownsaddled_riding_122: -2189051031766103972
+      Horse_socks_brown_brownsaddled_riding_123: -1794998217459519841
+      Horse_socks_brown_brownsaddled_riding_124: -5649513652253710894
+      Horse_socks_brown_brownsaddled_riding_125: -7606252962020337119
+      Horse_socks_brown_brownsaddled_riding_126: 4380220820723812072
+      Horse_socks_brown_brownsaddled_riding_127: 3756252378679692402
+      Horse_socks_brown_brownsaddled_riding_128: 534277313121545408
+      Horse_socks_brown_brownsaddled_riding_129: -9155829810087245736
+      Horse_socks_brown_brownsaddled_riding_13: 5297723784391795088
+      Horse_socks_brown_brownsaddled_riding_130: 2263551744869777404
+      Horse_socks_brown_brownsaddled_riding_14: 6072964082812558951
+      Horse_socks_brown_brownsaddled_riding_15: -2174920658763180149
+      Horse_socks_brown_brownsaddled_riding_16: 8903743500443127971
+      Horse_socks_brown_brownsaddled_riding_17: -4559288723370347138
+      Horse_socks_brown_brownsaddled_riding_18: -5861896260512673883
+      Horse_socks_brown_brownsaddled_riding_19: -7867735726192660415
+      Horse_socks_brown_brownsaddled_riding_2: -2168360500284167891
+      Horse_socks_brown_brownsaddled_riding_20: -5507528169555280390
+      Horse_socks_brown_brownsaddled_riding_21: 8107693124031614285
+      Horse_socks_brown_brownsaddled_riding_22: 4544611474233463257
+      Horse_socks_brown_brownsaddled_riding_23: 1302023054087163039
+      Horse_socks_brown_brownsaddled_riding_24: -7543333147868160842
+      Horse_socks_brown_brownsaddled_riding_25: -5170263574976073221
+      Horse_socks_brown_brownsaddled_riding_26: -6163457004817432941
+      Horse_socks_brown_brownsaddled_riding_27: 4263495411717327038
+      Horse_socks_brown_brownsaddled_riding_28: 6821920089780293552
+      Horse_socks_brown_brownsaddled_riding_29: 4535810225914859744
+      Horse_socks_brown_brownsaddled_riding_3: 8301025637565812531
+      Horse_socks_brown_brownsaddled_riding_30: 6201186108447423309
+      Horse_socks_brown_brownsaddled_riding_31: 4795586104002841297
+      Horse_socks_brown_brownsaddled_riding_32: -5679943107519161060
+      Horse_socks_brown_brownsaddled_riding_33: -4545280990927901858
+      Horse_socks_brown_brownsaddled_riding_34: 3652776841077519187
+      Horse_socks_brown_brownsaddled_riding_35: -4977364946071616353
+      Horse_socks_brown_brownsaddled_riding_36: -1787660201527848394
+      Horse_socks_brown_brownsaddled_riding_37: 3033138852838103627
+      Horse_socks_brown_brownsaddled_riding_38: 8870128673460141922
+      Horse_socks_brown_brownsaddled_riding_39: 601714055531011919
+      Horse_socks_brown_brownsaddled_riding_4: -3624674344032739389
+      Horse_socks_brown_brownsaddled_riding_40: 7969836275057118587
+      Horse_socks_brown_brownsaddled_riding_41: -1324662388655167209
+      Horse_socks_brown_brownsaddled_riding_42: -977942352121431120
+      Horse_socks_brown_brownsaddled_riding_43: 3924906665620074160
+      Horse_socks_brown_brownsaddled_riding_44: 5418915618108960284
+      Horse_socks_brown_brownsaddled_riding_45: -3803964592444770264
+      Horse_socks_brown_brownsaddled_riding_46: 5430873212255510909
+      Horse_socks_brown_brownsaddled_riding_47: 2990846184228571170
+      Horse_socks_brown_brownsaddled_riding_48: -7695753697295705040
+      Horse_socks_brown_brownsaddled_riding_49: -10246105519916528
+      Horse_socks_brown_brownsaddled_riding_5: -5059311590890029706
+      Horse_socks_brown_brownsaddled_riding_50: 6480534077536955524
+      Horse_socks_brown_brownsaddled_riding_51: 4889063680508745819
+      Horse_socks_brown_brownsaddled_riding_52: -7208118415837668768
+      Horse_socks_brown_brownsaddled_riding_53: -5651805565478671779
+      Horse_socks_brown_brownsaddled_riding_54: 1756154989651790494
+      Horse_socks_brown_brownsaddled_riding_55: -4874880448226826926
+      Horse_socks_brown_brownsaddled_riding_56: -2628261382301732364
+      Horse_socks_brown_brownsaddled_riding_57: -2269406738069862896
+      Horse_socks_brown_brownsaddled_riding_58: 7616065407018632829
+      Horse_socks_brown_brownsaddled_riding_59: -4078622520760521192
+      Horse_socks_brown_brownsaddled_riding_6: 7299808146771640355
+      Horse_socks_brown_brownsaddled_riding_60: -7063838919431305415
+      Horse_socks_brown_brownsaddled_riding_61: -2801931577120304526
+      Horse_socks_brown_brownsaddled_riding_62: 2715373517325875051
+      Horse_socks_brown_brownsaddled_riding_63: -8312882083613553420
+      Horse_socks_brown_brownsaddled_riding_64: -5381011203901197793
+      Horse_socks_brown_brownsaddled_riding_65: 6621633446015017054
+      Horse_socks_brown_brownsaddled_riding_66: -2436394390981061780
+      Horse_socks_brown_brownsaddled_riding_67: 2665761825165905783
+      Horse_socks_brown_brownsaddled_riding_68: 8683996743718679651
+      Horse_socks_brown_brownsaddled_riding_69: -6835537813318462309
+      Horse_socks_brown_brownsaddled_riding_7: -5678361966686510271
+      Horse_socks_brown_brownsaddled_riding_70: -2169770027384542618
+      Horse_socks_brown_brownsaddled_riding_71: -426914045653369660
+      Horse_socks_brown_brownsaddled_riding_72: -795570204961568361
+      Horse_socks_brown_brownsaddled_riding_73: 623933480339868341
+      Horse_socks_brown_brownsaddled_riding_74: -3684935049608830441
+      Horse_socks_brown_brownsaddled_riding_75: -656391702859394568
+      Horse_socks_brown_brownsaddled_riding_76: 7259335306039002773
+      Horse_socks_brown_brownsaddled_riding_77: 6300818838347281882
+      Horse_socks_brown_brownsaddled_riding_78: -6880440488449068959
+      Horse_socks_brown_brownsaddled_riding_79: -4462291146439610056
+      Horse_socks_brown_brownsaddled_riding_8: 841302694405206903
+      Horse_socks_brown_brownsaddled_riding_80: -6393215877375141831
+      Horse_socks_brown_brownsaddled_riding_81: 5362699131203445856
+      Horse_socks_brown_brownsaddled_riding_82: -3865330053663814233
+      Horse_socks_brown_brownsaddled_riding_83: -9051009911686151886
+      Horse_socks_brown_brownsaddled_riding_84: 6204144051779426685
+      Horse_socks_brown_brownsaddled_riding_85: -1786695158981648670
+      Horse_socks_brown_brownsaddled_riding_86: 2132553167874682797
+      Horse_socks_brown_brownsaddled_riding_87: -3162170414265712778
+      Horse_socks_brown_brownsaddled_riding_88: -7971871033658717321
+      Horse_socks_brown_brownsaddled_riding_89: -1584001370270354922
+      Horse_socks_brown_brownsaddled_riding_9: 473770863592942270
+      Horse_socks_brown_brownsaddled_riding_90: 2526288510956509049
+      Horse_socks_brown_brownsaddled_riding_91: -3545369793860997212
+      Horse_socks_brown_brownsaddled_riding_92: 7190358046648785210
+      Horse_socks_brown_brownsaddled_riding_93: 5450572974469279130
+      Horse_socks_brown_brownsaddled_riding_94: 8007136944155019482
+      Horse_socks_brown_brownsaddled_riding_95: -1269657408521000013
+      Horse_socks_brown_brownsaddled_riding_96: -1380719654946793172
+      Horse_socks_brown_brownsaddled_riding_97: -3689414183107975902
+      Horse_socks_brown_brownsaddled_riding_98: -8448806836439739894
+      Horse_socks_brown_brownsaddled_riding_99: -527866434070956372
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

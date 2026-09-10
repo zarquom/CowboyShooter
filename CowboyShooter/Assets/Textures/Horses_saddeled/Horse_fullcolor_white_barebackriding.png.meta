@@ -1,0 +1,3549 @@
+fileFormatVersion: 2
+guid: 4ec6e6ecebed54144b53e2490c1a9376
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4287085193968394001
+    second: Horse_fullcolor_white_barebackriding_0
+  - first:
+      213: 2503987806686833758
+    second: Horse_fullcolor_white_barebackriding_1
+  - first:
+      213: 5266571420112236686
+    second: Horse_fullcolor_white_barebackriding_2
+  - first:
+      213: 8127151860890061367
+    second: Horse_fullcolor_white_barebackriding_3
+  - first:
+      213: -2268801975560644335
+    second: Horse_fullcolor_white_barebackriding_4
+  - first:
+      213: 680249426724592624
+    second: Horse_fullcolor_white_barebackriding_5
+  - first:
+      213: 2329724360693804117
+    second: Horse_fullcolor_white_barebackriding_6
+  - first:
+      213: 1794497270399330215
+    second: Horse_fullcolor_white_barebackriding_7
+  - first:
+      213: 5706179972781121540
+    second: Horse_fullcolor_white_barebackriding_8
+  - first:
+      213: -8718643805999055502
+    second: Horse_fullcolor_white_barebackriding_9
+  - first:
+      213: -8188170657565534433
+    second: Horse_fullcolor_white_barebackriding_10
+  - first:
+      213: 5514815322847966802
+    second: Horse_fullcolor_white_barebackriding_11
+  - first:
+      213: -4230014582988015449
+    second: Horse_fullcolor_white_barebackriding_12
+  - first:
+      213: 1666365565382555213
+    second: Horse_fullcolor_white_barebackriding_13
+  - first:
+      213: 1637133766927803882
+    second: Horse_fullcolor_white_barebackriding_14
+  - first:
+      213: 13568957506402793
+    second: Horse_fullcolor_white_barebackriding_15
+  - first:
+      213: -8079086136804388838
+    second: Horse_fullcolor_white_barebackriding_16
+  - first:
+      213: -3241671072352770094
+    second: Horse_fullcolor_white_barebackriding_17
+  - first:
+      213: 5603535808353646836
+    second: Horse_fullcolor_white_barebackriding_18
+  - first:
+      213: -1302708858911176580
+    second: Horse_fullcolor_white_barebackriding_19
+  - first:
+      213: 6361855492199592208
+    second: Horse_fullcolor_white_barebackriding_20
+  - first:
+      213: -3832245661663535202
+    second: Horse_fullcolor_white_barebackriding_21
+  - first:
+      213: -6449911370060769688
+    second: Horse_fullcolor_white_barebackriding_22
+  - first:
+      213: 3318988303704796372
+    second: Horse_fullcolor_white_barebackriding_23
+  - first:
+      213: 8665908241950947132
+    second: Horse_fullcolor_white_barebackriding_24
+  - first:
+      213: 7930705983613805304
+    second: Horse_fullcolor_white_barebackriding_25
+  - first:
+      213: -4908344933633671078
+    second: Horse_fullcolor_white_barebackriding_26
+  - first:
+      213: 3881235369279033205
+    second: Horse_fullcolor_white_barebackriding_27
+  - first:
+      213: -4643434795706752773
+    second: Horse_fullcolor_white_barebackriding_28
+  - first:
+      213: -7230837695886692213
+    second: Horse_fullcolor_white_barebackriding_29
+  - first:
+      213: -5473330136668285766
+    second: Horse_fullcolor_white_barebackriding_30
+  - first:
+      213: 7857054166921675264
+    second: Horse_fullcolor_white_barebackriding_31
+  - first:
+      213: 7729126544655732368
+    second: Horse_fullcolor_white_barebackriding_32
+  - first:
+      213: -7507307542770655724
+    second: Horse_fullcolor_white_barebackriding_33
+  - first:
+      213: -4380420586650022619
+    second: Horse_fullcolor_white_barebackriding_34
+  - first:
+      213: -1412498121589899622
+    second: Horse_fullcolor_white_barebackriding_35
+  - first:
+      213: -4950448732767005075
+    second: Horse_fullcolor_white_barebackriding_36
+  - first:
+      213: 233640898649883918
+    second: Horse_fullcolor_white_barebackriding_37
+  - first:
+      213: -2024420913443290889
+    second: Horse_fullcolor_white_barebackriding_38
+  - first:
+      213: -5016335217179026844
+    second: Horse_fullcolor_white_barebackriding_39
+  - first:
+      213: -3680469784297471301
+    second: Horse_fullcolor_white_barebackriding_40
+  - first:
+      213: 2781281131475560487
+    second: Horse_fullcolor_white_barebackriding_41
+  - first:
+      213: 3347537554916349964
+    second: Horse_fullcolor_white_barebackriding_42
+  - first:
+      213: 363785751873190865
+    second: Horse_fullcolor_white_barebackriding_43
+  - first:
+      213: -5606764178281360253
+    second: Horse_fullcolor_white_barebackriding_44
+  - first:
+      213: 2568712089729740044
+    second: Horse_fullcolor_white_barebackriding_45
+  - first:
+      213: -4515674893564841258
+    second: Horse_fullcolor_white_barebackriding_46
+  - first:
+      213: -5211803143348361148
+    second: Horse_fullcolor_white_barebackriding_47
+  - first:
+      213: 2087671748793672205
+    second: Horse_fullcolor_white_barebackriding_48
+  - first:
+      213: 4558825420105099622
+    second: Horse_fullcolor_white_barebackriding_49
+  - first:
+      213: 1387178630659828610
+    second: Horse_fullcolor_white_barebackriding_50
+  - first:
+      213: 8379120975342214416
+    second: Horse_fullcolor_white_barebackriding_51
+  - first:
+      213: 2480840603319682931
+    second: Horse_fullcolor_white_barebackriding_52
+  - first:
+      213: -1225754758116723165
+    second: Horse_fullcolor_white_barebackriding_53
+  - first:
+      213: -8397366340464996371
+    second: Horse_fullcolor_white_barebackriding_54
+  - first:
+      213: 7483214861095904643
+    second: Horse_fullcolor_white_barebackriding_55
+  - first:
+      213: 5474630765483241428
+    second: Horse_fullcolor_white_barebackriding_56
+  - first:
+      213: 1140191882328946646
+    second: Horse_fullcolor_white_barebackriding_57
+  - first:
+      213: 3827334302658621860
+    second: Horse_fullcolor_white_barebackriding_58
+  - first:
+      213: 7149229554362616691
+    second: Horse_fullcolor_white_barebackriding_59
+  - first:
+      213: 3559937039172902651
+    second: Horse_fullcolor_white_barebackriding_60
+  - first:
+      213: 150552946503906252
+    second: Horse_fullcolor_white_barebackriding_61
+  - first:
+      213: -813965754166058540
+    second: Horse_fullcolor_white_barebackriding_62
+  - first:
+      213: -4223878185812500241
+    second: Horse_fullcolor_white_barebackriding_63
+  - first:
+      213: 5002248552754344035
+    second: Horse_fullcolor_white_barebackriding_64
+  - first:
+      213: 3226900741493761320
+    second: Horse_fullcolor_white_barebackriding_65
+  - first:
+      213: 7716746329768187236
+    second: Horse_fullcolor_white_barebackriding_66
+  - first:
+      213: 6422558590709547017
+    second: Horse_fullcolor_white_barebackriding_67
+  - first:
+      213: -1505097359485045287
+    second: Horse_fullcolor_white_barebackriding_68
+  - first:
+      213: -1982992139304254715
+    second: Horse_fullcolor_white_barebackriding_69
+  - first:
+      213: 5528700189104423407
+    second: Horse_fullcolor_white_barebackriding_70
+  - first:
+      213: -2686242675952041489
+    second: Horse_fullcolor_white_barebackriding_71
+  - first:
+      213: 3455354534159987494
+    second: Horse_fullcolor_white_barebackriding_72
+  - first:
+      213: 3466664114520140014
+    second: Horse_fullcolor_white_barebackriding_73
+  - first:
+      213: 4285842185893152235
+    second: Horse_fullcolor_white_barebackriding_74
+  - first:
+      213: 6886238393909128791
+    second: Horse_fullcolor_white_barebackriding_75
+  - first:
+      213: -8921940821642275629
+    second: Horse_fullcolor_white_barebackriding_76
+  - first:
+      213: 4126182599608716225
+    second: Horse_fullcolor_white_barebackriding_77
+  - first:
+      213: 6146493559025518162
+    second: Horse_fullcolor_white_barebackriding_78
+  - first:
+      213: -3045387266931993562
+    second: Horse_fullcolor_white_barebackriding_79
+  - first:
+      213: -6081360133384946906
+    second: Horse_fullcolor_white_barebackriding_80
+  - first:
+      213: 1461426820058621312
+    second: Horse_fullcolor_white_barebackriding_81
+  - first:
+      213: 8929882195944686578
+    second: Horse_fullcolor_white_barebackriding_82
+  - first:
+      213: 6132981631076425637
+    second: Horse_fullcolor_white_barebackriding_83
+  - first:
+      213: -8673545173211704397
+    second: Horse_fullcolor_white_barebackriding_84
+  - first:
+      213: -6693667349308215639
+    second: Horse_fullcolor_white_barebackriding_85
+  - first:
+      213: -2086191914917385581
+    second: Horse_fullcolor_white_barebackriding_86
+  - first:
+      213: 70568973338807346
+    second: Horse_fullcolor_white_barebackriding_87
+  - first:
+      213: -3379772034464494414
+    second: Horse_fullcolor_white_barebackriding_88
+  - first:
+      213: 8306950112891348097
+    second: Horse_fullcolor_white_barebackriding_89
+  - first:
+      213: -1498278072389486874
+    second: Horse_fullcolor_white_barebackriding_90
+  - first:
+      213: -658783997454175354
+    second: Horse_fullcolor_white_barebackriding_91
+  - first:
+      213: -7256112662136451087
+    second: Horse_fullcolor_white_barebackriding_92
+  - first:
+      213: -3876420100194824023
+    second: Horse_fullcolor_white_barebackriding_93
+  - first:
+      213: -3842280747270166449
+    second: Horse_fullcolor_white_barebackriding_94
+  - first:
+      213: -6301783682976338465
+    second: Horse_fullcolor_white_barebackriding_95
+  - first:
+      213: 3638081681062140631
+    second: Horse_fullcolor_white_barebackriding_96
+  - first:
+      213: -4190623882741854589
+    second: Horse_fullcolor_white_barebackriding_97
+  - first:
+      213: 6277792324973469279
+    second: Horse_fullcolor_white_barebackriding_98
+  - first:
+      213: 6570544772987449030
+    second: Horse_fullcolor_white_barebackriding_99
+  - first:
+      213: 6453392210924969679
+    second: Horse_fullcolor_white_barebackriding_100
+  - first:
+      213: 1573591270163038872
+    second: Horse_fullcolor_white_barebackriding_101
+  - first:
+      213: -4806607366791892396
+    second: Horse_fullcolor_white_barebackriding_102
+  - first:
+      213: 6959192216560774849
+    second: Horse_fullcolor_white_barebackriding_103
+  - first:
+      213: 1711475723306426358
+    second: Horse_fullcolor_white_barebackriding_104
+  - first:
+      213: -5272280711203697157
+    second: Horse_fullcolor_white_barebackriding_105
+  - first:
+      213: -4518927326570882569
+    second: Horse_fullcolor_white_barebackriding_106
+  - first:
+      213: -4045736446918545401
+    second: Horse_fullcolor_white_barebackriding_107
+  - first:
+      213: 6152486466751320864
+    second: Horse_fullcolor_white_barebackriding_108
+  - first:
+      213: 7396840748197788214
+    second: Horse_fullcolor_white_barebackriding_109
+  - first:
+      213: 2955514211730788437
+    second: Horse_fullcolor_white_barebackriding_110
+  - first:
+      213: 822960839985087029
+    second: Horse_fullcolor_white_barebackriding_111
+  - first:
+      213: -6622110879943115482
+    second: Horse_fullcolor_white_barebackriding_112
+  - first:
+      213: 3234614163609316881
+    second: Horse_fullcolor_white_barebackriding_113
+  - first:
+      213: 2327783142970246480
+    second: Horse_fullcolor_white_barebackriding_114
+  - first:
+      213: 6530609670029064625
+    second: Horse_fullcolor_white_barebackriding_115
+  - first:
+      213: 35959932769512263
+    second: Horse_fullcolor_white_barebackriding_116
+  - first:
+      213: -7460840340237412043
+    second: Horse_fullcolor_white_barebackriding_117
+  - first:
+      213: 3298197442758525478
+    second: Horse_fullcolor_white_barebackriding_118
+  - first:
+      213: 6207709699841660836
+    second: Horse_fullcolor_white_barebackriding_119
+  - first:
+      213: -6866939037207232902
+    second: Horse_fullcolor_white_barebackriding_120
+  - first:
+      213: 6313347304900219137
+    second: Horse_fullcolor_white_barebackriding_121
+  - first:
+      213: 7887014264144785913
+    second: Horse_fullcolor_white_barebackriding_122
+  - first:
+      213: -4645278227077950961
+    second: Horse_fullcolor_white_barebackriding_123
+  - first:
+      213: -7430904455332457986
+    second: Horse_fullcolor_white_barebackriding_124
+  - first:
+      213: -8960334136748460707
+    second: Horse_fullcolor_white_barebackriding_125
+  - first:
+      213: -6386182261282875406
+    second: Horse_fullcolor_white_barebackriding_126
+  - first:
+      213: 7479067175277898689
+    second: Horse_fullcolor_white_barebackriding_127
+  - first:
+      213: -849207225029419650
+    second: Horse_fullcolor_white_barebackriding_128
+  - first:
+      213: 8820318336744507705
+    second: Horse_fullcolor_white_barebackriding_129
+  - first:
+      213: -1835722948695826405
+    second: Horse_fullcolor_white_barebackriding_130
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe06da3eab63184c0800000000000000
+      internalID: -4287085193968394001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c6a7bb4a3ffb220800000000000000
+      internalID: 2503987806686833758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80b3089dce961940800000000000000
+      internalID: 5266571420112236686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ac108de8179c070800000000000000
+      internalID: 8127151860890061367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1087
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119d005bf989380e0800000000000000
+      internalID: -2268801975560644335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1087
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb159edf3bb07900800000000000000
+      internalID: 680249426724592624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_6
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1087
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c6abf66f7d45020800000000000000
+      internalID: 2329724360693804117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_7
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1087
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a76f8082c557e810800000000000000
+      internalID: 1794497270399330215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_8
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1087
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400211ed37c603f40800000000000000
+      internalID: 5706179972781121540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1087
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d344cd6a7210780800000000000000
+      internalID: -8718643805999055502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_10
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1797837b26cd5e80800000000000000
+      internalID: -8188170657565534433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1023
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256fb30415f888c40800000000000000
+      internalID: 5514815322847966802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1023
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8f64af528fb45c0800000000000000
+      internalID: -4230014582988015449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1023
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46f19627ae102710800000000000000
+      internalID: 1666365565382555213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae56783bc7448b610800000000000000
+      internalID: 1637133766927803882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9342c15e4303000800000000000000
+      internalID: 13568957506402793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_16
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10ddf1a6f151ef80800000000000000
+      internalID: -8079086136804388838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_17
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1023
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7e0c5b5554303d0800000000000000
+      internalID: -3241671072352770094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_18
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1023
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8b91ff022c3cd40800000000000000
+      internalID: 5603535808353646836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 959
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7848d2e139dbede0800000000000000
+      internalID: -1302708858911176580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 959
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011bce41dd9d94850800000000000000
+      internalID: 6361855492199592208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 959
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f5384ffd021dac0800000000000000
+      internalID: -3832245661663535202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 959
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86656c238cf4d76a0800000000000000
+      internalID: -6449911370060769688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 959
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc2008074a6f0e20800000000000000
+      internalID: 3318988303704796372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 959
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37bd91d1ad734870800000000000000
+      internalID: 8665908241950947132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_25
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 959
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2ad5bc2178f0e60800000000000000
+      internalID: 7930705983613805304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_26
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 959
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a504da3d94e02ebb0800000000000000
+      internalID: -4908344933633671078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 959
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f0f83310becd530800000000000000
+      internalID: 3881235369279033205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 897
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0e530c7a43f8fb0800000000000000
+      internalID: -4643434795706752773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 895
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b807b2c1d67e6ab90800000000000000
+      internalID: -7230837695886692213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 895
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab452795d33da04b0800000000000000
+      internalID: -5473330136668285766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 896
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0028e58e22dd90d60800000000000000
+      internalID: 7857054166921675264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 898
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e4f3644af534b60800000000000000
+      internalID: 7729126544655732368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_33
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 895
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e5b85b09fa0d790800000000000000
+      internalID: -7507307542770655724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_34
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 895
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dcae55fae9533c0800000000000000
+      internalID: -4380420586650022619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_35
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 895
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e3ab0317cc56ce0800000000000000
+      internalID: -1412498121589899622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66d3ac2b197c4bb0800000000000000
+      internalID: -4950448732767005075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 831
+        width: 73
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e058701d82f0e3300800000000000000
+      internalID: 233640898649883918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_38
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 831
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f04752b7efc7e3e0800000000000000
+      internalID: -2024420913443290889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_39
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 835
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a13c992b5626ab0800000000000000
+      internalID: -5016335217179026844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_40
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 831
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2046c2b385cecc0800000000000000
+      internalID: -3680469784297471301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 831
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728e8160478199620800000000000000
+      internalID: 2781281131475560487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_42
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0891119ba7d47e20800000000000000
+      internalID: 3347537554916349964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_43
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbffb2c63d6c0500800000000000000
+      internalID: 363785751873190865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_44
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384972e8fa5c032b0800000000000000
+      internalID: -5606764178281360253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_45
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0da7963906e5a320800000000000000
+      internalID: 2568712089729740044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_46
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 767
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2faeffb991551c0800000000000000
+      internalID: -4515674893564841258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_47
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 767
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448e47987a4fba7b0800000000000000
+      internalID: -5211803143348361148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_48
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 767
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0227720566e8fc10800000000000000
+      internalID: 2087671748793672205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_49
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 767
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669a26ed093344f30800000000000000
+      internalID: 4558825420105099622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_50
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 767
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bed707d9f304310800000000000000
+      internalID: 1387178630659828610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_51
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 767
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d1c41f12e984470800000000000000
+      internalID: 8379120975342214416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_52
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3774c397267bd6220800000000000000
+      internalID: 2480840603319682931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_53
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 703
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32635b4ba8e3dfee0800000000000000
+      internalID: -1225754758116723165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_54
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 703
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def03c3fdcf867b80800000000000000
+      internalID: -8397366340464996371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_55
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 703
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385ab85b448b9d760800000000000000
+      internalID: 7483214861095904643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_56
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfad05ecabc9fb40800000000000000
+      internalID: 5474630765483241428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_57
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7300ad976c2df00800000000000000
+      internalID: 1140191882328946646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_58
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a172aa254c6d1530800000000000000
+      internalID: 3827334302658621860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_59
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 703
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b0285c66a273360800000000000000
+      internalID: 7149229554362616691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_60
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 703
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe18a230ef676130800000000000000
+      internalID: 3559937039172902651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 639
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3f0407b1fd61200800000000000000
+      internalID: 150552946503906252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 639
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1699b857634b4f0800000000000000
+      internalID: -813965754166058540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_63
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 639
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0ef184b25c165c0800000000000000
+      internalID: -4223878185812500241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_64
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 639
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36072214e8e8b6540800000000000000
+      internalID: 5002248552754344035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_65
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 639
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8252e26a02148cc20800000000000000
+      internalID: 3226900741493761320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_66
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 639
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465d1afd6e3671b60800000000000000
+      internalID: 7716746329768187236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_67
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 639
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90040649203812950800000000000000
+      internalID: 6422558590709547017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_68
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 639
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5f3870de1dc1be0800000000000000
+      internalID: -1505097359485045287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_69
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 639
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503c068d72ffa74e0800000000000000
+      internalID: -1982992139304254715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 577
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe144399783e9bc40800000000000000
+      internalID: 5528700189104423407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_71
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 575
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1426fb48c88bad0800000000000000
+      internalID: -2686242675952041489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_72
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 575
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62334ad34a2e3ff20800000000000000
+      internalID: 3455354534159987494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_73
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 576
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8219d15a01c1030800000000000000
+      internalID: 3466664114520140014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_74
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 578
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be58b8db2ce5a7b30800000000000000
+      internalID: 4285842185893152235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_75
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 575
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e2c9b9555d09f50800000000000000
+      internalID: 6886238393909128791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_76
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 575
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d494fad716ee2480800000000000000
+      internalID: -8921940821642275629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_77
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 575
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb43108635234930800000000000000
+      internalID: 4126182599608716225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_78
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 511
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25641ff835bbc4550800000000000000
+      internalID: 6146493559025518162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_79
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 511
+        width: 73
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62455077a6c9cb5d0800000000000000
+      internalID: -3045387266931993562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_80
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 511
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b3e5add2baa9ba0800000000000000
+      internalID: -6081360133384946906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_81
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 515
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085a2da23f7084410800000000000000
+      internalID: 1461426820058621312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_82
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 511
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f34e5f6b805deb70800000000000000
+      internalID: 8929882195944686578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_83
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 511
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af5e4eac4abc1550800000000000000
+      internalID: 6132981631076425637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_84
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3996f8e9061a780800000000000000
+      internalID: -8673545173211704397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_85
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae6ad7a2015b13a0800000000000000
+      internalID: -6693667349308215639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_86
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39aae0aa18b5c03e0800000000000000
+      internalID: -2086191914917385581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_87
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c060c7b16baf000800000000000000
+      internalID: 70568973338807346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_88
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 385
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcc1ffcd33a811d0800000000000000
+      internalID: -3379772034464494414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_89
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 386
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184a7c59d17384370800000000000000
+      internalID: 8306950112891348097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_90
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 383
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6b778080c053be0800000000000000
+      internalID: -1498278072389486874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_91
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 384
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6833808d1778bd6f0800000000000000
+      internalID: -658783997454175354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_92
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 386
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff84237afb1d4b90800000000000000
+      internalID: -7256112662136451087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_93
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 387
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a014bff470343ac0800000000000000
+      internalID: -3876420100194824023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_94
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 386
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48a3a3840a7daac0800000000000000
+      internalID: -3842280747270166449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_95
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 383
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdda7dce0219b88a0800000000000000
+      internalID: -6301783682976338465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_96
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 319
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da909773001d7230800000000000000
+      internalID: 3638081681062140631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_97
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 322
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e47e118c9e7d5c0800000000000000
+      internalID: -4190623882741854589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_98
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 319
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e97bfbbd23f1750800000000000000
+      internalID: 6277792324973469279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_99
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 319
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce67b6a8a34f2b50800000000000000
+      internalID: 6570544772987449030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_100
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 322
+        width: 21
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce9478360e0f8950800000000000000
+      internalID: 6453392210924969679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_101
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 324
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89249b74ce486d510800000000000000
+      internalID: 1573591270163038872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_102
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 323
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452f79ff0108b4db0800000000000000
+      internalID: -4806607366791892396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_103
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 319
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cea4c71374049060800000000000000
+      internalID: 6959192216560774849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_104
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 255
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff52614a1260c710800000000000000
+      internalID: 1711475723306426358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_105
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 255
+        width: 20
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd4f8c70a815d6b0800000000000000
+      internalID: -5272280711203697157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_106
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 258
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9dfede98b8941c0800000000000000
+      internalID: -4518927326570882569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_107
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 262
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700b1920328aad7c0800000000000000
+      internalID: -4045736446918545401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_108
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 259
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0235c1028d5026550800000000000000
+      internalID: 6152486466751320864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_109
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 257
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ab678687bd6a660800000000000000
+      internalID: 7396840748197788214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 20
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55015de3488140920800000000000000
+      internalID: 2955514211730788437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_111
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 128
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5324e53168ebb6b00800000000000000
+      internalID: 822960839985087029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_112
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 128
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dbdb97d398914a0800000000000000
+      internalID: -6622110879943115482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_113
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 127
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e616fa178a3ec20800000000000000
+      internalID: 3234614163609316881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_114
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 128
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05542e67f62fd4020800000000000000
+      internalID: 2327783142970246480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_115
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 130
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b930dce4e261aa50800000000000000
+      internalID: 6530609670029064625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_116
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 130
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bafda4e51cf7000800000000000000
+      internalID: 35959932769512263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_117
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 128
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5399e326d35c57890800000000000000
+      internalID: -7460840340237412043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_118
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62249be791d85cd20800000000000000
+      internalID: 3298197442758525478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_119
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 67
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a71fc70517362650800000000000000
+      internalID: 6207709699841660836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_120
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7efff8045bb3b0a0800000000000000
+      internalID: -6866939037207232902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_121
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 63
+        width: 20
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1015f3c9ce38d9750800000000000000
+      internalID: 6313347304900219137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_122
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1f9c0afad447d60800000000000000
+      internalID: 7887014264144785913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_123
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 67
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0299207018a88fb0800000000000000
+      internalID: -4645278227077950961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_124
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef19a0cb4cf10e890800000000000000
+      internalID: -7430904455332457986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_125
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d553d46939f76a380800000000000000
+      internalID: -8960334136748460707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_126
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7555d9119bf57a0800000000000000
+      internalID: -6386182261282875406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_127
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb29b958fbfac760800000000000000
+      internalID: 7479067175277898689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_128
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d1d6337820734f0800000000000000
+      internalID: -849207225029419650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_129
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 3
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93945839bc0186a70800000000000000
+      internalID: 8820318336744507705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_white_barebackriding_130
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10e3f844b33686e0800000000000000
+      internalID: -1835722948695826405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Horse_fullcolor_white_barebackriding_0: -4287085193968394001
+      Horse_fullcolor_white_barebackriding_1: 2503987806686833758
+      Horse_fullcolor_white_barebackriding_10: -8188170657565534433
+      Horse_fullcolor_white_barebackriding_100: 6453392210924969679
+      Horse_fullcolor_white_barebackriding_101: 1573591270163038872
+      Horse_fullcolor_white_barebackriding_102: -4806607366791892396
+      Horse_fullcolor_white_barebackriding_103: 6959192216560774849
+      Horse_fullcolor_white_barebackriding_104: 1711475723306426358
+      Horse_fullcolor_white_barebackriding_105: -5272280711203697157
+      Horse_fullcolor_white_barebackriding_106: -4518927326570882569
+      Horse_fullcolor_white_barebackriding_107: -4045736446918545401
+      Horse_fullcolor_white_barebackriding_108: 6152486466751320864
+      Horse_fullcolor_white_barebackriding_109: 7396840748197788214
+      Horse_fullcolor_white_barebackriding_11: 5514815322847966802
+      Horse_fullcolor_white_barebackriding_110: 2955514211730788437
+      Horse_fullcolor_white_barebackriding_111: 822960839985087029
+      Horse_fullcolor_white_barebackriding_112: -6622110879943115482
+      Horse_fullcolor_white_barebackriding_113: 3234614163609316881
+      Horse_fullcolor_white_barebackriding_114: 2327783142970246480
+      Horse_fullcolor_white_barebackriding_115: 6530609670029064625
+      Horse_fullcolor_white_barebackriding_116: 35959932769512263
+      Horse_fullcolor_white_barebackriding_117: -7460840340237412043
+      Horse_fullcolor_white_barebackriding_118: 3298197442758525478
+      Horse_fullcolor_white_barebackriding_119: 6207709699841660836
+      Horse_fullcolor_white_barebackriding_12: -4230014582988015449
+      Horse_fullcolor_white_barebackriding_120: -6866939037207232902
+      Horse_fullcolor_white_barebackriding_121: 6313347304900219137
+      Horse_fullcolor_white_barebackriding_122: 7887014264144785913
+      Horse_fullcolor_white_barebackriding_123: -4645278227077950961
+      Horse_fullcolor_white_barebackriding_124: -7430904455332457986
+      Horse_fullcolor_white_barebackriding_125: -8960334136748460707
+      Horse_fullcolor_white_barebackriding_126: -6386182261282875406
+      Horse_fullcolor_white_barebackriding_127: 7479067175277898689
+      Horse_fullcolor_white_barebackriding_128: -849207225029419650
+      Horse_fullcolor_white_barebackriding_129: 8820318336744507705
+      Horse_fullcolor_white_barebackriding_13: 1666365565382555213
+      Horse_fullcolor_white_barebackriding_130: -1835722948695826405
+      Horse_fullcolor_white_barebackriding_14: 1637133766927803882
+      Horse_fullcolor_white_barebackriding_15: 13568957506402793
+      Horse_fullcolor_white_barebackriding_16: -8079086136804388838
+      Horse_fullcolor_white_barebackriding_17: -3241671072352770094
+      Horse_fullcolor_white_barebackriding_18: 5603535808353646836
+      Horse_fullcolor_white_barebackriding_19: -1302708858911176580
+      Horse_fullcolor_white_barebackriding_2: 5266571420112236686
+      Horse_fullcolor_white_barebackriding_20: 6361855492199592208
+      Horse_fullcolor_white_barebackriding_21: -3832245661663535202
+      Horse_fullcolor_white_barebackriding_22: -6449911370060769688
+      Horse_fullcolor_white_barebackriding_23: 3318988303704796372
+      Horse_fullcolor_white_barebackriding_24: 8665908241950947132
+      Horse_fullcolor_white_barebackriding_25: 7930705983613805304
+      Horse_fullcolor_white_barebackriding_26: -4908344933633671078
+      Horse_fullcolor_white_barebackriding_27: 3881235369279033205
+      Horse_fullcolor_white_barebackriding_28: -4643434795706752773
+      Horse_fullcolor_white_barebackriding_29: -7230837695886692213
+      Horse_fullcolor_white_barebackriding_3: 8127151860890061367
+      Horse_fullcolor_white_barebackriding_30: -5473330136668285766
+      Horse_fullcolor_white_barebackriding_31: 7857054166921675264
+      Horse_fullcolor_white_barebackriding_32: 7729126544655732368
+      Horse_fullcolor_white_barebackriding_33: -7507307542770655724
+      Horse_fullcolor_white_barebackriding_34: -4380420586650022619
+      Horse_fullcolor_white_barebackriding_35: -1412498121589899622
+      Horse_fullcolor_white_barebackriding_36: -4950448732767005075
+      Horse_fullcolor_white_barebackriding_37: 233640898649883918
+      Horse_fullcolor_white_barebackriding_38: -2024420913443290889
+      Horse_fullcolor_white_barebackriding_39: -5016335217179026844
+      Horse_fullcolor_white_barebackriding_4: -2268801975560644335
+      Horse_fullcolor_white_barebackriding_40: -3680469784297471301
+      Horse_fullcolor_white_barebackriding_41: 2781281131475560487
+      Horse_fullcolor_white_barebackriding_42: 3347537554916349964
+      Horse_fullcolor_white_barebackriding_43: 363785751873190865
+      Horse_fullcolor_white_barebackriding_44: -5606764178281360253
+      Horse_fullcolor_white_barebackriding_45: 2568712089729740044
+      Horse_fullcolor_white_barebackriding_46: -4515674893564841258
+      Horse_fullcolor_white_barebackriding_47: -5211803143348361148
+      Horse_fullcolor_white_barebackriding_48: 2087671748793672205
+      Horse_fullcolor_white_barebackriding_49: 4558825420105099622
+      Horse_fullcolor_white_barebackriding_5: 680249426724592624
+      Horse_fullcolor_white_barebackriding_50: 1387178630659828610
+      Horse_fullcolor_white_barebackriding_51: 8379120975342214416
+      Horse_fullcolor_white_barebackriding_52: 2480840603319682931
+      Horse_fullcolor_white_barebackriding_53: -1225754758116723165
+      Horse_fullcolor_white_barebackriding_54: -8397366340464996371
+      Horse_fullcolor_white_barebackriding_55: 7483214861095904643
+      Horse_fullcolor_white_barebackriding_56: 5474630765483241428
+      Horse_fullcolor_white_barebackriding_57: 1140191882328946646
+      Horse_fullcolor_white_barebackriding_58: 3827334302658621860
+      Horse_fullcolor_white_barebackriding_59: 7149229554362616691
+      Horse_fullcolor_white_barebackriding_6: 2329724360693804117
+      Horse_fullcolor_white_barebackriding_60: 3559937039172902651
+      Horse_fullcolor_white_barebackriding_61: 150552946503906252
+      Horse_fullcolor_white_barebackriding_62: -813965754166058540
+      Horse_fullcolor_white_barebackriding_63: -4223878185812500241
+      Horse_fullcolor_white_barebackriding_64: 5002248552754344035
+      Horse_fullcolor_white_barebackriding_65: 3226900741493761320
+      Horse_fullcolor_white_barebackriding_66: 7716746329768187236
+      Horse_fullcolor_white_barebackriding_67: 6422558590709547017
+      Horse_fullcolor_white_barebackriding_68: -1505097359485045287
+      Horse_fullcolor_white_barebackriding_69: -1982992139304254715
+      Horse_fullcolor_white_barebackriding_7: 1794497270399330215
+      Horse_fullcolor_white_barebackriding_70: 5528700189104423407
+      Horse_fullcolor_white_barebackriding_71: -2686242675952041489
+      Horse_fullcolor_white_barebackriding_72: 3455354534159987494
+      Horse_fullcolor_white_barebackriding_73: 3466664114520140014
+      Horse_fullcolor_white_barebackriding_74: 4285842185893152235
+      Horse_fullcolor_white_barebackriding_75: 6886238393909128791
+      Horse_fullcolor_white_barebackriding_76: -8921940821642275629
+      Horse_fullcolor_white_barebackriding_77: 4126182599608716225
+      Horse_fullcolor_white_barebackriding_78: 6146493559025518162
+      Horse_fullcolor_white_barebackriding_79: -3045387266931993562
+      Horse_fullcolor_white_barebackriding_8: 5706179972781121540
+      Horse_fullcolor_white_barebackriding_80: -6081360133384946906
+      Horse_fullcolor_white_barebackriding_81: 1461426820058621312
+      Horse_fullcolor_white_barebackriding_82: 8929882195944686578
+      Horse_fullcolor_white_barebackriding_83: 6132981631076425637
+      Horse_fullcolor_white_barebackriding_84: -8673545173211704397
+      Horse_fullcolor_white_barebackriding_85: -6693667349308215639
+      Horse_fullcolor_white_barebackriding_86: -2086191914917385581
+      Horse_fullcolor_white_barebackriding_87: 70568973338807346
+      Horse_fullcolor_white_barebackriding_88: -3379772034464494414
+      Horse_fullcolor_white_barebackriding_89: 8306950112891348097
+      Horse_fullcolor_white_barebackriding_9: -8718643805999055502
+      Horse_fullcolor_white_barebackriding_90: -1498278072389486874
+      Horse_fullcolor_white_barebackriding_91: -658783997454175354
+      Horse_fullcolor_white_barebackriding_92: -7256112662136451087
+      Horse_fullcolor_white_barebackriding_93: -3876420100194824023
+      Horse_fullcolor_white_barebackriding_94: -3842280747270166449
+      Horse_fullcolor_white_barebackriding_95: -6301783682976338465
+      Horse_fullcolor_white_barebackriding_96: 3638081681062140631
+      Horse_fullcolor_white_barebackriding_97: -4190623882741854589
+      Horse_fullcolor_white_barebackriding_98: 6277792324973469279
+      Horse_fullcolor_white_barebackriding_99: 6570544772987449030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

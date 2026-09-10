@@ -1,0 +1,3549 @@
+fileFormatVersion: 2
+guid: d65bfa2f1e09453498bb65784114bdd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2117979538689896254
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_0
+  - first:
+      213: -3135576345014973200
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_1
+  - first:
+      213: -1670383777009193711
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_2
+  - first:
+      213: 3572991400755342049
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_3
+  - first:
+      213: -7019516553490377600
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_4
+  - first:
+      213: -6478275282263630147
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_5
+  - first:
+      213: -7628963389328693158
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_6
+  - first:
+      213: -8589087126874035615
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_7
+  - first:
+      213: -93299468899643392
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_8
+  - first:
+      213: 8585885863881059237
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_9
+  - first:
+      213: 7742740331611427644
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_10
+  - first:
+      213: -76886743955779535
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_11
+  - first:
+      213: -3825542767512591620
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_12
+  - first:
+      213: -6788011120239568509
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_13
+  - first:
+      213: -8597538574898917507
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_14
+  - first:
+      213: -3187270314903519696
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_15
+  - first:
+      213: 3719904404509391196
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_16
+  - first:
+      213: 5486462267507782056
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_17
+  - first:
+      213: -6038191779565540049
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_18
+  - first:
+      213: 8444792074615857862
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_19
+  - first:
+      213: 1256703513140197199
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_20
+  - first:
+      213: -7856467593499507324
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_21
+  - first:
+      213: 8773112408570186516
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_22
+  - first:
+      213: -1786065784131986947
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_23
+  - first:
+      213: -2814662539671176612
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_24
+  - first:
+      213: 7059994927547023991
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_25
+  - first:
+      213: 3909212702324052531
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_26
+  - first:
+      213: 512749870361954750
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_27
+  - first:
+      213: -6307490216559812456
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_28
+  - first:
+      213: 1992553678882567728
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_29
+  - first:
+      213: -8633023774810650108
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_30
+  - first:
+      213: 8735057634996018217
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_31
+  - first:
+      213: 938040136264802949
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_32
+  - first:
+      213: -511402725615646290
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_33
+  - first:
+      213: 3019000376456517930
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_34
+  - first:
+      213: 7561784124636699136
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_35
+  - first:
+      213: 4703745512024686523
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_36
+  - first:
+      213: 6407855894786875212
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_37
+  - first:
+      213: 5809382532375473383
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_38
+  - first:
+      213: -1782789287194009440
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_39
+  - first:
+      213: 8341340062987764168
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_40
+  - first:
+      213: 1323814778092451882
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_41
+  - first:
+      213: -4288417121106565765
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_42
+  - first:
+      213: 8550523935380903316
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_43
+  - first:
+      213: -196256361830030229
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_44
+  - first:
+      213: 7453735004456050312
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_45
+  - first:
+      213: -3263344503624390042
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_46
+  - first:
+      213: 7490822706895767064
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_47
+  - first:
+      213: 8430296110626080102
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_48
+  - first:
+      213: -7776457050883792222
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_49
+  - first:
+      213: -4287833258583851353
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_50
+  - first:
+      213: -325174837054792647
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_51
+  - first:
+      213: -1658679265412134694
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_52
+  - first:
+      213: 5928944679637757186
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_53
+  - first:
+      213: 6845517037683574795
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_54
+  - first:
+      213: -3103706647556748357
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_55
+  - first:
+      213: 7267122040194486373
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_56
+  - first:
+      213: 2330834594794701437
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_57
+  - first:
+      213: -7282837621510103985
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_58
+  - first:
+      213: 7899410246814799211
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_59
+  - first:
+      213: 7690908675937146597
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_60
+  - first:
+      213: 9205697651925462339
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_61
+  - first:
+      213: 8890227775985954024
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_62
+  - first:
+      213: -4513314483228246046
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_63
+  - first:
+      213: -3832627071653459048
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_64
+  - first:
+      213: 5288623718140766227
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_65
+  - first:
+      213: 2258250166988980164
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_66
+  - first:
+      213: -4738727123676232974
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_67
+  - first:
+      213: -6097436244338343975
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_68
+  - first:
+      213: -2619024848505560434
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_69
+  - first:
+      213: -8201799527868608685
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_70
+  - first:
+      213: -4117941902114479289
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_71
+  - first:
+      213: -9041526188858861988
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_72
+  - first:
+      213: 4607804180863261667
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_73
+  - first:
+      213: -7062750501578367382
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_74
+  - first:
+      213: -7162538703186617269
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_75
+  - first:
+      213: -5300405118318936882
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_76
+  - first:
+      213: 4805038522841050158
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_77
+  - first:
+      213: -5915828133870318336
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_78
+  - first:
+      213: 7579903430519753363
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_79
+  - first:
+      213: 4046112192017074568
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_80
+  - first:
+      213: 7006856958767985148
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_81
+  - first:
+      213: 2422970990900453181
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_82
+  - first:
+      213: -2654468859633665122
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_83
+  - first:
+      213: 4026893037264738480
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_84
+  - first:
+      213: -6307903867603622814
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_85
+  - first:
+      213: -7687312529216528780
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_86
+  - first:
+      213: -4848271619916254108
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_87
+  - first:
+      213: -2458349766255861759
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_88
+  - first:
+      213: 5762641793193876252
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_89
+  - first:
+      213: -8363005492786807639
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_90
+  - first:
+      213: -5198808404981781027
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_91
+  - first:
+      213: 7366352821920988299
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_92
+  - first:
+      213: 5251706622635673299
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_93
+  - first:
+      213: -4351705385871373328
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_94
+  - first:
+      213: 3368714841435008516
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_95
+  - first:
+      213: -4345088279513414439
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_96
+  - first:
+      213: -8976924858009640330
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_97
+  - first:
+      213: -7276535015306524421
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_98
+  - first:
+      213: -8395469707890235897
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_99
+  - first:
+      213: 2943440386188236767
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_100
+  - first:
+      213: -4336044537402269739
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_101
+  - first:
+      213: 2032959913665049555
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_102
+  - first:
+      213: 3347735521146418279
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_103
+  - first:
+      213: -5584051882655934396
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_104
+  - first:
+      213: 8964975823748162262
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_105
+  - first:
+      213: 6446548565799940699
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_106
+  - first:
+      213: -887068507082351045
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_107
+  - first:
+      213: -6627997645479246035
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_108
+  - first:
+      213: 1646739877684494364
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_109
+  - first:
+      213: -8540223370323156174
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_110
+  - first:
+      213: -4750534971675689218
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_111
+  - first:
+      213: 9154275708692946327
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_112
+  - first:
+      213: -6395129319055986963
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_113
+  - first:
+      213: 5920740613110535629
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_114
+  - first:
+      213: 7488493774992622264
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_115
+  - first:
+      213: 1071764882761954561
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_116
+  - first:
+      213: -4351288189437823574
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_117
+  - first:
+      213: -4824855135542914038
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_118
+  - first:
+      213: -4362968454296534709
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_119
+  - first:
+      213: -4760715587588743059
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_120
+  - first:
+      213: 4278071149930523674
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_121
+  - first:
+      213: -4662905938352515577
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_122
+  - first:
+      213: -4502774547192903014
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_123
+  - first:
+      213: -7516398873933599311
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_124
+  - first:
+      213: 6288078563803272919
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_125
+  - first:
+      213: -5141425259886093864
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_126
+  - first:
+      213: 3086923645674009606
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_127
+  - first:
+      213: 196896304728899411
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_128
+  - first:
+      213: -5689730788938089912
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_129
+  - first:
+      213: 5545398015535871162
+    second: Horse_fullcolor_paint_beige_blacksaddled_riding_130
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f282d3b23946d10800000000000000
+      internalID: 2117979538689896254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcc34d5de13c74d0800000000000000
+      internalID: -3135576345014973200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11daacc0eca91d8e0800000000000000
+      internalID: -1670383777009193711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea2c8b9fb0d59130800000000000000
+      internalID: 3572991400755342049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1087
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0845b36b2eaa59e90800000000000000
+      internalID: -7019516553490377600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1087
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe9b7344fa8816a0800000000000000
+      internalID: -6478275282263630147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_6
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1087
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a586a96a73a702690800000000000000
+      internalID: -7628963389328693158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_7
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1087
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16aeac9d3ce6dc880800000000000000
+      internalID: -8589087126874035615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_8
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1087
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000118a90a884bef0800000000000000
+      internalID: -93299468899643392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1087
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abada604b1372770800000000000000
+      internalID: 8585885863881059237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_10
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1087
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c331acd0f4db37b60800000000000000
+      internalID: 7742740331611427644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1023
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130549ae9e7deeef0800000000000000
+      internalID: -76886743955779535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1023
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2e85d1f11f8eac0800000000000000
+      internalID: -3825542767512591620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1023
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38918beb9d32cc1a0800000000000000
+      internalID: -6788011120239568509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f8e64c7386fa880800000000000000
+      internalID: -8597538574898917507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e3705198a84c3d0800000000000000
+      internalID: -3187270314903519696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_16
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1023
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c597135d851cf9330800000000000000
+      internalID: 3719904404509391196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_17
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1023
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1b2602d54d32c40800000000000000
+      internalID: 5486462267507782056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_18
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1023
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2def457198043ca0800000000000000
+      internalID: -6038191779565540049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 959
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2238146ade13570800000000000000
+      internalID: 8444792074615857862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 959
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47f4b8df25b07110800000000000000
+      internalID: 1256703513140197199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 959
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485081c595838f290800000000000000
+      internalID: -7856467593499507324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 959
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bc56fe04b50c970800000000000000
+      internalID: 8773112408570186516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 959
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9555fd1ae9637e0800000000000000
+      internalID: -1786065784131986947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 959
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5afc48355f40f8d0800000000000000
+      internalID: -2814662539671176612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_25
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 959
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772008c2bf32af160800000000000000
+      internalID: 7059994927547023991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_26
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 959
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3325879ad30504630800000000000000
+      internalID: 3909212702324052531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 959
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb94d895a47ad1700800000000000000
+      internalID: 512749870361954750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 897
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89063b9011b4778a0800000000000000
+      internalID: -6307490216559812456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 895
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03671b19309f6ab10800000000000000
+      internalID: 1992553678882567728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 895
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ac8e4dd96513880800000000000000
+      internalID: -8633023774810650108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 896
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c508283a8293970800000000000000
+      internalID: 8735057634996018217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 898
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5826f13b886940d00800000000000000
+      internalID: 938040136264802949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_33
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 895
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9438a3ee127e8f0800000000000000
+      internalID: -511402725615646290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_34
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 895
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a291677d8d4a5e920800000000000000
+      internalID: 3019000376456517930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_35
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 895
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a9829e89ad0f860800000000000000
+      internalID: 7561784124636699136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfb1162f9f074140800000000000000
+      internalID: 4703745512024686523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 831
+        width: 73
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f1aac6cf64de850800000000000000
+      internalID: 6407855894786875212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_38
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 831
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec699e32a21f9050800000000000000
+      internalID: 5809382532375473383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_39
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 835
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0ed63c6924247e0800000000000000
+      internalID: -1782789287194009440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_40
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 831
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1ce1dc79462c370800000000000000
+      internalID: 8341340062987764168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 831
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28fc9cd6822f5210800000000000000
+      internalID: 1323814778092451882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_42
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b756dbf695b7c74c0800000000000000
+      internalID: -4288417121106565765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_43
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4959ad3773099a670800000000000000
+      internalID: 8550523935380903316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_44
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64e534f0e1c64df0800000000000000
+      internalID: -196256361830030229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_45
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e5f76be7cf07760800000000000000
+      internalID: 7453735004456050312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_46
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 767
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66aaeb1c67546b2d0800000000000000
+      internalID: -3263344503624390042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_47
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 767
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816c3f7509fb4f760800000000000000
+      internalID: 7490822706895767064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_48
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 767
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6658931a5ad6ef470800000000000000
+      internalID: 8430296110626080102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_49
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 767
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a26dfe7389741490800000000000000
+      internalID: -7776457050883792222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_50
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 767
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aef0068e5e8e74c0800000000000000
+      internalID: -4287833258583851353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_51
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 767
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c1473653fbc7bf0800000000000000
+      internalID: -325174837054792647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_52
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 767
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8cdc40fff2bf8e0800000000000000
+      internalID: -1658679265412134694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_53
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 703
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d20c2f5c7d74250800000000000000
+      internalID: 5928944679637757186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_54
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 703
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0883070a79200f50800000000000000
+      internalID: 6845517037683574795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_55
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 703
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb8c598f3b6de4d0800000000000000
+      internalID: -3103706647556748357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_56
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56054312ef00ad460800000000000000
+      internalID: 7267122040194486373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_57
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d720ee4f6b9c85020800000000000000
+      internalID: 2330834594794701437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_58
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 703
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c1a05f4c92eea90800000000000000
+      internalID: -7282837621510103985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_59
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 703
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b651a7044c750ad60800000000000000
+      internalID: 7899410246814799211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_60
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 703
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6143d41b89bba60800000000000000
+      internalID: 7690908675937146597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 639
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d2aa49d3531cf70800000000000000
+      internalID: 9205697651925462339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 639
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec24ff4f0f606b70800000000000000
+      internalID: 8890227775985954024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_63
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 639
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2effd8bd36c7d51c0800000000000000
+      internalID: -4513314483228246046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_64
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 639
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bcc850cf5cfcac0800000000000000
+      internalID: -3832627071653459048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_65
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 639
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3186c765047f46940800000000000000
+      internalID: 5288623718140766227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_66
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 639
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf3859ef8ae65f10800000000000000
+      internalID: 2258250166988980164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_67
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 639
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f205c1b9c8ac3eb0800000000000000
+      internalID: -4738727123676232974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_68
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 639
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dffe979a0e816ba0800000000000000
+      internalID: -6097436244338343975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_69
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 639
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82a7e6c6ca57abd0800000000000000
+      internalID: -2619024848505560434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 577
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fcc6ec8ca5d2e80800000000000000
+      internalID: -8201799527868608685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_71
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 575
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74325c668a12ad6c0800000000000000
+      internalID: -4117941902114479289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_72
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 575
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c561da5d5db068280800000000000000
+      internalID: -9041526188858861988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_73
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 576
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb1ae24d7532ff30800000000000000
+      internalID: 4607804180863261667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_74
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 578
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e9530c6d11cfd90800000000000000
+      internalID: -7062750501578367382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_75
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 575
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c139a8ffc899c90800000000000000
+      internalID: -7162538703186617269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_76
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 575
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccffeca0ad2176b0800000000000000
+      internalID: -5300405118318936882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_77
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 575
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c220e041deea240800000000000000
+      internalID: 4805038522841050158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_78
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 511
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dc568d7a1c6eda0800000000000000
+      internalID: -5915828133870318336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_79
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 511
+        width: 73
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a05ef820a313960800000000000000
+      internalID: 7579903430519753363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_80
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 511
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8890e86f99da62830800000000000000
+      internalID: 4046112192017074568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_81
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 515
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1f653b74b5d3160800000000000000
+      internalID: 7006856958767985148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_82
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 511
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f92bd574f10a120800000000000000
+      internalID: 2422970990900453181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_83
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 511
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bf23ad2ae692bd0800000000000000
+      internalID: -2654468859633665122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_84
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b898aac1e562e730800000000000000
+      internalID: 4026893037264738480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_85
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2646c266ad2d578a0800000000000000
+      internalID: -6307903867603622814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_86
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e93aadbfd215590800000000000000
+      internalID: -7687312529216528780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_87
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 447
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464b84026aa77bcb0800000000000000
+      internalID: -4848271619916254108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_88
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 385
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100a7a899ef22edd0800000000000000
+      internalID: -2458349766255861759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_89
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 386
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b142bdd2409ff40800000000000000
+      internalID: 5762641793193876252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_90
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 383
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac3dcb30d2a0fb80800000000000000
+      internalID: -8363005492786807639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_91
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 384
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddeeb5dc4f1ad7b0800000000000000
+      internalID: -5198808404981781027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_92
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 386
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cfbc8ecda8a3660800000000000000
+      internalID: 7366352821920988299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_93
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 387
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d604ca395fc1e840800000000000000
+      internalID: 5251706622635673299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_94
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 386
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb8bf30203ab93c0800000000000000
+      internalID: -4351705385871373328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_95
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 383
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ee151dc4410ce20800000000000000
+      internalID: 3368714841435008516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_96
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 319
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4c3e52b3523b3c0800000000000000
+      internalID: -4345088279513414439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_97
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 322
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67226f6476e8b6380800000000000000
+      internalID: -8976924858009640330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_98
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 319
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf886f0d4fd840b90800000000000000
+      internalID: -7276535015306524421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_99
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 319
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70666a228cc4d7b80800000000000000
+      internalID: -8395469707890235897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_100
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 322
+        width: 21
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7d94caf6339d820800000000000000
+      internalID: 2943440386188236767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_101
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 324
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df5dd1777643d3c0800000000000000
+      internalID: -4336044537402269739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_102
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 323
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d33d983546863c10800000000000000
+      internalID: 2032959913665049555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_103
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 319
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764b3eb28bb857e20800000000000000
+      internalID: 3347735521146418279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_104
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 255
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44811f6f5667182b0800000000000000
+      internalID: -5584051882655934396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_105
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 255
+        width: 20
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d26972630ef96c70800000000000000
+      internalID: 8964975823748162262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_106
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 258
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b523fcbe3cdb67950800000000000000
+      internalID: 6446548565799940699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_107
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 262
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e9be784ef70b3f0800000000000000
+      internalID: -887068507082351045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_108
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 259
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d278511124f9404a0800000000000000
+      internalID: -6627997645479246035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_109
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 257
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10cad6a1356ad610800000000000000
+      internalID: 1646739877684494364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 20
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233266db7180b7980800000000000000
+      internalID: -8540223370323156174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_111
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 128
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe3338dc95b21eb0800000000000000
+      internalID: -4750534971675689218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_112
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 128
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d51a071458a0f70800000000000000
+      internalID: 9154275708692946327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_113
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 127
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee6bf464cfef37a0800000000000000
+      internalID: -6395129319055986963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_114
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 128
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc59eabd732ba2250800000000000000
+      internalID: 5920740613110535629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_115
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 130
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2c821a9697ce760800000000000000
+      internalID: 7488493774992622264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_116
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 130
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105b3cf7b7cafde00800000000000000
+      internalID: 1071764882761954561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_117
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 128
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5b431227e1d93c0800000000000000
+      internalID: -4351288189437823574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_118
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04de3141dbaa0db0800000000000000
+      internalID: -4824855135542914038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_119
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 67
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b418b6b8e4f9373c0800000000000000
+      internalID: -4362968454296534709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_120
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60ab1d756a8eedb0800000000000000
+      internalID: -4760715587588743059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_121
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 63
+        width: 20
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ca47f6b03ce5b30800000000000000
+      internalID: 4278071149930523674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_122
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706507311c70a4fb0800000000000000
+      internalID: -4662905938352515577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_123
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 67
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a85e2f76ee281c0800000000000000
+      internalID: -4502774547192903014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_124
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 65
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdaa093c0360b790800000000000000
+      internalID: -7516398873933599311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_125
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d61e3b532eb34750800000000000000
+      internalID: 6288078563803272919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_126
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9d44177fcf5a8b0800000000000000
+      internalID: -5141425259886093864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_127
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604372553b4f6da20800000000000000
+      internalID: 3086923645674009606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_128
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ff3fc55248bb200800000000000000
+      internalID: 196896304728899411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_129
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 3
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84afdb13ef30a01b0800000000000000
+      internalID: -5689730788938089912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_fullcolor_paint_beige_blacksaddled_riding_130
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4fb264d1635fc40800000000000000
+      internalID: 5545398015535871162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Horse_fullcolor_paint_beige_blacksaddled_riding_0: 2117979538689896254
+      Horse_fullcolor_paint_beige_blacksaddled_riding_1: -3135576345014973200
+      Horse_fullcolor_paint_beige_blacksaddled_riding_10: 7742740331611427644
+      Horse_fullcolor_paint_beige_blacksaddled_riding_100: 2943440386188236767
+      Horse_fullcolor_paint_beige_blacksaddled_riding_101: -4336044537402269739
+      Horse_fullcolor_paint_beige_blacksaddled_riding_102: 2032959913665049555
+      Horse_fullcolor_paint_beige_blacksaddled_riding_103: 3347735521146418279
+      Horse_fullcolor_paint_beige_blacksaddled_riding_104: -5584051882655934396
+      Horse_fullcolor_paint_beige_blacksaddled_riding_105: 8964975823748162262
+      Horse_fullcolor_paint_beige_blacksaddled_riding_106: 6446548565799940699
+      Horse_fullcolor_paint_beige_blacksaddled_riding_107: -887068507082351045
+      Horse_fullcolor_paint_beige_blacksaddled_riding_108: -6627997645479246035
+      Horse_fullcolor_paint_beige_blacksaddled_riding_109: 1646739877684494364
+      Horse_fullcolor_paint_beige_blacksaddled_riding_11: -76886743955779535
+      Horse_fullcolor_paint_beige_blacksaddled_riding_110: -8540223370323156174
+      Horse_fullcolor_paint_beige_blacksaddled_riding_111: -4750534971675689218
+      Horse_fullcolor_paint_beige_blacksaddled_riding_112: 9154275708692946327
+      Horse_fullcolor_paint_beige_blacksaddled_riding_113: -6395129319055986963
+      Horse_fullcolor_paint_beige_blacksaddled_riding_114: 5920740613110535629
+      Horse_fullcolor_paint_beige_blacksaddled_riding_115: 7488493774992622264
+      Horse_fullcolor_paint_beige_blacksaddled_riding_116: 1071764882761954561
+      Horse_fullcolor_paint_beige_blacksaddled_riding_117: -4351288189437823574
+      Horse_fullcolor_paint_beige_blacksaddled_riding_118: -4824855135542914038
+      Horse_fullcolor_paint_beige_blacksaddled_riding_119: -4362968454296534709
+      Horse_fullcolor_paint_beige_blacksaddled_riding_12: -3825542767512591620
+      Horse_fullcolor_paint_beige_blacksaddled_riding_120: -4760715587588743059
+      Horse_fullcolor_paint_beige_blacksaddled_riding_121: 4278071149930523674
+      Horse_fullcolor_paint_beige_blacksaddled_riding_122: -4662905938352515577
+      Horse_fullcolor_paint_beige_blacksaddled_riding_123: -4502774547192903014
+      Horse_fullcolor_paint_beige_blacksaddled_riding_124: -7516398873933599311
+      Horse_fullcolor_paint_beige_blacksaddled_riding_125: 6288078563803272919
+      Horse_fullcolor_paint_beige_blacksaddled_riding_126: -5141425259886093864
+      Horse_fullcolor_paint_beige_blacksaddled_riding_127: 3086923645674009606
+      Horse_fullcolor_paint_beige_blacksaddled_riding_128: 196896304728899411
+      Horse_fullcolor_paint_beige_blacksaddled_riding_129: -5689730788938089912
+      Horse_fullcolor_paint_beige_blacksaddled_riding_13: -6788011120239568509
+      Horse_fullcolor_paint_beige_blacksaddled_riding_130: 5545398015535871162
+      Horse_fullcolor_paint_beige_blacksaddled_riding_14: -8597538574898917507
+      Horse_fullcolor_paint_beige_blacksaddled_riding_15: -3187270314903519696
+      Horse_fullcolor_paint_beige_blacksaddled_riding_16: 3719904404509391196
+      Horse_fullcolor_paint_beige_blacksaddled_riding_17: 5486462267507782056
+      Horse_fullcolor_paint_beige_blacksaddled_riding_18: -6038191779565540049
+      Horse_fullcolor_paint_beige_blacksaddled_riding_19: 8444792074615857862
+      Horse_fullcolor_paint_beige_blacksaddled_riding_2: -1670383777009193711
+      Horse_fullcolor_paint_beige_blacksaddled_riding_20: 1256703513140197199
+      Horse_fullcolor_paint_beige_blacksaddled_riding_21: -7856467593499507324
+      Horse_fullcolor_paint_beige_blacksaddled_riding_22: 8773112408570186516
+      Horse_fullcolor_paint_beige_blacksaddled_riding_23: -1786065784131986947
+      Horse_fullcolor_paint_beige_blacksaddled_riding_24: -2814662539671176612
+      Horse_fullcolor_paint_beige_blacksaddled_riding_25: 7059994927547023991
+      Horse_fullcolor_paint_beige_blacksaddled_riding_26: 3909212702324052531
+      Horse_fullcolor_paint_beige_blacksaddled_riding_27: 512749870361954750
+      Horse_fullcolor_paint_beige_blacksaddled_riding_28: -6307490216559812456
+      Horse_fullcolor_paint_beige_blacksaddled_riding_29: 1992553678882567728
+      Horse_fullcolor_paint_beige_blacksaddled_riding_3: 3572991400755342049
+      Horse_fullcolor_paint_beige_blacksaddled_riding_30: -8633023774810650108
+      Horse_fullcolor_paint_beige_blacksaddled_riding_31: 8735057634996018217
+      Horse_fullcolor_paint_beige_blacksaddled_riding_32: 938040136264802949
+      Horse_fullcolor_paint_beige_blacksaddled_riding_33: -511402725615646290
+      Horse_fullcolor_paint_beige_blacksaddled_riding_34: 3019000376456517930
+      Horse_fullcolor_paint_beige_blacksaddled_riding_35: 7561784124636699136
+      Horse_fullcolor_paint_beige_blacksaddled_riding_36: 4703745512024686523
+      Horse_fullcolor_paint_beige_blacksaddled_riding_37: 6407855894786875212
+      Horse_fullcolor_paint_beige_blacksaddled_riding_38: 5809382532375473383
+      Horse_fullcolor_paint_beige_blacksaddled_riding_39: -1782789287194009440
+      Horse_fullcolor_paint_beige_blacksaddled_riding_4: -7019516553490377600
+      Horse_fullcolor_paint_beige_blacksaddled_riding_40: 8341340062987764168
+      Horse_fullcolor_paint_beige_blacksaddled_riding_41: 1323814778092451882
+      Horse_fullcolor_paint_beige_blacksaddled_riding_42: -4288417121106565765
+      Horse_fullcolor_paint_beige_blacksaddled_riding_43: 8550523935380903316
+      Horse_fullcolor_paint_beige_blacksaddled_riding_44: -196256361830030229
+      Horse_fullcolor_paint_beige_blacksaddled_riding_45: 7453735004456050312
+      Horse_fullcolor_paint_beige_blacksaddled_riding_46: -3263344503624390042
+      Horse_fullcolor_paint_beige_blacksaddled_riding_47: 7490822706895767064
+      Horse_fullcolor_paint_beige_blacksaddled_riding_48: 8430296110626080102
+      Horse_fullcolor_paint_beige_blacksaddled_riding_49: -7776457050883792222
+      Horse_fullcolor_paint_beige_blacksaddled_riding_5: -6478275282263630147
+      Horse_fullcolor_paint_beige_blacksaddled_riding_50: -4287833258583851353
+      Horse_fullcolor_paint_beige_blacksaddled_riding_51: -325174837054792647
+      Horse_fullcolor_paint_beige_blacksaddled_riding_52: -1658679265412134694
+      Horse_fullcolor_paint_beige_blacksaddled_riding_53: 5928944679637757186
+      Horse_fullcolor_paint_beige_blacksaddled_riding_54: 6845517037683574795
+      Horse_fullcolor_paint_beige_blacksaddled_riding_55: -3103706647556748357
+      Horse_fullcolor_paint_beige_blacksaddled_riding_56: 7267122040194486373
+      Horse_fullcolor_paint_beige_blacksaddled_riding_57: 2330834594794701437
+      Horse_fullcolor_paint_beige_blacksaddled_riding_58: -7282837621510103985
+      Horse_fullcolor_paint_beige_blacksaddled_riding_59: 7899410246814799211
+      Horse_fullcolor_paint_beige_blacksaddled_riding_6: -7628963389328693158
+      Horse_fullcolor_paint_beige_blacksaddled_riding_60: 7690908675937146597
+      Horse_fullcolor_paint_beige_blacksaddled_riding_61: 9205697651925462339
+      Horse_fullcolor_paint_beige_blacksaddled_riding_62: 8890227775985954024
+      Horse_fullcolor_paint_beige_blacksaddled_riding_63: -4513314483228246046
+      Horse_fullcolor_paint_beige_blacksaddled_riding_64: -3832627071653459048
+      Horse_fullcolor_paint_beige_blacksaddled_riding_65: 5288623718140766227
+      Horse_fullcolor_paint_beige_blacksaddled_riding_66: 2258250166988980164
+      Horse_fullcolor_paint_beige_blacksaddled_riding_67: -4738727123676232974
+      Horse_fullcolor_paint_beige_blacksaddled_riding_68: -6097436244338343975
+      Horse_fullcolor_paint_beige_blacksaddled_riding_69: -2619024848505560434
+      Horse_fullcolor_paint_beige_blacksaddled_riding_7: -8589087126874035615
+      Horse_fullcolor_paint_beige_blacksaddled_riding_70: -8201799527868608685
+      Horse_fullcolor_paint_beige_blacksaddled_riding_71: -4117941902114479289
+      Horse_fullcolor_paint_beige_blacksaddled_riding_72: -9041526188858861988
+      Horse_fullcolor_paint_beige_blacksaddled_riding_73: 4607804180863261667
+      Horse_fullcolor_paint_beige_blacksaddled_riding_74: -7062750501578367382
+      Horse_fullcolor_paint_beige_blacksaddled_riding_75: -7162538703186617269
+      Horse_fullcolor_paint_beige_blacksaddled_riding_76: -5300405118318936882
+      Horse_fullcolor_paint_beige_blacksaddled_riding_77: 4805038522841050158
+      Horse_fullcolor_paint_beige_blacksaddled_riding_78: -5915828133870318336
+      Horse_fullcolor_paint_beige_blacksaddled_riding_79: 7579903430519753363
+      Horse_fullcolor_paint_beige_blacksaddled_riding_8: -93299468899643392
+      Horse_fullcolor_paint_beige_blacksaddled_riding_80: 4046112192017074568
+      Horse_fullcolor_paint_beige_blacksaddled_riding_81: 7006856958767985148
+      Horse_fullcolor_paint_beige_blacksaddled_riding_82: 2422970990900453181
+      Horse_fullcolor_paint_beige_blacksaddled_riding_83: -2654468859633665122
+      Horse_fullcolor_paint_beige_blacksaddled_riding_84: 4026893037264738480
+      Horse_fullcolor_paint_beige_blacksaddled_riding_85: -6307903867603622814
+      Horse_fullcolor_paint_beige_blacksaddled_riding_86: -7687312529216528780
+      Horse_fullcolor_paint_beige_blacksaddled_riding_87: -4848271619916254108
+      Horse_fullcolor_paint_beige_blacksaddled_riding_88: -2458349766255861759
+      Horse_fullcolor_paint_beige_blacksaddled_riding_89: 5762641793193876252
+      Horse_fullcolor_paint_beige_blacksaddled_riding_9: 8585885863881059237
+      Horse_fullcolor_paint_beige_blacksaddled_riding_90: -8363005492786807639
+      Horse_fullcolor_paint_beige_blacksaddled_riding_91: -5198808404981781027
+      Horse_fullcolor_paint_beige_blacksaddled_riding_92: 7366352821920988299
+      Horse_fullcolor_paint_beige_blacksaddled_riding_93: 5251706622635673299
+      Horse_fullcolor_paint_beige_blacksaddled_riding_94: -4351705385871373328
+      Horse_fullcolor_paint_beige_blacksaddled_riding_95: 3368714841435008516
+      Horse_fullcolor_paint_beige_blacksaddled_riding_96: -4345088279513414439
+      Horse_fullcolor_paint_beige_blacksaddled_riding_97: -8976924858009640330
+      Horse_fullcolor_paint_beige_blacksaddled_riding_98: -7276535015306524421
+      Horse_fullcolor_paint_beige_blacksaddled_riding_99: -8395469707890235897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
