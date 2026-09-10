@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadingManager : MonoBehaviour
+public class LoadingPreloader : MonoBehaviour
 {
     async void Start()
     {
