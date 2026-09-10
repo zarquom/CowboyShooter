@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class GamePreloader : MonoBehaviour
 {
-    [SerializeField] private GameManager gameManager;
-    private GameObject playerObj;
+    private GameManager gameManager;
+    private PlayerController playerObj;
     void Awake()
     {
-        playerObj = Instantiate(ServiceLocator.GetService<AssetLoaderManager>().GetAsset<GameObject>("Player"));
+        gameManager = Instantiate(ServiceLocator.GetService<AssetLoaderManager>().GetAsset<GameObject>("GameManager")).GetComponent<GameManager>();
+        playerObj = Instantiate(ServiceLocator.GetService<AssetLoaderManager>().GetAsset<GameObject>("Player")).GetComponent<PlayerController>()        ;
         gameManager.SetPlayer(playerObj);
     }
 }

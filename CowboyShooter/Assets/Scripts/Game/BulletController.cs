@@ -1,25 +1,37 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class BulletController : MonoBehaviour
 {
-    private float speed = 10f;
+    [SerializeField] private Rigidbody2D playerRigidbody;
+    public event Action<BulletController> OnBulletDeactivated;
+    private float moveSpeed = 10f;
     void Update()
     {
-        Move();
         CheckBounds();
     }
-
-    private void Move()
+    void FixedUpdate()
     {
-        transform.Translate(Vector3.up * speed * Time.deltaTime);
+        HandleMovement();
+    }
+
+    private void HandleMovement()
+    {
+        playerRigidbody.linearVelocity = Vector2.up * moveSpeed;
     }
 
     private void CheckBounds()
     {
         if (transform.position.y > 10f)
         {
-            gameObject.SetActive(false);
+            DeactivateBullet();
         }
+    }
+
+    public void DeactivateBullet()
+    {
+        OnBulletDeactivated?.Invoke(this);
+        transform.position = Vector3.zero;
     }
 }

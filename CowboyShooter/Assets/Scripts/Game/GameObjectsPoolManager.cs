@@ -14,8 +14,8 @@ public class GameObjectsPoolManager : MonoBehaviour
             actionOnRelease: (enemy) => enemy.gameObject.SetActive(false),
             actionOnDestroy: (enemy) => Destroy(enemy.gameObject),
             collectionCheck: false,
-            defaultCapacity: 10,
-            maxSize: 20
+            defaultCapacity: 20,
+            maxSize: 40
         );
         bulletObjectPool = new ObjectPool<BulletController>(
             createFunc: () => Instantiate(ServiceLocator.GetService<AssetLoaderManager>().GetAsset<GameObject>("Bullet")).GetComponent<BulletController>(),
@@ -23,8 +23,8 @@ public class GameObjectsPoolManager : MonoBehaviour
             actionOnRelease: (bullet) => bullet.gameObject.SetActive(false),
             actionOnDestroy: (bullet) => Destroy(bullet.gameObject),
             collectionCheck: false,
-            defaultCapacity: 20,
-            maxSize: 40
+            defaultCapacity: 40,
+            maxSize: 100
         );
     }
 
@@ -36,5 +36,16 @@ public class GameObjectsPoolManager : MonoBehaviour
     public BulletController GetBulletFromPool()
     {
         return bulletObjectPool.Get();
+    }
+
+    public void ReleaseEnemyToPool(EnemyController enemy)
+    {
+        enemyObjectPool.Release(enemy);
+    }
+
+    public void ReleaseBulletToPool(BulletController bullet)
+    {
+        bulletObjectPool.Release(bullet);
+
     }
 }
