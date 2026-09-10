@@ -6,6 +6,7 @@ using static UnityEngine.InputSystem.InputAction;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private Rigidbody2D rigidbody;
     private InputSystem_Actions inputActions;
     void Start()
     {
@@ -24,7 +25,7 @@ public class PlayerController : MonoBehaviour
         // Handle attack input
     }
 
-    void Update()
+    void FixedUpdate()
     {
         HandleMovement();
     }
@@ -32,6 +33,6 @@ public class PlayerController : MonoBehaviour
     private void HandleMovement()
     {
         Vector2 moveInput = inputActions.Player.Move.ReadValue<Vector2>();
-        transform.Translate(moveInput * moveSpeed * Time.deltaTime);
+        rigidbody.linearVelocity = moveInput * moveSpeed;
     }
 }
