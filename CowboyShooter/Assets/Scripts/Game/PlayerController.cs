@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     void OnDestroy()
     {
         inputActions.Player.Attack.performed -= OnAttackPerformed;
-        OnAttack = null;
+        inputActions.Disable();
     }
 
     private void OnAttackPerformed(InputAction.CallbackContext context)
@@ -59,5 +59,10 @@ public class PlayerController : MonoBehaviour
             OnDeath?.Invoke();
             currentLife = 100f;
         }
+    }
+
+    public void StopInput()
+    {
+        inputActions.Disable();
     }
 }

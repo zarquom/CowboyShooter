@@ -1,8 +1,10 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private GameVariablesSO gameVariables;
     [SerializeField] private GameObjectsPoolManager gameObjectsPoolManager;
     private PlayerController playerController;
     private GameUIManager gameUIManager;
@@ -12,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     private float enemySpawnInterval = 2f;
     private float enemySpawnTimer = 0f;
+
+    private bool gameRunning = true;
     public void SetPlayer(PlayerController playerObj)
     {
         playerController = playerObj;
@@ -22,6 +26,18 @@ public class GameManager : MonoBehaviour
     {
         gameUIManager = uiManager;
         gameUIManager.Initialize(playerPoints, playerLives);
+        gameUIManager.OnPlayAgainClicked += HandlePlayAgainClicked;
+        gameUIManager.OnMenuClicked += HandleMenuClicked;
+    }
+
+    private void HandleMenuClicked()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    private void HandlePlayAgainClicked()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void HandlePlayerAttack()
@@ -36,7 +52,10 @@ public class GameManager : MonoBehaviour
         gameUIManager.UpdateLives(playerLives);
         if (playerLives <= 0)
         {
-            // Handle game over
+            Debug.Log("Game Over, player lost all lives");
+            gameRunning = false;
+            playerController.StopInput();
+            gameUIManager.ShowGameOverScreen(false, playerPoints);
         }
     }
 
@@ -48,6 +67,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        if(!gameRunning) return;
         EnemyCreation();
     }
 

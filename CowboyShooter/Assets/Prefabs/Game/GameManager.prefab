@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a1f4308a3a6a64a8ebe79d48e6dc59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  gameVariables: {fileID: 11400000, guid: b5551717e68612842ba99cad2d1c723c, type: 2}
   gameObjectsPoolManager: {fileID: 1323829389852292231}
 --- !u!1 &5696972877560102907
 GameObject:
