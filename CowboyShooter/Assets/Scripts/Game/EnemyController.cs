@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour
     public event Action<EnemyController> OnEnemyDeactivated;
     public event Action<EnemyController> OnEnemyDestroyed;
 
+    private bool canBeDestroyed = false;
+
     private void Update()
     {
         CheckBounds();
@@ -32,18 +34,26 @@ public class EnemyController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
+        if (collision.gameObject.CompareTag("Bullet") && canBeDestroyed)
         {
             OnEnemyDestroyed?.Invoke(this);
             //Add animation or effects here
             Deactivate();
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
         }
+    }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Destroyable"))
+        {
+            canBeDestroyed = true;
+        }
     }
 
     private void Deactivate()
     {
         OnEnemyDeactivated?.Invoke(this);
+        canBeDestroyed = false;
     }
 }

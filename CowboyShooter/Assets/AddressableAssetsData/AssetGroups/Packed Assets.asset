@@ -21,6 +21,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Game
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31c791547ee20ac4f8c466ed4f88a338
+    m_Address: GameUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 53f9a0eb81dfce94aaeee2b835c262c2
     m_Address: MainMenu
     m_ReadOnly: 0

@@ -5,8 +5,10 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObjectsPoolManager gameObjectsPoolManager;
     private PlayerController playerController;
+    private GameUIManager gameUIManager;
 
     private int playerPoints = 0;
+    private int playerLives = 3;
 
     private float enemySpawnInterval = 2f;
     private float enemySpawnTimer = 0f;
@@ -14,6 +16,12 @@ public class GameManager : MonoBehaviour
     {
         playerController = playerObj;
         playerController.OnAttack += HandlePlayerAttack;
+        playerController.OnDeath += HandlePlayerDeath;
+    }
+    public void SetGameUI(GameUIManager uiManager)
+    {
+        gameUIManager = uiManager;
+        gameUIManager.Initialize(playerPoints, playerLives);
     }
 
     private void HandlePlayerAttack()
@@ -21,6 +29,15 @@ public class GameManager : MonoBehaviour
         BulletController bullet = gameObjectsPoolManager.GetBulletFromPool();
         bullet.transform.position = playerController.transform.position;
         bullet.OnBulletDeactivated += HandleBulletDeactivated;
+    }
+    private void HandlePlayerDeath()
+    {
+        playerLives--;
+        gameUIManager.UpdateLives(playerLives);
+        if (playerLives <= 0)
+        {
+            // Handle game over
+        }
     }
 
     private void HandleBulletDeactivated(BulletController bullet)
@@ -55,7 +72,9 @@ public class GameManager : MonoBehaviour
 
     private void HandleEnemyDestroyed(EnemyController enemy)
     {
+        Debug.Log("Enemy destroyed");
         playerPoints++;
+        gameUIManager.UpdatePoints(playerPoints);
         OnDeactivateEnemy(enemy);
     }
 
