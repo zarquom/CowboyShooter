@@ -1,10 +1,11 @@
 using System;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.InputSystem.iOS;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private Vector2 moveDirection = Vector2.down;
-    [SerializeField] private Rigidbody2D playerRigidbody;
+    [SerializeField] private EnemyMovementController enemyMovementController;
     [SerializeField] private Animator horseAnimator;
     [SerializeField] private AnimatorOverrideController[] horseAnimatorOverrides;
     public event Action<EnemyController> OnEnemyDeactivated;
@@ -14,24 +15,21 @@ public class EnemyController : MonoBehaviour
     private EnemyType enemyType;
     public EnemyType EnemyType => enemyType;
 
-    public void Initialize(EnemyType type)
+    public void Initialize(EnemyType type, GameVariablesSO gameVariables, PlayerController player)
     {
         enemyType = type;
+        transform.localScale = Vector3.one;
         horseAnimator.runtimeAnimatorController = horseAnimatorOverrides[(int)type];
+        if(enemyType == EnemyType.Strong)
+        {
+            transform.localScale = new Vector3(1.5f, 1.5f, 1f);
+        }
+        enemyMovementController.Initialize(enemyType, gameVariables, player);
     }
 
     private void Update()
     {
         CheckBounds();
-    }
-    void FixedUpdate()
-    {
-        HandleMovement();
-    }
-
-    private void HandleMovement()
-    {
-        playerRigidbody.linearVelocity = moveDirection * moveSpeed;
     }
 
     private void CheckBounds()
@@ -65,6 +63,7 @@ public class EnemyController : MonoBehaviour
     {
         OnEnemyDeactivated?.Invoke(this);
         canBeDestroyed = false;
+        enemyMovementController.RemoveMovement();
     }
 }
 

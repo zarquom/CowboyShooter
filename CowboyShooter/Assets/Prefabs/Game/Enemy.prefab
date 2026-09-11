@@ -124,6 +124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2224049763736594298}
   - component: {fileID: 3909558384887055290}
+  - component: {fileID: 2361898234880766843}
   - component: {fileID: 2369856880261090846}
   - component: {fileID: 5248040576451624633}
   m_Layer: 7
@@ -161,14 +162,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8008c2989dd0de24c9ae047ad7522fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
-  moveSpeed: 2
-  moveDirection: {x: 0, y: -1}
-  playerRigidbody: {fileID: 5248040576451624633}
+  enemyMovementController: {fileID: 2361898234880766843}
   horseAnimator: {fileID: 3009412095463278358}
   horseAnimatorOverrides:
   - {fileID: 22100000, guid: f0ac85891db24be4797fd4e2b5880321, type: 2}
   - {fileID: 22100000, guid: 34108f7af27cea3479d1035b855f9bd3, type: 2}
   - {fileID: 22100000, guid: d8fef729752619e4283af00d37b1d415, type: 2}
+--- !u!114 &2361898234880766843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7620706879153047672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e8c3d3e510f0d4496de72ce2c04f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovementController
+  enemyRigidbody: {fileID: 5248040576451624633}
 --- !u!61 &2369856880261090846
 BoxCollider2D:
   m_ObjectHideFlags: 0

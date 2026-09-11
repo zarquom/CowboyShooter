@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CowboyMovement : MonoBehaviour
+public class MenuItemAnimation : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     private RectTransform rectTransform;

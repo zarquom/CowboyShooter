@@ -30,13 +30,17 @@ public class EnemySpawnerManager : MonoBehaviour
             enemyController.transform.position = new Vector3(randomX, 10f, 0f);
             EnemyType enemyType = EnemyType.Basic; // Default value
             int randomValue = UnityEngine.Random.Range(0, 100);
-            if (randomValue < 60) enemyType = EnemyType.Basic;
-            else if (randomValue < 90) enemyType = EnemyType.Fast;
+            if (randomValue < gameManager.GameVariables.enemyBasicChance) enemyType = EnemyType.Basic;
+            else if (randomValue < 100 - gameManager.GameVariables.enemyFastChance) enemyType = EnemyType.Fast;
             else enemyType = EnemyType.Strong;
-            enemyController.Initialize(enemyType);
+            enemyController.Initialize(enemyType, gameManager.GameVariables, gameManager.Player);
             enemyController.OnEnemyDeactivated += HandleEnemyDeactivated;
             enemyController.OnEnemyDestroyed += HandleEnemyDestroyed;
             enemySpawnTimer = 0f;
+            if(enemySpawnInterval > 1f)
+            {
+                enemySpawnInterval -= gameManager.GameVariables.enemySpawnIncreaseRate; // Decrease the spawn interval to increase difficulty
+            }
         }
     }
     private void HandleEnemyDestroyed(EnemyController enemy)

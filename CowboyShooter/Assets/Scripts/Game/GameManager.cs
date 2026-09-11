@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
 
     private bool gameRunning = true;
     public bool GameRunning => gameRunning;
+    public GameVariablesSO GameVariables => gameVariables;
+    public PlayerController Player => playerController;
 
     private void Awake()
     {

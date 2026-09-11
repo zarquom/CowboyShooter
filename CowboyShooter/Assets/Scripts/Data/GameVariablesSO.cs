@@ -6,6 +6,12 @@ public class GameVariablesSO : ScriptableObject
     public WinCondition winCondition;
     public int pointsToWin;
     public int timeToWin;
+    public float enemySpawnIncreaseRate;
+    public int enemyBasicChance;
+    public int enemyFastChance;
+    public MovementStrategy basicEnemyMovement;
+    public MovementStrategy fastEnemyMovement;
+    public MovementStrategy strongEnemyMovement;
 }
 
 public enum WinCondition
