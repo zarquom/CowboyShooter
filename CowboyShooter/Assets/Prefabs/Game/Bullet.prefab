@@ -138,7 +138,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e50f76c50afd2c41802afd1c03d0596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletController
-  playerRigidbody: {fileID: 4305262194267888989}
+  bulletRigidbody: {fileID: 4305262194267888989}
+  bulletImage: {fileID: 2821090976851177882}
+  bulletImages:
+  - {fileID: -123176541705019837, guid: 787cc6fce0552e74cbec8434ddc5cb0d, type: 3}
+  - {fileID: 2009410003007727163, guid: a635264df0979fe4e9cf386eca3a974d, type: 3}
 --- !u!61 &2369856880261090846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -155,7 +159,7 @@ BoxCollider2D:
     m_Bits: 192
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1792
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2

@@ -16,6 +16,8 @@ MonoBehaviour:
   pointsToWin: 500
   timeToWin: 60
   enemySpawnIncreaseRate: 0.05
+  playerBulletSpeed: 10
+  enemyBulletSpeed: 5
   enemyBasicChance: 90
   enemyFastChance: 5
   basicEnemyMovement: {fileID: 11400000, guid: e1c2a7f60a5114648be8cff9dc6f9e7a, type: 2}

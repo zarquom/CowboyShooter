@@ -51,12 +51,23 @@ public class GameManager : MonoBehaviour
 
     private void HandlePlayerAttack()
     {
+        if (!gameRunning) return;
         BulletController bullet = gameObjectsPoolManager.GetBulletFromPool();
         bullet.transform.position = playerController.transform.position;
         bullet.OnBulletDeactivated += HandleBulletDeactivated;
+        bullet.Initialize(BulletType.Player, gameVariables, Vector2.up);
+    }
+    public void HandleEnemyAttack(Transform enemyTransform)
+    {
+        if (!gameRunning) return;
+        BulletController bullet = gameObjectsPoolManager.GetBulletFromPool();
+        bullet.transform.position = enemyTransform.position;
+        bullet.OnBulletDeactivated += HandleBulletDeactivated;
+        bullet.Initialize(BulletType.Enemy, gameVariables, (playerController.transform.position - enemyTransform.position).normalized);
     }
     private void HandlePlayerDeath()
     {
+        if(!gameRunning) return;
         playerLives--;
         gameUIManager.UpdateLives(playerLives);
         if (playerLives <= 0)

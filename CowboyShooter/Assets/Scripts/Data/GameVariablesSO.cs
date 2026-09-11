@@ -7,6 +7,8 @@ public class GameVariablesSO : ScriptableObject
     public int pointsToWin;
     public int timeToWin;
     public float enemySpawnIncreaseRate;
+    public float playerBulletSpeed;
+    public float enemyBulletSpeed;
     public int enemyBasicChance;
     public int enemyFastChance;
     public MovementStrategy basicEnemyMovement;

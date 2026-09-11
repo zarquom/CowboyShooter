@@ -1,8 +1,5 @@
 using System;
-using System.Runtime.CompilerServices;
 using UnityEngine;
-using UnityEngine.InputSystem.iOS;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 public class EnemyController : MonoBehaviour
 {
     [SerializeField] private EnemyMovementController enemyMovementController;
@@ -10,7 +7,10 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private AnimatorOverrideController[] horseAnimatorOverrides;
     public event Action<EnemyController> OnEnemyDeactivated;
     public event Action<EnemyController> OnEnemyDestroyed;
+    public event Action<Transform> OnAttack;
 
+    private float timeToAttack = 2f;
+    private float timerAttack = 0f;
     private bool canBeDestroyed = false;
     private EnemyType enemyType;
     public EnemyType EnemyType => enemyType;
@@ -30,6 +30,18 @@ public class EnemyController : MonoBehaviour
     private void Update()
     {
         CheckBounds();
+        CheckAttack();
+    }
+
+    private void CheckAttack()
+    {
+        timerAttack += Time.deltaTime;
+        if(timerAttack >= timeToAttack)
+        {
+            OnAttack?.Invoke(transform);
+            timerAttack = 0f;
+            timeToAttack = UnityEngine.Random.Range(3f, 6f); // Randomize the next attack time
+        }
     }
 
     private void CheckBounds()

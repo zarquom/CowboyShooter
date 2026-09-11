@@ -36,6 +36,7 @@ public class EnemySpawnerManager : MonoBehaviour
             enemyController.Initialize(enemyType, gameManager.GameVariables, gameManager.Player);
             enemyController.OnEnemyDeactivated += HandleEnemyDeactivated;
             enemyController.OnEnemyDestroyed += HandleEnemyDestroyed;
+            enemyController.OnAttack += gameManager.HandleEnemyAttack;
             enemySpawnTimer = 0f;
             if(enemySpawnInterval > 1f)
             {
@@ -56,6 +57,7 @@ public class EnemySpawnerManager : MonoBehaviour
     {
         enemy.OnEnemyDeactivated -= HandleEnemyDeactivated;
         enemy.OnEnemyDestroyed -= HandleEnemyDestroyed;
+        enemy.OnAttack -= gameManager.HandleEnemyAttack;
         gameObjectsPoolManager.ReleaseEnemyToPool(enemy);
     }
 }

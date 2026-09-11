@@ -49,7 +49,14 @@ public class PlayerController : MonoBehaviour
         {
             TakeDamage(1f);
         }
-
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            TakeDamage(5f);
+            collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
+        }
     }
 
     private void TakeDamage(float damageValue)
