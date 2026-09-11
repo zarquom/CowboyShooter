@@ -5,10 +5,20 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Vector2 moveDirection = Vector2.down;
     [SerializeField] private Rigidbody2D playerRigidbody;
+    [SerializeField] private Animator horseAnimator;
+    [SerializeField] private AnimatorOverrideController[] horseAnimatorOverrides;
     public event Action<EnemyController> OnEnemyDeactivated;
     public event Action<EnemyController> OnEnemyDestroyed;
 
     private bool canBeDestroyed = false;
+    private EnemyType enemyType;
+    public EnemyType EnemyType => enemyType;
+
+    public void Initialize(EnemyType type)
+    {
+        enemyType = type;
+        horseAnimator.runtimeAnimatorController = horseAnimatorOverrides[(int)type];
+    }
 
     private void Update()
     {
@@ -56,4 +66,11 @@ public class EnemyController : MonoBehaviour
         OnEnemyDeactivated?.Invoke(this);
         canBeDestroyed = false;
     }
+}
+
+public enum EnemyType
+{
+    Basic,
+    Fast,
+    Strong
 }

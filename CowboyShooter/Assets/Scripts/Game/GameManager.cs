@@ -6,22 +6,22 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameVariablesSO gameVariables;
     [SerializeField] private GameObjectsPoolManager gameObjectsPoolManager;
+    [SerializeField] private EnemySpawnerManager enemySpawnerManager;
     private PlayerController playerController;
     private GameUIManager gameUIManager;
 
     private int playerPoints = 0;
     private int playerLives = 3;
 
-    private float enemySpawnInterval = 2f;
-    private float enemySpawnTimer = 0f;
-
     private float timeRemaining = 0f;
 
     private bool gameRunning = true;
+    public bool GameRunning => gameRunning;
 
     private void Awake()
     {
         timeRemaining = gameVariables.timeToWin;
+        enemySpawnerManager.Initialize(gameObjectsPoolManager, this);
     }
     public void SetPlayer(PlayerController playerObj)
     {
@@ -73,7 +73,6 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         if(!gameRunning) return;
-        EnemyCreation();
         TimerCheck();
     }
 
@@ -92,47 +91,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void EnemyCreation()
-    {
-        enemySpawnTimer += Time.deltaTime;
-        if (enemySpawnTimer >= enemySpawnInterval)
-        {
-            EnemyController enemyController = gameObjectsPoolManager.GetEnemyFromPool();
-            float randomX = UnityEngine.Random.Range(-8f, 8f);
-            enemyController.transform.position = new Vector3(randomX, 10f, 0f);
-            enemyController.OnEnemyDeactivated += HandleEnemyDeactivated;
-            enemyController.OnEnemyDestroyed += HandleEnemyDestroyed;
-            enemySpawnTimer = 0f;
-        }
-    }
-
-    private void HandleEnemyDeactivated(EnemyController enemy)
-    {
-        OnDeactivateEnemy(enemy);
-    }
-    private void OnDeactivateEnemy(EnemyController enemy)
-    {
-        enemy.OnEnemyDeactivated -= HandleEnemyDeactivated;
-        enemy.OnEnemyDestroyed -= HandleEnemyDestroyed;
-        gameObjectsPoolManager.ReleaseEnemyToPool(enemy);
-    }
-    private void HandleEnemyDestroyed(EnemyController enemy)
-    {
-        Debug.Log("Enemy destroyed");
-        playerPoints++;
-        gameUIManager.UpdatePoints(playerPoints);
-        OnDeactivateEnemy(enemy);
-        if (gameVariables.winCondition == WinCondition.Points && playerPoints >= gameVariables.pointsToWin)
-        {
-            Debug.Log("Player win, scored enough points");
-            GameFinished(true);
-        }
-    }
-
     private void GameFinished(bool win)
     {
         gameRunning = false;
         playerController.StopInput();
         gameUIManager.ShowGameOverScreen(win, playerPoints, gameVariables.winCondition == WinCondition.Time);
+    }
+
+    public void OnEnemyDestroyed(EnemyController enemy)
+    {
+        Debug.Log($"Enemy destroyed: {enemy.EnemyType}");
+        playerPoints++;
+        gameUIManager.UpdatePoints(playerPoints);
+        if (gameVariables.winCondition == WinCondition.Points && playerPoints >= gameVariables.pointsToWin)
+        {
+            Debug.Log("Player win, scored enough points");
+            GameFinished(true);
+        }
     }
 }

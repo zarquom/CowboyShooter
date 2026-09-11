@@ -164,6 +164,11 @@ MonoBehaviour:
   moveSpeed: 2
   moveDirection: {x: 0, y: -1}
   playerRigidbody: {fileID: 5248040576451624633}
+  horseAnimator: {fileID: 3009412095463278358}
+  horseAnimatorOverrides:
+  - {fileID: 22100000, guid: f0ac85891db24be4797fd4e2b5880321, type: 2}
+  - {fileID: 22100000, guid: 34108f7af27cea3479d1035b855f9bd3, type: 2}
+  - {fileID: 22100000, guid: d8fef729752619e4283af00d37b1d415, type: 2}
 --- !u!61 &2369856880261090846
 BoxCollider2D:
   m_ObjectHideFlags: 0
