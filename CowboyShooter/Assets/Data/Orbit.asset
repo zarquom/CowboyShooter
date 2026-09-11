@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b32c72d37ff3ae409c196052a55cf47, type: 3}
   m_Name: Orbit
   m_EditorClassIdentifier: Assembly-CSharp::OrbitMovement
-  radius: 5
-  angularSpeedDegreesPerSecond: 15
+  radius: 3.29
+  angularSpeedDegreesPerSecond: 16.87

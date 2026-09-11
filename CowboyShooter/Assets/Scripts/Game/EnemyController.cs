@@ -18,11 +18,11 @@ public class EnemyController : MonoBehaviour
     public void Initialize(EnemyType type, GameVariablesSO gameVariables, PlayerController player)
     {
         enemyType = type;
-        transform.localScale = Vector3.one;
+        transform.localScale = new Vector3(2f, 2f, 1f);
         horseAnimator.runtimeAnimatorController = horseAnimatorOverrides[(int)type];
         if(enemyType == EnemyType.Strong)
         {
-            transform.localScale = new Vector3(1.5f, 1.5f, 1f);
+            transform.localScale = new Vector3(3.5f, 3.5f, 1f);
         }
         enemyMovementController.Initialize(enemyType, gameVariables, player);
     }

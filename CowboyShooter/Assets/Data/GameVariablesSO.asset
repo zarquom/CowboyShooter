@@ -18,6 +18,6 @@ MonoBehaviour:
   enemySpawnIncreaseRate: 0.05
   enemyBasicChance: 90
   enemyFastChance: 5
-  basicEnemyMovement: {fileID: 11400000, guid: 5e5997040d818cb43906987b286f8a45, type: 2}
-  fastEnemyMovement: {fileID: 11400000, guid: 5e5997040d818cb43906987b286f8a45, type: 2}
-  strongEnemyMovement: {fileID: 11400000, guid: e1c2a7f60a5114648be8cff9dc6f9e7a, type: 2}
+  basicEnemyMovement: {fileID: 11400000, guid: e1c2a7f60a5114648be8cff9dc6f9e7a, type: 2}
+  fastEnemyMovement: {fileID: 11400000, guid: 0a7807e986cc8764da4057959e6634b9, type: 2}
+  strongEnemyMovement: {fileID: 11400000, guid: 5e5997040d818cb43906987b286f8a45, type: 2}
