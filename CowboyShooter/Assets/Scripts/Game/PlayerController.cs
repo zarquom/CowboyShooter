@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Rigidbody2D playerRigidbody;
+    [SerializeField] private LifeBarObject healthObj;
     public event Action OnAttack;
     public event Action OnDeath;
     private InputSystem_Actions inputActions;
@@ -52,6 +53,7 @@ public class PlayerController : MonoBehaviour
     private void TakeDamage(float damageValue)
     {
         currentLife -= damageValue;
+        healthObj.SetLife(currentLife);
         if (currentLife <= 0)
         {
             // Handle player death
