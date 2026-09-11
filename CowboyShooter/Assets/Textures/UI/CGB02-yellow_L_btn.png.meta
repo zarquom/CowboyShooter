@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b43128b292a87f44685f2a22dbcff3e0
+guid: 7688463a5423b7e43abcf9320a9c3541
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3329112408066013839
-    second: CGB02-red_L_btn_0
+      213: -4459235798736947428
+    second: CGB02-yellow_L_btn_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CGB02-red_L_btn_0
+      name: CGB02-yellow_L_btn_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8abe14c812633e20800000000000000
-      internalID: 3329112408066013839
+      spriteID: c173496caac9d12c0800000000000000
+      internalID: -4459235798736947428
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 27e71f0f20c518c48b7d98d7c9a16195
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CGB02-red_L_btn_0: 3329112408066013839
+      CGB02-yellow_L_btn_0: -4459235798736947428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

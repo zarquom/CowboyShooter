@@ -133,6 +133,6 @@ public class GameManager : MonoBehaviour
     {
         gameRunning = false;
         playerController.StopInput();
-        gameUIManager.ShowGameOverScreen(win, playerPoints);
+        gameUIManager.ShowGameOverScreen(win, playerPoints, gameVariables.winCondition == WinCondition.Time);
     }
 }

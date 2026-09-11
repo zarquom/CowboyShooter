@@ -7,11 +7,10 @@ using UnityEngine.UI;
 public class MenuPreloader : MonoBehaviour
 {
     private GameObject mainMenu;
-    private bool GameAssetsLoaded => ServiceLocator.GetService<AssetLoaderManager>().IsLabelReady("Game");
     async void Awake()
     {
-        mainMenu = Instantiate(ServiceLocator.GetService<AssetLoaderManager>().GetAsset<GameObject>("MainMenu"));
-        await ServiceLocator.GetService<AssetLoaderManager>().PreloadLabelAsync("Game");
+        mainMenu = Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("MainMenu"));
+        await ServiceLocator.GetService<IAssetLoader>().PreloadLabelAsync("Game");
         Debug.Log("[MenuManager] Preloaded Game label");
     }
 }

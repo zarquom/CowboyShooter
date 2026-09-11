@@ -9,7 +9,7 @@ public class GameObjectsPoolManager : MonoBehaviour
     void Start()
     {
         enemyObjectPool = new ObjectPool<EnemyController>(
-            createFunc: () => Instantiate(ServiceLocator.GetService<AssetLoaderManager>().GetAsset<GameObject>("Enemy")).GetComponent<EnemyController>(),
+            createFunc: () => Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("Enemy")).GetComponent<EnemyController>(),
             actionOnGet: (enemy) => enemy.gameObject.SetActive(true),
             actionOnRelease: (enemy) => enemy.gameObject.SetActive(false),
             actionOnDestroy: (enemy) => Destroy(enemy.gameObject),
@@ -18,7 +18,7 @@ public class GameObjectsPoolManager : MonoBehaviour
             maxSize: 40
         );
         bulletObjectPool = new ObjectPool<BulletController>(
-            createFunc: () => Instantiate(ServiceLocator.GetService<AssetLoaderManager>().GetAsset<GameObject>("Bullet")).GetComponent<BulletController>(),
+            createFunc: () => Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("Bullet")).GetComponent<BulletController>(),
             actionOnGet: (bullet) => bullet.gameObject.SetActive(true),
             actionOnRelease: (bullet) => bullet.gameObject.SetActive(false),
             actionOnDestroy: (bullet) => Destroy(bullet.gameObject),

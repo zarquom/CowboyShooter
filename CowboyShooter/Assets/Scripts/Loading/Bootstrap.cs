@@ -14,7 +14,8 @@ public class Bootstrap : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         //Load services and managers here
-        ServiceLocator.RegisterService(new AssetLoaderManager());
+        ServiceLocator.RegisterService<IAssetLoader>(new AssetLoaderManager());
+        ServiceLocator.RegisterService<ISaveService>(new PlayerPrefsSaveService());
         Debug.Log("[Bootstrap] Services initialized, loading next scene");
         SceneManager.LoadScene("Loading");
     }
@@ -24,7 +25,7 @@ public class Bootstrap : MonoBehaviour
         if (_instance == this)
         {
             _instance = null;
-            ServiceLocator.GetService<AssetLoaderManager>().ReleaseAllAssets();
+            ServiceLocator.GetService<IAssetLoader>().ReleaseAllAssets();
             ServiceLocator.Clear();
         }
     }
