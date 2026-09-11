@@ -54,8 +54,9 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            TakeDamage(5f);
+            TakeDamage(15f);
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
+            Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
         }
     }
 

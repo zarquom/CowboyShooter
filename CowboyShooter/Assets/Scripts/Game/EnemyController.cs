@@ -12,17 +12,20 @@ public class EnemyController : MonoBehaviour
     private float timeToAttack = 2f;
     private float timerAttack = 0f;
     private bool canBeDestroyed = false;
+    private int lifeHits;
     private EnemyType enemyType;
     public EnemyType EnemyType => enemyType;
 
     public void Initialize(EnemyType type, GameVariablesSO gameVariables, PlayerController player)
     {
         enemyType = type;
+        lifeHits = 1;
         transform.localScale = new Vector3(2f, 2f, 1f);
         horseAnimator.runtimeAnimatorController = horseAnimatorOverrides[(int)type];
         if(enemyType == EnemyType.Strong)
         {
             transform.localScale = new Vector3(3.5f, 3.5f, 1f);
+            lifeHits = 3;
         }
         enemyMovementController.Initialize(enemyType, gameVariables, player);
     }
@@ -56,9 +59,14 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet") && canBeDestroyed)
         {
-            OnEnemyDestroyed?.Invoke(this);
-            //Add animation or effects here
-            Deactivate();
+            lifeHits--;
+            if (lifeHits <= 0)
+            {
+                Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
+                OnEnemyDestroyed?.Invoke(this);
+                Deactivate();
+            }
+            Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
         }
     }

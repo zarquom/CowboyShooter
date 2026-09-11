@@ -31,7 +31,7 @@ public class EnemySpawnerManager : MonoBehaviour
             EnemyType enemyType = EnemyType.Basic; // Default value
             int randomValue = UnityEngine.Random.Range(0, 100);
             if (randomValue < gameManager.GameVariables.enemyBasicChance) enemyType = EnemyType.Basic;
-            else if (randomValue < 100 - gameManager.GameVariables.enemyFastChance) enemyType = EnemyType.Fast;
+            else if (randomValue < gameManager.GameVariables.enemyBasicChance + gameManager.GameVariables.enemyFastChance) enemyType = EnemyType.Fast;
             else enemyType = EnemyType.Strong;
             enemyController.Initialize(enemyType, gameManager.GameVariables, gameManager.Player);
             enemyController.OnEnemyDeactivated += HandleEnemyDeactivated;
