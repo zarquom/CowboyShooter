@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private InputSystem_Actions inputActions;
 
     private float currentLife = 100f;
+    private bool gameRunning = true;
     void Start()
     {
         inputActions = new InputSystem_Actions();
@@ -43,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
+        if(!gameRunning) return;
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(1f);
@@ -65,5 +67,6 @@ public class PlayerController : MonoBehaviour
     public void StopInput()
     {
         inputActions.Disable();
+        gameRunning = false;
     }
 }

@@ -11,6 +11,7 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private GameObject gameOverGameObject;
     [SerializeField] private TextMeshProUGUI gameoverText;
+    [SerializeField] private TextMeshProUGUI finalPointsText;
     [SerializeField] private TMP_InputField userNameInput;
     [SerializeField] private CanvasGroup saveScoreCanvasGroup;
     [SerializeField] private Button playAgainButton;
@@ -77,9 +78,8 @@ public class GameUIManager : MonoBehaviour
     {
         this.finalPoints = finalPoints;
         gameOverGameObject.SetActive(true);
-        gameoverText.text = isWin 
-            ? $"You Win!\nFinal Points: {finalPoints}" 
-            : $"Game Over!\nFinal Points: {finalPoints}";
+        gameoverText.text = isWin ? "You Win!" : "Game Over!";
+        finalPointsText.text = $"Final Points: {finalPoints}";
         if (showSaveScore)
         {
             ActivateSaveUserScore(true);
