@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffd9f3370b931d948989c2b855cd913c, type: 3}
   m_Name: Homing
   m_EditorClassIdentifier: Assembly-CSharp::HomingMovement
-  speed: 1.2
-  turnRateDegreesPerSecond: 60.7
+  speed: 4.94
+  turnRateDegreesPerSecond: 12.2
   target: {fileID: 0}

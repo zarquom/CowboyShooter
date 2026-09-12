@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cda3acd95e888f42be0fa06ce3220a8, type: 3}
   m_Name: Zig Zag
   m_EditorClassIdentifier: Assembly-CSharp::ZigZagMovement
-  speed: 1.59
+  speed: 2.15
   horizontalSpeed: 1.08
-  halfWidth: 3.96
+  halfWidth: 2.6

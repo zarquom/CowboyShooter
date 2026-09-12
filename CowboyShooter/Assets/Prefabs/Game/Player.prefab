@@ -510,6 +510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 5
   playerRigidbody: {fileID: 5248040576451624633}
+  playerCollider: {fileID: 2369856880261090846}
+  playerAnimator: {fileID: 3009412095463278358}
   healthObj: {fileID: 2888721368915608825}
 --- !u!61 &2369856880261090846
 BoxCollider2D:

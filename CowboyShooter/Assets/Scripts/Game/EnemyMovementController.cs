@@ -58,4 +58,9 @@ public class EnemyMovementController : MonoBehaviour
         movement = null;
         state = new MovementState();
     }
+
+    public void ActivateRigidbody(bool activate)
+    {
+        enemyRigidbody.simulated = activate;
+    }
 }

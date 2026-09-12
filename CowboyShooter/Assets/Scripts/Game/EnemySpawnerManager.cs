@@ -47,7 +47,6 @@ public class EnemySpawnerManager : MonoBehaviour
     private void HandleEnemyDestroyed(EnemyController enemy)
     {
         gameManager.OnEnemyDestroyed(enemy);
-        OnDeactivateEnemy(enemy);
     }
     private void HandleEnemyDeactivated(EnemyController enemy)
     {

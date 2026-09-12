@@ -107,7 +107,7 @@ public class GameManager : MonoBehaviour
     private void GameFinished(bool win)
     {
         gameRunning = false;
-        playerController.StopInput();
+        playerController.StopInput(win);
         gameUIManager.ShowGameOverScreen(win, playerPoints, gameVariables.winCondition == WinCondition.Time);
     }
 

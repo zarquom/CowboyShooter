@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Rigidbody2D playerRigidbody;
+    [SerializeField] private BoxCollider2D playerCollider;
+    [SerializeField] private Animator playerAnimator;
     [SerializeField] private LifeBarObject healthObj;
     public event Action OnAttack;
     public event Action OnDeath;
@@ -72,9 +75,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void StopInput()
+    public void StopInput(bool win)
     {
         inputActions.Disable();
         gameRunning = false;
+        if (!win)
+        {
+            playerRigidbody.simulated = false;
+            playerCollider.enabled = false;
+            playerAnimator.SetBool("Dead", true);
+            healthObj.gameObject.SetActive(false);
+        }
     }
 }

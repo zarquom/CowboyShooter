@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
@@ -22,12 +23,14 @@ public class EnemyController : MonoBehaviour
         lifeHits = 1;
         transform.localScale = new Vector3(2f, 2f, 1f);
         horseAnimator.runtimeAnimatorController = horseAnimatorOverrides[(int)type];
-        if(enemyType == EnemyType.Strong)
+        horseAnimator.SetBool("Dead", false);
+        if (enemyType == EnemyType.Strong)
         {
             transform.localScale = new Vector3(3.5f, 3.5f, 1f);
             lifeHits = 3;
         }
         enemyMovementController.Initialize(enemyType, gameVariables, player);
+        enemyMovementController.ActivateRigidbody(true);
     }
 
     private void Update()
@@ -81,9 +84,19 @@ public class EnemyController : MonoBehaviour
 
     private void Deactivate()
     {
-        OnEnemyDeactivated?.Invoke(this);
+        if(!canBeDestroyed) return;
+        StartCoroutine(DeactivateAfterAnimation());
         canBeDestroyed = false;
+        enemyMovementController.ActivateRigidbody(false);
         enemyMovementController.RemoveMovement();
+        horseAnimator.SetBool("Dead", true);
+    }
+
+    IEnumerator DeactivateAfterAnimation()
+    {
+        yield return new WaitForSeconds(0.5f); // Wait for the death animation to finish
+        if (this == null) yield break;
+        OnEnemyDeactivated?.Invoke(this);
     }
 }
 
