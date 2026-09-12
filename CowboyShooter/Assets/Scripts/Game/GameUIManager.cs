@@ -10,6 +10,7 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI livesText;
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private GameObject gameOverGameObject;
+    [SerializeField] private GameObject joystickGameObject;
     [SerializeField] private TextMeshProUGUI gameoverText;
     [SerializeField] private TextMeshProUGUI finalPointsText;
     [SerializeField] private TMP_InputField userNameInput;
@@ -31,6 +32,10 @@ public class GameUIManager : MonoBehaviour
         UpdatePoints(initialPoints);
         UpdateLives(initialLives);
         ActivateSaveUserScore(false, true);
+        joystickGameObject.gameObject.SetActive(false);
+#if UNITY_ANDROID
+        joystickGameObject.gameObject.SetActive(true);
+#endif
     }
 
     private void OnEnable()
@@ -80,6 +85,7 @@ public class GameUIManager : MonoBehaviour
 
     public void ShowGameOverScreen(bool isWin, int finalPoints, bool showSaveScore)
     {
+        joystickGameObject.gameObject.SetActive(false);
         this.finalPoints = finalPoints;
         gameOverGameObject.SetActive(true);
         gameoverText.text = isWin ? "You Win!" : "Game Over!";
