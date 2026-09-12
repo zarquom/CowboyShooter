@@ -21,9 +21,11 @@ public class GameUIManager : MonoBehaviour
     public event Action OnMenuClicked;
 
     private int finalPoints;
+    private AudioManager audioManager;
 
-    public void Initialize(int initialPoints, int initialLives)
+    public void Initialize(int initialPoints, int initialLives, AudioManager audioManager)
     {
+        this.audioManager = audioManager;
         gameOverGameObject.gameObject.SetActive(false);
         UpdatePoints(initialPoints);
         UpdateLives(initialLives);
@@ -55,6 +57,7 @@ public class GameUIManager : MonoBehaviour
     }
     private void OnSaveButtonClicked()
     {
+        audioManager.PlaySound("Button1");
         ActivateSaveUserScore(false);
         ServiceLocator.GetService<ISaveService>().Save(userNameInput.text, finalPoints);
     }

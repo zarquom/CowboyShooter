@@ -7,6 +7,8 @@ public interface ISaveService
     void Save(string userName, int score);
     List<ScoreEntry> GetScores();
     void ClearScores();
+    float GetVolume();
+    void SetVolume(float volume);
 }
 
 [Serializable]

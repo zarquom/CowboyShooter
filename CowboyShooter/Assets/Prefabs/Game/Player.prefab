@@ -513,6 +513,7 @@ MonoBehaviour:
   playerCollider: {fileID: 2369856880261090846}
   playerAnimator: {fileID: 3009412095463278358}
   healthObj: {fileID: 2888721368915608825}
+  healthBar: {fileID: 2228106459949957057}
 --- !u!61 &2369856880261090846
 BoxCollider2D:
   m_ObjectHideFlags: 0

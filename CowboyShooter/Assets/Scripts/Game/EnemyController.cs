@@ -97,6 +97,8 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(0.5f); // Wait for the death animation to finish
         if (this == null) yield break;
         OnEnemyDeactivated?.Invoke(this);
+        horseAnimator.gameObject.transform.localRotation = Quaternion.identity;
+        horseAnimator.gameObject.transform.localScale = Vector2.one;
     }
 }
 

@@ -57,11 +57,23 @@ MonoBehaviour:
     m_SerializedLabels:
     - Game
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b11719a78682414e97aaf884d804bbd
+    m_Address: GameAudio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ad6f120be9d2cd34e96893b5e7ddee6e
     m_Address: GameManager
     m_ReadOnly: 0
     m_SerializedLabels:
     - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbb397ca07ee02441a2f416e63b930fd
+    m_Address: MenuAudio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Menu
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fcc2c18bf381b664db3b7b3de235df6f
     m_Address: Player

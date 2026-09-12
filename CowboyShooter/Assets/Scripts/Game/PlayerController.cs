@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private BoxCollider2D playerCollider;
     [SerializeField] private Animator playerAnimator;
     [SerializeField] private LifeBarObject healthObj;
+    [SerializeField] private GameObject healthBar;
     public event Action OnAttack;
     public event Action OnDeath;
+    public event Action OnHit;
     private InputSystem_Actions inputActions;
 
     private float currentLife = 100f;
@@ -58,6 +60,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             TakeDamage(15f);
+            OnHit?.Invoke();
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
             Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
         }
@@ -84,7 +87,7 @@ public class PlayerController : MonoBehaviour
             playerRigidbody.simulated = false;
             playerCollider.enabled = false;
             playerAnimator.SetBool("Dead", true);
-            healthObj.gameObject.SetActive(false);
+            healthBar.SetActive(false);
         }
     }
 }

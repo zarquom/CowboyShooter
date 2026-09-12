@@ -33,4 +33,15 @@ public class PlayerPrefsSaveService : ISaveService
     {
         PlayerPrefs.DeleteKey("ScoreEntry");
     }
+
+    public float GetVolume()
+    {
+        return PlayerPrefs.GetFloat("Volume", 1f);
+    }
+
+    public void SetVolume(float volume)
+    {
+        PlayerPrefs.SetFloat("Volume", volume);
+    }
+
 }

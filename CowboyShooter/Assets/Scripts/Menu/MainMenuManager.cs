@@ -14,6 +14,10 @@ public class MaineMenuManager : MonoBehaviour
     [SerializeField] private Button exitHighscoresButton;
     [SerializeField] private CanvasGroup highscoresScreen;
     [SerializeField] private Transform highscoresContent;
+    [SerializeField] private Button volumeButton;
+    [SerializeField] private Sprite[] volumeButtonSprites;
+
+    private AudioManager audioManager;
     private bool GameAssetsLoaded => ServiceLocator.GetService<IAssetLoader>().IsLabelReady("Game");
     void Start()
     {
@@ -24,6 +28,23 @@ public class MaineMenuManager : MonoBehaviour
         startButton.onClick.AddListener(OnStartButtonClicked);
         highscoresButton.onClick.AddListener(OnHighscoresButtonClicked);
         exitHighscoresButton.onClick.AddListener(OnExitHighscoresButtonClicked);
+        volumeButton.onClick.AddListener(OnVolumeButtonClicked);
+    }
+
+    private void OnVolumeButtonClicked()
+    {
+        float currentVolume = ServiceLocator.GetService<ISaveService>().GetVolume();
+        if (currentVolume > 0)
+        {
+            audioManager.SetVolume(0f);
+            ServiceLocator.GetService<ISaveService>().SetVolume(0f);
+            volumeButton.image.sprite = volumeButtonSprites[1];
+        } else
+        {
+            audioManager.SetVolume(1f);
+            ServiceLocator.GetService<ISaveService>().SetVolume(1f);
+            volumeButton.image.sprite = volumeButtonSprites[0];
+        }
     }
 
     private void SetupHighscores()
@@ -39,10 +60,12 @@ public class MaineMenuManager : MonoBehaviour
 
     private void OnHighscoresButtonClicked()
     {
+        audioManager.PlaySound("Button2");
         ActivateHighScoresPanel(true);
     }
     private void OnExitHighscoresButtonClicked()
     {
+        audioManager.PlaySound("Button1");
         ActivateHighScoresPanel(false);
     }
 
@@ -54,6 +77,7 @@ public class MaineMenuManager : MonoBehaviour
     }
     private void OnStartButtonClicked()
     {
+        audioManager.PlaySound("Button2");
         StartCoroutine(LoadGameScene());
     }
 
@@ -63,6 +87,7 @@ public class MaineMenuManager : MonoBehaviour
         {
             yield return new WaitForSeconds(1f);
         }
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Game");
     }
 
@@ -71,5 +96,12 @@ public class MaineMenuManager : MonoBehaviour
         startButton.onClick.RemoveListener(OnStartButtonClicked);
         highscoresButton.onClick.RemoveListener(OnHighscoresButtonClicked);
         exitHighscoresButton.onClick.RemoveListener(OnExitHighscoresButtonClicked);
+        volumeButton.onClick.RemoveListener(OnVolumeButtonClicked);
+    }
+
+    public void SetAudioManager(AudioManager mainMenuAudio)
+    {
+        audioManager = mainMenuAudio;
+        audioManager.SetVolume(ServiceLocator.GetService<ISaveService>().GetVolume());
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private EnemySpawnerManager enemySpawnerManager;
     private PlayerController playerController;
     private GameUIManager gameUIManager;
+    private AudioManager audioManager;
 
     private int playerPoints = 0;
     private int playerLives = 3;
@@ -29,24 +31,33 @@ public class GameManager : MonoBehaviour
     {
         playerController = playerObj;
         playerController.OnAttack += HandlePlayerAttack;
+        playerController.OnHit += HandlePlayerHit;
         playerController.OnDeath += HandlePlayerDeath;
     }
     public void SetGameUI(GameUIManager uiManager)
     {
         gameUIManager = uiManager;
-        gameUIManager.Initialize(playerPoints, playerLives);
+        gameUIManager.Initialize(playerPoints, playerLives, audioManager);
         gameUIManager.OnPlayAgainClicked += HandlePlayAgainClicked;
         gameUIManager.OnMenuClicked += HandleMenuClicked;
     }
 
     private void HandleMenuClicked()
     {
-        SceneManager.LoadScene("MainMenu");
+        audioManager.PlaySound("Button1");
+        StartCoroutine(LoadSceneWithDelay("MainMenu"));
     }
 
     private void HandlePlayAgainClicked()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        audioManager.PlaySound("Button2");
+        StartCoroutine(LoadSceneWithDelay(SceneManager.GetActiveScene().name));
+    }
+
+    IEnumerator LoadSceneWithDelay(string sceneName)
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(sceneName);
     }
 
     private void HandlePlayerAttack()
@@ -69,12 +80,18 @@ public class GameManager : MonoBehaviour
     {
         if(!gameRunning) return;
         playerLives--;
+        audioManager.PlaySound("Hit");
         gameUIManager.UpdateLives(playerLives);
         if (playerLives <= 0)
         {
             Debug.Log("Game Over, player lost all lives");
             GameFinished(false);
         }
+    }
+    private void HandlePlayerHit()
+    {
+        if(!gameRunning) return;
+        audioManager.PlaySound("Blop");
     }
 
     private void HandleBulletDeactivated(BulletController bullet)
@@ -106,6 +123,7 @@ public class GameManager : MonoBehaviour
 
     private void GameFinished(bool win)
     {
+        audioManager.PlaySound(win ? "Win" : "Gameover");
         gameRunning = false;
         playerController.StopInput(win);
         gameUIManager.ShowGameOverScreen(win, playerPoints, gameVariables.winCondition == WinCondition.Time);
@@ -114,6 +132,7 @@ public class GameManager : MonoBehaviour
     public void OnEnemyDestroyed(EnemyController enemy)
     {
         Debug.Log($"Enemy destroyed: {enemy.EnemyType}");
+        audioManager.PlaySound("Explosion");
         playerPoints++;
         gameUIManager.UpdatePoints(playerPoints);
         if (gameVariables.winCondition == WinCondition.Points && playerPoints >= gameVariables.pointsToWin)
@@ -122,4 +141,10 @@ public class GameManager : MonoBehaviour
             GameFinished(true);
         }
     }
+    public void SetAudioManager(AudioManager mainMenuAudio)
+    {
+        audioManager = mainMenuAudio;
+        audioManager.SetVolume(ServiceLocator.GetService<ISaveService>().GetVolume());
+    }
+
 }
