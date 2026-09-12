@@ -15,7 +15,9 @@ public class GameManager : MonoBehaviour
     private int playerPoints = 0;
     private int playerLives = 3;
 
-    private float timeRemaining = 0f;
+    private float timePassed = 0f;
+    private float bossTimer = 0f;
+    private bool bigBossSpawned = false;
 
     private bool gameRunning = true;
     public bool GameRunning => gameRunning;
@@ -24,14 +26,14 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        timeRemaining = gameVariables.timeToWin;
+        timePassed = 0f;
         enemySpawnerManager.Initialize(gameObjectsPoolManager, this);
     }
     public void SetPlayer(PlayerController playerObj)
     {
         playerController = playerObj;
         playerController.OnAttack += HandlePlayerAttack;
-        playerController.OnHit += HandlePlayerHit;
+        playerController.OnHit += HandleBulletHit;
         playerController.OnDeath += HandlePlayerDeath;
     }
     public void SetGameUI(GameUIManager uiManager)
@@ -88,7 +90,7 @@ public class GameManager : MonoBehaviour
             GameFinished(false);
         }
     }
-    private void HandlePlayerHit()
+    public void HandleBulletHit()
     {
         if(!gameRunning) return;
         audioManager.PlaySound("Blop");
@@ -108,15 +110,36 @@ public class GameManager : MonoBehaviour
 
     private void TimerCheck()
     {
-        if(gameVariables.winCondition == WinCondition.Time)
+        timePassed += Time.deltaTime;
+        if (gameVariables.winCondition == WinCondition.Time)
         {
-            timeRemaining -= Time.deltaTime;
+            float timeRemaining = gameVariables.timeToWin - timePassed;
             if (timeRemaining <= 0) timeRemaining = 0f;
             gameUIManager.UpdateTimer(timeRemaining);
             if (timeRemaining <= 0)
             {
                 Debug.Log("Player win, time ran out");
                 GameFinished(true);
+            }
+        }
+        if(gameVariables.winCondition == WinCondition.BossDefeat)
+        {
+            if (!bigBossSpawned && timePassed >= gameVariables.timeForBossAppearanceBossMode)
+            {
+                Debug.Log("Boss time reached, spawning boss");
+                enemySpawnerManager.SpawnBoss(true);
+                bigBossSpawned = true;
+                enemySpawnerManager.SetSpawnInterval(6f, 0f);
+            }
+        } else
+        {
+            bossTimer += Time.deltaTime;
+            if (bossTimer >= gameVariables.timeForBossAppearanceOtherModes)
+            {
+                Debug.Log("Boss time reached, spawning boss");
+                enemySpawnerManager.SpawnBoss();
+                enemySpawnerManager.SetSpawnInterval(6f, 0f);
+                bossTimer = 0f;
             }
         }
     }
@@ -133,12 +156,38 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log($"Enemy destroyed: {enemy.EnemyType}");
         audioManager.PlaySound("Explosion");
-        playerPoints++;
+        int pointsEarned = 1;
+        if(enemy.EnemyType == EnemyType.Strong)
+        {
+            pointsEarned = 5;
+        }
+        playerPoints += pointsEarned;
         gameUIManager.UpdatePoints(playerPoints);
         if (gameVariables.winCondition == WinCondition.Points && playerPoints >= gameVariables.pointsToWin)
         {
             Debug.Log("Player win, scored enough points");
             GameFinished(true);
+        }
+    }
+    public void OnBossDestroyed(BossController boss)
+    {
+        Debug.Log($"Boss destroyed: {gameVariables.winCondition}");
+        audioManager.PlaySound("Explosion");
+        int pointsEarned = 50;
+        playerPoints += pointsEarned;
+        gameUIManager.UpdatePoints(playerPoints);
+        if (gameVariables.winCondition == WinCondition.Points && playerPoints >= gameVariables.pointsToWin)
+        {
+            Debug.Log("Player win, scored enough points");
+            GameFinished(true);
+        } else if(gameVariables.winCondition == WinCondition.BossDefeat)
+        {
+            Debug.Log("Player win, defeated the boss");
+            GameFinished(true);
+        }
+        else // Other win conditions, will continue the game after boss defeat
+        {
+            enemySpawnerManager.SetSpawnInterval(2f, gameVariables.enemySpawnIncreaseRate);
         }
     }
     public void SetAudioManager(AudioManager mainMenuAudio)

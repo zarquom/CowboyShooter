@@ -69,6 +69,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Game
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b16839eecae1c0242aa328f46ba54f39
+    m_Address: Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cbb397ca07ee02441a2f416e63b930fd
     m_Address: MenuAudio
     m_ReadOnly: 0

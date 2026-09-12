@@ -26,7 +26,7 @@ public class EnemyController : MonoBehaviour
         horseAnimator.SetBool("Dead", false);
         if (enemyType == EnemyType.Strong)
         {
-            transform.localScale = new Vector3(3.5f, 3.5f, 1f);
+            transform.localScale = new Vector3(2.5f, 2.5f, 1f);
             lifeHits = 3;
         }
         enemyMovementController.Initialize(enemyType, gameVariables, player);
@@ -52,7 +52,7 @@ public class EnemyController : MonoBehaviour
 
     private void CheckBounds()
     {
-        if (transform.position.y < -10f)
+        if (transform.position.y < -10f || transform.position.x > 15f || transform.position.x < -15f)
         {
             Deactivate();
         }

@@ -14,12 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameVariablesSO
   winCondition: 1
   pointsToWin: 500
-  timeToWin: 60
+  timeToWin: 180
   enemySpawnIncreaseRate: 0.05
   playerBulletSpeed: 10
   enemyBulletSpeed: 5
   enemyBasicChance: 60
   enemyFastChance: 35
+  bossMaxLife: 50
+  bossNormalLife: 10
+  timeForBossAppearanceBossMode: 10
+  timeForBossAppearanceOtherModes: 10
   basicEnemyMovement: {fileID: 11400000, guid: e1c2a7f60a5114648be8cff9dc6f9e7a, type: 2}
   fastEnemyMovement: {fileID: 11400000, guid: 0a7807e986cc8764da4057959e6634b9, type: 2}
   strongEnemyMovement: {fileID: 11400000, guid: 5e5997040d818cb43906987b286f8a45, type: 2}
+  bossMovement: {fileID: 11400000, guid: 6958346e7be309d42abafeb2a31c1b87, type: 2}

@@ -7,19 +7,29 @@ public class EnemySpawnerManager : MonoBehaviour
     private GameManager gameManager;
     private float enemySpawnInterval = 2f;
     private float enemySpawnTimer = 0f;
+    private float enemySpawnDecreaseRate = 0f;
 
     public void Initialize(GameObjectsPoolManager poolManager, GameManager manager)
     {
         gameObjectsPoolManager = poolManager;
         gameManager = manager;
+        enemySpawnDecreaseRate = gameManager.GameVariables.enemySpawnIncreaseRate;
     }
-    // Update is called once per frame
-    void Update()
+
+    public void SetSpawnInterval(float spawnInterval, float decreaseRate)
+    {
+        enemySpawnInterval = spawnInterval;
+        enemySpawnDecreaseRate = decreaseRate;
+    }
+    public void ResetSpawnInterval(float spawnInterval)
+    {
+        enemySpawnInterval = spawnInterval;
+    }
+    private void Update()
     {
         if (!gameManager.GameRunning) return;
         EnemyCreation();
     }
-
     private void EnemyCreation()
     {
         enemySpawnTimer += Time.deltaTime;
@@ -35,18 +45,23 @@ public class EnemySpawnerManager : MonoBehaviour
             else enemyType = EnemyType.Strong;
             enemyController.Initialize(enemyType, gameManager.GameVariables, gameManager.Player);
             enemyController.OnEnemyDeactivated += HandleEnemyDeactivated;
-            enemyController.OnEnemyDestroyed += HandleEnemyDestroyed;
+            enemyController.OnEnemyDestroyed += gameManager.OnEnemyDestroyed;
             enemyController.OnAttack += gameManager.HandleEnemyAttack;
             enemySpawnTimer = 0f;
             if(enemySpawnInterval > 1f)
             {
-                enemySpawnInterval -= gameManager.GameVariables.enemySpawnIncreaseRate; // Decrease the spawn interval to increase difficulty
+                enemySpawnInterval -= enemySpawnDecreaseRate; // Decrease the spawn interval to increase difficulty
             }
         }
     }
-    private void HandleEnemyDestroyed(EnemyController enemy)
+    public void SpawnBoss(bool bigBoss = false)
     {
-        gameManager.OnEnemyDestroyed(enemy);
+        BossController bossController = Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("Boss")).GetComponent<BossController>();
+        bossController.transform.position = new Vector3(0f, 7f, 0f);
+        bossController.Initialize(bigBoss, gameManager.GameVariables, gameManager.Player);
+        bossController.OnEnemyDestroyed += gameManager.OnBossDestroyed;
+        bossController.OnAttack += gameManager.HandleEnemyAttack;
+        bossController.OnHit += gameManager.HandleBulletHit;
     }
     private void HandleEnemyDeactivated(EnemyController enemy)
     {
@@ -55,7 +70,7 @@ public class EnemySpawnerManager : MonoBehaviour
     private void OnDeactivateEnemy(EnemyController enemy)
     {
         enemy.OnEnemyDeactivated -= HandleEnemyDeactivated;
-        enemy.OnEnemyDestroyed -= HandleEnemyDestroyed;
+        enemy.OnEnemyDestroyed -= gameManager.OnEnemyDestroyed;
         enemy.OnAttack -= gameManager.HandleEnemyAttack;
         gameObjectsPoolManager.ReleaseEnemyToPool(enemy);
     }

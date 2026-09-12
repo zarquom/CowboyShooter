@@ -11,9 +11,14 @@ public class GameVariablesSO : ScriptableObject
     public float enemyBulletSpeed;
     public int enemyBasicChance;
     public int enemyFastChance;
+    public int bossMaxLife;
+    public int bossNormalLife;
+    public float timeForBossAppearanceBossMode;
+    public float timeForBossAppearanceOtherModes;
     public MovementStrategy basicEnemyMovement;
     public MovementStrategy fastEnemyMovement;
     public MovementStrategy strongEnemyMovement;
+    public MovementStrategy bossMovement;
 }
 
 public enum WinCondition

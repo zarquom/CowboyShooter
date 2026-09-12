@@ -75,6 +75,7 @@ public class PlayerController : MonoBehaviour
             // Handle player death
             OnDeath?.Invoke();
             currentLife = 100f;
+            healthObj.SetLife(currentLife);
         }
     }
 
