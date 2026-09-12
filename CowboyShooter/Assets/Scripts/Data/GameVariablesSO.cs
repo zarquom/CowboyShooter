@@ -3,25 +3,19 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GameVariablesSO", menuName = "Scriptable Objects/GameVariablesSO")]
 public class GameVariablesSO : ScriptableObject
 {
+    [Header("Win Conditions")]
     public WinCondition winCondition;
     public int pointsToWin;
     public int timeToWin;
-    public float enemySpawnIncreaseRate;
-    public float playerBulletSpeed;
-    public float enemyBulletSpeed;
-    public int enemyBasicChance;
-    public int enemyFastChance;
-    public int bossMaxLife;
-    public int bossNormalLife;
-    public float timeForBossAppearanceBossMode;
-    public float timeForBossAppearanceOtherModes;
-    public float powerupInterval;
+
+    [Header("Movement Strategies")]
     public MovementStrategy basicEnemyMovement;
     public MovementStrategy fastEnemyMovement;
     public MovementStrategy strongEnemyMovement;
     public MovementStrategy bossMovement;
 
     [Header("Player")]
+    public float playerBulletSpeed;
     public float playerMaxLife = 100f;
     public float playerEnemyContactDamage = 1f;
     public float playerBulletDamage = 15f;
@@ -36,6 +30,10 @@ public class GameVariablesSO : ScriptableObject
     public int pointsBoss = 50;
 
     [Header("Enemy")]
+    public float enemySpawnIncreaseRate;
+    public float enemyBulletSpeed;
+    public int enemyBasicChance;
+    public int enemyFastChance;
     public float enemyBasicScale = 2f;
     public float enemyStrongScale = 2.5f;
     public int enemyBasicLifeHits = 1;
@@ -53,6 +51,10 @@ public class GameVariablesSO : ScriptableObject
     public float enemyDespawnMaxX = 15f;
 
     [Header("Boss")]
+    public int bossMaxLife;
+    public int bossNormalLife;
+    public float timeForBossAppearanceBossMode;
+    public float timeForBossAppearanceOtherModes;
     public float bossAttackInitialDelay = 2f;
     public float bossAttackIntervalMin = 2f;
     public float bossAttackIntervalMax = 4f;
@@ -66,6 +68,7 @@ public class GameVariablesSO : ScriptableObject
     public float topStartPositionY = 3f;
 
     [Header("Projectiles & Powerups")]
+    public float powerupInterval;
     public float screenBoundX = 10f;
     public float screenBoundY = 10f;
     public float powerupSpawnMinX = -6f;
