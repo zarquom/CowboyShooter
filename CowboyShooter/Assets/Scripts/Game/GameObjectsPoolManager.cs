@@ -5,6 +5,7 @@ public class GameObjectsPoolManager : MonoBehaviour
 {
     private ObjectPool<EnemyController> enemyObjectPool;
     private ObjectPool<BulletController> bulletObjectPool;
+    private ObjectPool<PowerupController> powerupObjectPool;
 
     void Start()
     {
@@ -26,6 +27,15 @@ public class GameObjectsPoolManager : MonoBehaviour
             defaultCapacity: 40,
             maxSize: 100
         );
+        powerupObjectPool = new ObjectPool<PowerupController>(
+            createFunc: () => Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("Powerup")).GetComponent<PowerupController>(),
+            actionOnGet: (powerup) => powerup.gameObject.SetActive(true),
+            actionOnRelease: (powerup) => powerup.gameObject.SetActive(false),
+            actionOnDestroy: (powerup) => Destroy(powerup.gameObject),
+            collectionCheck: false,
+            defaultCapacity: 10,
+            maxSize: 20
+);
     }
 
     public EnemyController GetEnemyFromPool()
@@ -37,7 +47,10 @@ public class GameObjectsPoolManager : MonoBehaviour
     {
         return bulletObjectPool.Get();
     }
-
+    public PowerupController GetPowerupFromPool()
+    {
+        return powerupObjectPool.Get();
+    }
     public void ReleaseEnemyToPool(EnemyController enemy)
     {
         enemyObjectPool.Release(enemy);
@@ -46,6 +59,9 @@ public class GameObjectsPoolManager : MonoBehaviour
     public void ReleaseBulletToPool(BulletController bullet)
     {
         bulletObjectPool.Release(bullet);
-
+    }
+    public void ReleasePowerupToPool(PowerupController powerup)
+    {
+        powerupObjectPool.Release(powerup);
     }
 }

@@ -15,6 +15,7 @@ public class GameVariablesSO : ScriptableObject
     public int bossNormalLife;
     public float timeForBossAppearanceBossMode;
     public float timeForBossAppearanceOtherModes;
+    public float powerupInterval;
     public MovementStrategy basicEnemyMovement;
     public MovementStrategy fastEnemyMovement;
     public MovementStrategy strongEnemyMovement;

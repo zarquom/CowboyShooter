@@ -14,7 +14,7 @@ public class BulletController : MonoBehaviour
     public void Initialize(BulletType type, GameVariablesSO gameVariables, Vector2 customDirection)
     {
         bulletType = type;
-        targetDirection = bulletType == BulletType.Player ? Vector2.up : customDirection;
+        targetDirection = customDirection;
         moveSpeed = bulletType == BulletType.Player ? gameVariables.playerBulletSpeed : gameVariables.enemyBulletSpeed;
         bulletImage.sprite = bulletImages[(int)bulletType];
         gameObject.layer = bulletType == BulletType.Player ? 8 : 9;

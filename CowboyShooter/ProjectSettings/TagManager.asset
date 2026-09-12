@@ -7,6 +7,7 @@ TagManager:
   - Bullet
   - Destroyable
   - Enemy
+  - Powerup
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - BulletEnemy
   - Bound
   - BoundDestroyable
-  - 
+  - Powerup
   - 
   - 
   - 

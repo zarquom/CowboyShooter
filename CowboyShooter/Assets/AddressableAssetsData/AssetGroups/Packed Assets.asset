@@ -27,6 +27,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Menu
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d00e76684fd34940a11668256c88331
+    m_Address: Powerup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3fd8b2790f1b99749843e5701dd61cb7
     m_Address: GameUI
     m_ReadOnly: 0
@@ -59,6 +65,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9b11719a78682414e97aaf884d804bbd
     m_Address: GameAudio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4e155be9b7f70c4f8a969351c1bc730
+    m_Address: PowerupSparkles
     m_ReadOnly: 0
     m_SerializedLabels:
     - Game

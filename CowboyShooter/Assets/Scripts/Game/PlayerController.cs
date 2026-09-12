@@ -11,18 +11,20 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator playerAnimator;
     [SerializeField] private LifeBarObject healthObj;
     [SerializeField] private GameObject healthBar;
-    public event Action OnAttack;
+    public event Action<bool> OnAttack;
     public event Action OnDeath;
     public event Action OnHit;
     private InputSystem_Actions inputActions;
 
     private float currentLife = 100f;
+    private float bulletPowerup = 0f;
     private bool gameRunning = true;
     void Start()
     {
         inputActions = new InputSystem_Actions();
         inputActions.Enable();
         inputActions.Player.Attack.performed += OnAttackPerformed;
+        bulletPowerup = 0f;
     }
 
     void OnDestroy()
@@ -33,14 +35,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnAttackPerformed(InputAction.CallbackContext context)
     {
-        OnAttack?.Invoke();
+        OnAttack?.Invoke(bulletPowerup > 0f);
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         HandleMovement();
     }
-
+    private void Update()
+    {
+        if(gameRunning && bulletPowerup > 0f)
+        {
+            bulletPowerup -= Time.deltaTime;
+        }
+    }
     private void HandleMovement()
     {
         Vector2 moveInput = inputActions.Player.Move.ReadValue<Vector2>();
@@ -63,6 +71,29 @@ public class PlayerController : MonoBehaviour
             OnHit?.Invoke();
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
             Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
+        }
+        if (collision.gameObject.CompareTag("Powerup"))
+        {
+            PowerupController powerupController = collision.gameObject.GetComponent<PowerupController>();
+            PowerupEffect(powerupController.PowerupType);
+            powerupController.DeactivatePowerup(true);
+            Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("PowerupSparkles"), transform.position, transform.rotation);
+        }
+    }
+
+    private void PowerupEffect(PowerupType powerupType)
+    {
+        switch(powerupType) {
+            case PowerupType.Life:
+                currentLife = Math.Min(currentLife + 50f, 100f);
+                healthObj.SetLife(currentLife);
+                break;
+            case PowerupType.Damage:
+                TakeDamage(20f);
+                break;
+            case PowerupType.Bullet:
+                bulletPowerup = 5f;
+                break;
         }
     }
 

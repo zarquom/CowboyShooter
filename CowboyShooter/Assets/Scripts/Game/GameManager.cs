@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
 
     private float timePassed = 0f;
     private float bossTimer = 0f;
+    private float powerupTimer = 0f;
     private bool bigBossSpawned = false;
 
     private bool gameRunning = true;
@@ -62,13 +63,24 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    private void HandlePlayerAttack()
+    private void HandlePlayerAttack(bool isSpecialAttack)
     {
         if (!gameRunning) return;
         BulletController bullet = gameObjectsPoolManager.GetBulletFromPool();
         bullet.transform.position = playerController.transform.position;
         bullet.OnBulletDeactivated += HandleBulletDeactivated;
         bullet.Initialize(BulletType.Player, gameVariables, Vector2.up);
+        if (isSpecialAttack)
+        {
+            BulletController bulletLeft = gameObjectsPoolManager.GetBulletFromPool();
+            bulletLeft.transform.position = playerController.transform.position - new Vector3(0.1f,0f,0f);
+            bulletLeft.OnBulletDeactivated += HandleBulletDeactivated;
+            bulletLeft.Initialize(BulletType.Player, gameVariables, new Vector2(-1f,1f));
+            BulletController bulletRight = gameObjectsPoolManager.GetBulletFromPool();
+            bulletRight.transform.position = playerController.transform.position + new Vector3(0.1f, 0f, 0f); ;
+            bulletRight.OnBulletDeactivated += HandleBulletDeactivated;
+            bulletRight.Initialize(BulletType.Player, gameVariables, new Vector2(1f, 1f));
+        }
     }
     public void HandleEnemyAttack(Transform enemyTransform)
     {
@@ -111,6 +123,7 @@ public class GameManager : MonoBehaviour
     private void TimerCheck()
     {
         timePassed += Time.deltaTime;
+        powerupTimer += Time.deltaTime;
         if (gameVariables.winCondition == WinCondition.Time)
         {
             float timeRemaining = gameVariables.timeToWin - timePassed;
@@ -142,8 +155,26 @@ public class GameManager : MonoBehaviour
                 bossTimer = 0f;
             }
         }
+        if(powerupTimer > gameVariables.powerupInterval)
+        {
+            powerupTimer = 0f;
+            PowerupController powerup = gameObjectsPoolManager.GetPowerupFromPool();
+            float randomX = UnityEngine.Random.Range(-6f, 6f);
+            powerup.transform.position = new Vector3(randomX, 6f, 0f);
+            powerup.OnPowerupDeactivated += HandlePowerupDeactivated;
+            powerup.Initialize((PowerupType)UnityEngine.Random.Range(0, 3));
+            Debug.Log($"Create powerup: {powerup.PowerupType}");
+        }
     }
-
+    private void HandlePowerupDeactivated(PowerupController powerup, bool obtained)
+    {
+        if (obtained)
+        {
+            audioManager.PlaySound("Powerup");
+        }
+        powerup.OnPowerupDeactivated -= HandlePowerupDeactivated;
+        gameObjectsPoolManager.ReleasePowerupToPool(powerup);
+    }
     private void GameFinished(bool win)
     {
         audioManager.PlaySound(win ? "Win" : "Gameover");
