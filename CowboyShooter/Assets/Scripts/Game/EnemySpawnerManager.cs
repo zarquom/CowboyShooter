@@ -4,7 +4,7 @@ public class EnemySpawnerManager : MonoBehaviour
 {
     private GameObjectsPoolManager gameObjectsPoolManager;
     private GameManager gameManager;
-    private float enemySpawnInterval = 2f;
+    private float enemySpawnInterval;
     private float enemySpawnTimer = 0f;
     private float enemySpawnDecreaseRate = 0f;
 
@@ -12,6 +12,7 @@ public class EnemySpawnerManager : MonoBehaviour
     {
         gameObjectsPoolManager = poolManager;
         gameManager = manager;
+        enemySpawnInterval = gameManager.GameVariables.initialEnemySpawnInterval;
         enemySpawnDecreaseRate = gameManager.GameVariables.enemySpawnIncreaseRate;
     }
 
@@ -35,8 +36,8 @@ public class EnemySpawnerManager : MonoBehaviour
         if (enemySpawnTimer >= enemySpawnInterval)
         {
             EnemyController enemyController = gameObjectsPoolManager.GetEnemyFromPool();
-            float randomX = UnityEngine.Random.Range(-8f, 8f);
-            enemyController.transform.position = new Vector3(randomX, 10f, 0f);
+            float randomX = UnityEngine.Random.Range(gameManager.GameVariables.enemySpawnMinX, gameManager.GameVariables.enemySpawnMaxX);
+            enemyController.transform.position = new Vector3(randomX, gameManager.GameVariables.enemySpawnPositionY, 0f);
             EnemyType enemyType = EnemyType.Basic; // Default value
             int randomValue = UnityEngine.Random.Range(0, 100);
             if (randomValue < gameManager.GameVariables.enemyBasicChance) enemyType = EnemyType.Basic;
@@ -47,7 +48,7 @@ public class EnemySpawnerManager : MonoBehaviour
             enemyController.OnEnemyDestroyed += gameManager.OnEnemyDestroyed;
             enemyController.OnAttack += gameManager.HandleEnemyAttack;
             enemySpawnTimer = 0f;
-            if(enemySpawnInterval > 1f)
+            if(enemySpawnInterval > gameManager.GameVariables.minEnemySpawnInterval)
             {
                 enemySpawnInterval -= enemySpawnDecreaseRate; // Decrease the spawn interval to increase difficulty
             }
@@ -56,7 +57,7 @@ public class EnemySpawnerManager : MonoBehaviour
     public void SpawnBoss(bool bigBoss = false)
     {
         BossController bossController = gameObjectsPoolManager.GetBossFromPool();
-        bossController.transform.position = new Vector3(0f, 7f, 0f);
+        bossController.transform.position = new Vector3(0f, gameManager.GameVariables.bossSpawnPositionY, 0f);
         bossController.Initialize(bigBoss, gameManager.GameVariables, gameManager.Player);
         bossController.OnEnemyDestroyed += gameManager.OnBossDestroyed;
         bossController.OnEnemyDeactivated += HandleBossDeactivated;

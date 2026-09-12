@@ -9,10 +9,12 @@ public class PowerupController : MonoBehaviour
     [SerializeField] private float moveSpeed = 2.4f;
     public event Action<PowerupController, bool> OnPowerupDeactivated;
     private PowerupType powerupType;
+    private GameVariablesSO gameVariables;
     public PowerupType PowerupType => powerupType;
 
-    public void Initialize(PowerupType type)
+    public void Initialize(PowerupType type, GameVariablesSO gameVariables)
     {
+        this.gameVariables = gameVariables;
         powerupType = type;
         powerupImage.sprite = poweupImages[UnityEngine.Random.Range(0, poweupImages.Length)];
     }
@@ -31,7 +33,7 @@ public class PowerupController : MonoBehaviour
     }
     private void CheckBounds()
     {
-        if (transform.position.y > 10f || transform.position.y < -10f || transform.position.x > 10f || transform.position.x < -10f)
+        if (transform.position.y > gameVariables.screenBoundY || transform.position.y < -gameVariables.screenBoundY || transform.position.x > gameVariables.screenBoundX || transform.position.x < -gameVariables.screenBoundX)
         {
             DeactivatePowerup(false);
         }

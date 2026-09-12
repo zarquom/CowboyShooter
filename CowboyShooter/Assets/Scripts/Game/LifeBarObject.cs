@@ -8,17 +8,17 @@ public class LifeBarObject : MonoBehaviour
     [SerializeField] private Image healthObj;
     [SerializeField] private Color healthColor;
     [SerializeField] private Color healthFadedColor;
-
-    private float currentLifeThreshold = 40f;
+    [SerializeField] private float currentLifeThreshold = 40f;
+    [SerializeField] private float pulseDuration = 0.2f;
 
     private Tweener healthTween;
-    public void SetLife(float currentLife)
+    public void SetLife(float currentLife, float maxLife)
     {
         if(currentLife < currentLifeThreshold && healthTween == null)
         {
             healthObj.color = healthColor;
-            healthTween = healthObj.DOColor(healthFadedColor, 0.2f).SetEase(Ease.InOutQuad).SetLoops(-1, LoopType.Yoyo);
-        } 
+            healthTween = healthObj.DOColor(healthFadedColor, pulseDuration).SetEase(Ease.InOutQuad).SetLoops(-1, LoopType.Yoyo);
+        }
         else if(currentLife >= currentLifeThreshold)
         {
             if (healthTween != null)
@@ -28,6 +28,6 @@ public class LifeBarObject : MonoBehaviour
             }
             healthObj.color = healthColor;
         }
-        healthObj.transform.localScale = new Vector3(currentLife / 100f, 1f, 1f);
+        healthObj.transform.localScale = new Vector3(currentLife / maxLife, 1f, 1f);
     }
 }

@@ -18,7 +18,7 @@ public class EnemyMovementController : MonoBehaviour
         }
         if (movement is OrbitMovement)
         {
-            state.startPosition = new Vector3(UnityEngine.Random.Range(-1f, 1f), 3f, 0f);
+            state.startPosition = new Vector3(UnityEngine.Random.Range(-gameVariables.topStartPositionXRange, gameVariables.topStartPositionXRange), gameVariables.topStartPositionY, 0f);
         }
     }
 

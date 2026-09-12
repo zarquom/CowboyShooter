@@ -10,25 +10,28 @@ public class EnemyController : MonoBehaviour
     public event Action<EnemyController> OnEnemyDestroyed;
     public event Action<Transform> OnAttack;
 
-    private float timeToAttack = 2f;
+    private float timeToAttack;
     private float timerAttack = 0f;
     private bool canBeDestroyed = false;
     private int lifeHits;
     private EnemyType enemyType;
+    private GameVariablesSO gameVariables;
     private GameObject bulletSparklesPrefab;
     public EnemyType EnemyType => enemyType;
 
     public void Initialize(EnemyType type, GameVariablesSO gameVariables, PlayerController player)
     {
+        this.gameVariables = gameVariables;
         enemyType = type;
-        lifeHits = 1;
-        transform.localScale = new Vector3(2f, 2f, 1f);
+        timeToAttack = gameVariables.enemyAttackInitialDelay;
+        lifeHits = gameVariables.enemyBasicLifeHits;
+        transform.localScale = new Vector3(gameVariables.enemyBasicScale, gameVariables.enemyBasicScale, 1f);
         horseAnimator.runtimeAnimatorController = horseAnimatorOverrides[(int)type];
         horseAnimator.SetBool("Dead", false);
         if (enemyType == EnemyType.Strong)
         {
-            transform.localScale = new Vector3(2.5f, 2.5f, 1f);
-            lifeHits = 3;
+            transform.localScale = new Vector3(gameVariables.enemyStrongScale, gameVariables.enemyStrongScale, 1f);
+            lifeHits = gameVariables.enemyStrongLifeHits;
         }
         enemyMovementController.Initialize(enemyType, gameVariables, player);
         enemyMovementController.ActivateRigidbody(true);
@@ -51,13 +54,13 @@ public class EnemyController : MonoBehaviour
         {
             OnAttack?.Invoke(transform);
             timerAttack = 0f;
-            timeToAttack = UnityEngine.Random.Range(3f, 6f); // Randomize the next attack time
+            timeToAttack = UnityEngine.Random.Range(gameVariables.enemyAttackIntervalMin, gameVariables.enemyAttackIntervalMax); // Randomize the next attack time
         }
     }
 
     private void CheckBounds()
     {
-        if (transform.position.y < -10f || transform.position.x > 15f || transform.position.x < -15f)
+        if (transform.position.y < gameVariables.enemyDespawnMinY || transform.position.x > gameVariables.enemyDespawnMaxX || transform.position.x < -gameVariables.enemyDespawnMaxX)
         {
             Deactivate();
         }
@@ -98,7 +101,7 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator DeactivateAfterAnimation()
     {
-        yield return new WaitForSeconds(0.5f); // Wait for the death animation to finish
+        yield return new WaitForSeconds(gameVariables.enemyDeathAnimationDuration); // Wait for the death animation to finish
         if (this == null) yield break;
         OnEnemyDeactivated?.Invoke(this);
         horseAnimator.gameObject.transform.localRotation = Quaternion.identity;

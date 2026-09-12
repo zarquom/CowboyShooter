@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     private bool bigBossSpawned = false;
 
     private bool gameRunning = true;
+    [SerializeField] private float sceneTransitionDelay = 1f;
     public bool GameRunning => gameRunning;
     public GameVariablesSO GameVariables => gameVariables;
     public PlayerController Player => playerController;
@@ -33,6 +34,7 @@ public class GameManager : MonoBehaviour
     public void SetPlayer(PlayerController playerObj)
     {
         playerController = playerObj;
+        playerController.Initialize(gameVariables);
         playerController.OnAttack += HandlePlayerAttack;
         playerController.OnHit += HandleBulletHit;
         playerController.OnDeath += HandlePlayerDeath;
@@ -59,7 +61,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator LoadSceneWithDelay(string sceneName)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(sceneTransitionDelay);
         SceneManager.LoadScene(sceneName);
     }
 
@@ -73,11 +75,11 @@ public class GameManager : MonoBehaviour
         if (isSpecialAttack)
         {
             BulletController bulletLeft = gameObjectsPoolManager.GetBulletFromPool();
-            bulletLeft.transform.position = playerController.transform.position - new Vector3(0.1f,0f,0f);
+            bulletLeft.transform.position = playerController.transform.position - new Vector3(gameVariables.bulletSpreadOffset,0f,0f);
             bulletLeft.OnBulletDeactivated += HandleBulletDeactivated;
             bulletLeft.Initialize(BulletType.Player, gameVariables, new Vector2(-1f,1f));
             BulletController bulletRight = gameObjectsPoolManager.GetBulletFromPool();
-            bulletRight.transform.position = playerController.transform.position + new Vector3(0.1f, 0f, 0f); ;
+            bulletRight.transform.position = playerController.transform.position + new Vector3(gameVariables.bulletSpreadOffset, 0f, 0f);
             bulletRight.OnBulletDeactivated += HandleBulletDeactivated;
             bulletRight.Initialize(BulletType.Player, gameVariables, new Vector2(1f, 1f));
         }
@@ -142,7 +144,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Boss time reached, spawning boss");
                 enemySpawnerManager.SpawnBoss(true);
                 bigBossSpawned = true;
-                enemySpawnerManager.SetSpawnInterval(6f, 0f);
+                enemySpawnerManager.SetSpawnInterval(gameVariables.bossActiveSpawnInterval, 0f); // freeze difficulty ramp while the boss is up
             }
         } else
         {
@@ -151,7 +153,7 @@ public class GameManager : MonoBehaviour
             {
                 Debug.Log("Boss time reached, spawning boss");
                 enemySpawnerManager.SpawnBoss();
-                enemySpawnerManager.SetSpawnInterval(6f, 0f);
+                enemySpawnerManager.SetSpawnInterval(gameVariables.bossActiveSpawnInterval, 0f); // freeze difficulty ramp while the boss is up
                 bossTimer = 0f;
             }
         }
@@ -159,10 +161,10 @@ public class GameManager : MonoBehaviour
         {
             powerupTimer = 0f;
             PowerupController powerup = gameObjectsPoolManager.GetPowerupFromPool();
-            float randomX = UnityEngine.Random.Range(-6f, 6f);
-            powerup.transform.position = new Vector3(randomX, 6f, 0f);
+            float randomX = UnityEngine.Random.Range(gameVariables.powerupSpawnMinX, gameVariables.powerupSpawnMaxX);
+            powerup.transform.position = new Vector3(randomX, gameVariables.powerupSpawnPositionY, 0f);
             powerup.OnPowerupDeactivated += HandlePowerupDeactivated;
-            powerup.Initialize((PowerupType)UnityEngine.Random.Range(0, 3));
+            powerup.Initialize((PowerupType)UnityEngine.Random.Range(0, Enum.GetValues(typeof(PowerupType)).Length), gameVariables);
             Debug.Log($"Create powerup: {powerup.PowerupType}");
         }
     }
@@ -187,10 +189,10 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log($"Enemy destroyed: {enemy.EnemyType}");
         audioManager.PlaySound("Explosion");
-        int pointsEarned = 1;
+        int pointsEarned = gameVariables.pointsBasicEnemy;
         if(enemy.EnemyType == EnemyType.Strong)
         {
-            pointsEarned = 5;
+            pointsEarned = gameVariables.pointsStrongEnemy;
         }
         playerPoints += pointsEarned;
         gameUIManager.UpdatePoints(playerPoints);
@@ -204,7 +206,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log($"Boss destroyed: {gameVariables.winCondition}");
         audioManager.PlaySound("Explosion");
-        int pointsEarned = 50;
+        int pointsEarned = gameVariables.pointsBoss;
         playerPoints += pointsEarned;
         gameUIManager.UpdatePoints(playerPoints);
         if (gameVariables.winCondition == WinCondition.Points && playerPoints >= gameVariables.pointsToWin)
@@ -218,7 +220,7 @@ public class GameManager : MonoBehaviour
         }
         else // Other win conditions, will continue the game after boss defeat
         {
-            enemySpawnerManager.SetSpawnInterval(2f, gameVariables.enemySpawnIncreaseRate);
+            enemySpawnerManager.SetSpawnInterval(gameVariables.postBossDefeatSpawnInterval, gameVariables.enemySpawnIncreaseRate);
         }
     }
     public void SetAudioManager(AudioManager mainMenuAudio)

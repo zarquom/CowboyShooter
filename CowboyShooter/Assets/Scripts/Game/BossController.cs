@@ -12,17 +12,20 @@ public class BossController : MonoBehaviour
 
     private MovementStrategy movement;
     private MovementState state = new MovementState();
-    private float timeToAttack = 2f;
+    private float timeToAttack;
     private float timerAttack = 0f;
     private bool canBeDestroyed = false;
     private int lifeHits;
+    private GameVariablesSO gameVariables;
     private GameObject bulletSparklesPrefab;
 
     public void Initialize(bool bigBoss, GameVariablesSO gameVariables, PlayerController player)
     {
+        this.gameVariables = gameVariables;
         lifeHits = bigBoss ? gameVariables.bossMaxLife : gameVariables.bossNormalLife;
         movement = gameVariables.bossMovement;
-        state.startPosition = new Vector3(UnityEngine.Random.Range(-1f, 1f), 3f, 0f);
+        timeToAttack = gameVariables.bossAttackInitialDelay;
+        state.startPosition = new Vector3(UnityEngine.Random.Range(-gameVariables.topStartPositionXRange, gameVariables.topStartPositionXRange), gameVariables.topStartPositionY, 0f);
         if (bulletSparklesPrefab == null)
         {
             bulletSparklesPrefab = ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles");
@@ -52,7 +55,7 @@ public class BossController : MonoBehaviour
             bossAnimator.SetTrigger("Attack");
             OnAttack?.Invoke(transform);
             timerAttack = 0f;
-            timeToAttack = UnityEngine.Random.Range(2f, 4f); // Randomize the next attack time
+            timeToAttack = UnityEngine.Random.Range(gameVariables.bossAttackIntervalMin, gameVariables.bossAttackIntervalMax); // Randomize the next attack time
         }
     }
 
@@ -93,7 +96,7 @@ public class BossController : MonoBehaviour
 
     IEnumerator DeactivateAfterAnimation()
     {
-        yield return new WaitForSeconds(0.8f); // Wait for the death animation to finish
+        yield return new WaitForSeconds(gameVariables.bossDeathAnimationDuration); // Wait for the death animation to finish
         if (this == null) yield break;
         OnHit = null;
         OnEnemyDeactivated?.Invoke(this);

@@ -14,6 +14,8 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private Transform highscoresContent;
     [SerializeField] private Button volumeButton;
     [SerializeField] private Sprite[] volumeButtonSprites;
+    [SerializeField] private float fadeDuration = 0.5f;
+    [SerializeField] private float sceneTransitionDelay = 1f;
 
     private AudioManager audioManager;
     private bool GameAssetsLoaded => ServiceLocator.GetService<IAssetLoader>().IsLabelReady("Game");
@@ -71,7 +73,7 @@ public class MainMenuManager : MonoBehaviour
     {
         highscoresScreen.blocksRaycasts = activate;
         highscoresScreen.interactable = activate;
-        highscoresScreen.DOFade(activate ? 1 : 0, instant ? 0 : 0.5f).SetUpdate(true);
+        highscoresScreen.DOFade(activate ? 1 : 0, instant ? 0 : fadeDuration).SetUpdate(true);
     }
     private void OnStartButtonClicked()
     {
@@ -83,9 +85,9 @@ public class MainMenuManager : MonoBehaviour
     {
         while (!GameAssetsLoaded)
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(sceneTransitionDelay);
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(sceneTransitionDelay);
         SceneManager.LoadScene("Game");
     }
 

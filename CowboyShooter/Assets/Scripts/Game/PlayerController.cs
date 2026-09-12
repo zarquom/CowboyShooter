@@ -15,11 +15,19 @@ public class PlayerController : MonoBehaviour
     public event Action OnHit;
     private InputSystem_Actions inputActions;
 
-    private float currentLife = 100f;
+    private GameVariablesSO gameVariables;
+    private float currentLife;
     private float bulletPowerup = 0f;
     private bool gameRunning = true;
     private GameObject bulletSparklesPrefab;
     private GameObject powerupSparklesPrefab;
+
+    public void Initialize(GameVariablesSO variables)
+    {
+        gameVariables = variables;
+        currentLife = gameVariables.playerMaxLife;
+    }
+
     void Start()
     {
         inputActions = new InputSystem_Actions();
@@ -63,14 +71,14 @@ public class PlayerController : MonoBehaviour
         if(!gameRunning) return;
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            TakeDamage(1f);
+            TakeDamage(gameVariables.playerEnemyContactDamage);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            TakeDamage(15f);
+            TakeDamage(gameVariables.playerBulletDamage);
             OnHit?.Invoke();
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
             Instantiate(bulletSparklesPrefab, transform.position, transform.rotation);
@@ -88,14 +96,14 @@ public class PlayerController : MonoBehaviour
     {
         switch(powerupType) {
             case PowerupType.Life:
-                currentLife = Math.Min(currentLife + 50f, 100f);
-                healthObj.SetLife(currentLife);
+                currentLife = Math.Min(currentLife + gameVariables.playerLifePowerupHealAmount, gameVariables.playerMaxLife);
+                healthObj.SetLife(currentLife, gameVariables.playerMaxLife);
                 break;
             case PowerupType.Damage:
-                TakeDamage(20f);
+                TakeDamage(gameVariables.playerDamagePowerupAmount);
                 break;
             case PowerupType.Bullet:
-                bulletPowerup = 5f;
+                bulletPowerup = gameVariables.bulletPowerupDuration;
                 break;
         }
     }
@@ -103,13 +111,13 @@ public class PlayerController : MonoBehaviour
     private void TakeDamage(float damageValue)
     {
         currentLife -= damageValue;
-        healthObj.SetLife(currentLife);
+        healthObj.SetLife(currentLife, gameVariables.playerMaxLife);
         if (currentLife <= 0)
         {
             // Handle player death
             OnDeath?.Invoke();
-            currentLife = 100f;
-            healthObj.SetLife(currentLife);
+            currentLife = gameVariables.playerMaxLife;
+            healthObj.SetLife(currentLife, gameVariables.playerMaxLife);
         }
     }
 

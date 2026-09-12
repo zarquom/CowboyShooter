@@ -17,6 +17,7 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] private Button playAgainButton;
     [SerializeField] private Button menuButton;
     [SerializeField] private Button saveButton;
+    [SerializeField] private float fadeDuration = 0.5f;
     public event Action OnPlayAgainClicked;
     public event Action OnMenuClicked;
 
@@ -94,6 +95,6 @@ public class GameUIManager : MonoBehaviour
     {
         saveScoreCanvasGroup.blocksRaycasts = activate;
         saveScoreCanvasGroup.interactable = activate;
-        saveScoreCanvasGroup.DOFade(activate ? 1 : 0, instant ? 0f : 0.5f).SetUpdate(true);
+        saveScoreCanvasGroup.DOFade(activate ? 1 : 0, instant ? 0f : fadeDuration).SetUpdate(true);
     }
 }

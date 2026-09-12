@@ -10,8 +10,10 @@ public class BulletController : MonoBehaviour
     private float moveSpeed = 10f;
     private BulletType bulletType;
     private Vector2 targetDirection;
+    private GameVariablesSO gameVariables;
     public void Initialize(BulletType type, GameVariablesSO gameVariables, Vector2 customDirection)
     {
+        this.gameVariables = gameVariables;
         bulletType = type;
         targetDirection = customDirection;
         moveSpeed = bulletType == BulletType.Player ? gameVariables.playerBulletSpeed : gameVariables.enemyBulletSpeed;
@@ -35,7 +37,7 @@ public class BulletController : MonoBehaviour
 
     private void CheckBounds()
     {
-        if (transform.position.y > 10f || transform.position.y < -10f || transform.position.x > 10f || transform.position.x < -10f)
+        if (transform.position.y > gameVariables.screenBoundY || transform.position.y < -gameVariables.screenBoundY || transform.position.x > gameVariables.screenBoundX || transform.position.x < -gameVariables.screenBoundX)
         {
             DeactivateBullet();
         }
