@@ -25,13 +25,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5688810982546904882}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2224049763736594298}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &2821090976851177882
 SpriteRenderer:
   serializedVersion: 2
@@ -101,7 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2224049763736594298}
   - component: {fileID: 1642033622531940779}
-  - component: {fileID: 2369856880261090846}
+  - component: {fileID: 1333998231228745459}
   - component: {fileID: 4305262194267888989}
   m_Layer: 8
   m_Name: Bullet
@@ -143,8 +143,8 @@ MonoBehaviour:
   bulletImages:
   - {fileID: -123176541705019837, guid: 787cc6fce0552e74cbec8434ddc5cb0d, type: 3}
   - {fileID: 2009410003007727163, guid: a635264df0979fe4e9cf386eca3a974d, type: 3}
---- !u!61 &2369856880261090846
-BoxCollider2D:
+--- !u!58 &1333998231228745459
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -178,17 +178,7 @@ BoxCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.2, y: 0.34}
-  m_EdgeRadius: 0
+  m_Radius: 0.13
 --- !u!50 &4305262194267888989
 Rigidbody2D:
   serializedVersion: 5

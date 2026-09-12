@@ -20,6 +20,8 @@ public class BulletController : MonoBehaviour
         bulletImage.sprite = bulletImages[(int)bulletType];
         gameObject.layer = bulletType == BulletType.Player ? LayerMask.NameToLayer("BulletPlayer") : LayerMask.NameToLayer("BulletEnemy");
         transform.localScale = bulletType == BulletType.Player ? new Vector3(1f, 1f, 1f) : new Vector3(1f, -1f, 1f);
+        float angle = Mathf.Atan2(customDirection.y, customDirection.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
     void Update()
     {
