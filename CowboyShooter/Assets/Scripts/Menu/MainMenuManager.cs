@@ -1,13 +1,11 @@
 using DG.Tweening;
-using NUnit.Framework;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MaineMenuManager : MonoBehaviour
+public class MainMenuManager : MonoBehaviour
 {
     [SerializeField] private Button startButton;
     [SerializeField] private Button highscoresButton;

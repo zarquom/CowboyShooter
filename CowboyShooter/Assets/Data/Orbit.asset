@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Orbit
   m_EditorClassIdentifier: Assembly-CSharp::OrbitMovement
   radius: 3.29
+  distanceChecker: 50
   angularSpeedDegreesPerSecond: 16.87

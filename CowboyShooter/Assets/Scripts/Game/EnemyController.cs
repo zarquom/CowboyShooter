@@ -15,6 +15,7 @@ public class EnemyController : MonoBehaviour
     private bool canBeDestroyed = false;
     private int lifeHits;
     private EnemyType enemyType;
+    private GameObject bulletSparklesPrefab;
     public EnemyType EnemyType => enemyType;
 
     public void Initialize(EnemyType type, GameVariablesSO gameVariables, PlayerController player)
@@ -31,6 +32,10 @@ public class EnemyController : MonoBehaviour
         }
         enemyMovementController.Initialize(enemyType, gameVariables, player);
         enemyMovementController.ActivateRigidbody(true);
+        if(bulletSparklesPrefab == null)
+        {
+            bulletSparklesPrefab = ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles");
+        }
     }
 
     private void Update()
@@ -63,13 +68,12 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet") && canBeDestroyed)
         {
             lifeHits--;
+            Instantiate(bulletSparklesPrefab, transform.position, transform.rotation);
             if (lifeHits <= 0)
             {
-                Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
                 OnEnemyDestroyed?.Invoke(this);
                 Deactivate();
             }
-            Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
         }
     }

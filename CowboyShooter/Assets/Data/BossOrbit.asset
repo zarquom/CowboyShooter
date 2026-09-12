@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: BossOrbit
   m_EditorClassIdentifier: Assembly-CSharp::OrbitMovement
   radius: 1.26
+  distanceChecker: 50
   angularSpeedDegreesPerSecond: 16.87

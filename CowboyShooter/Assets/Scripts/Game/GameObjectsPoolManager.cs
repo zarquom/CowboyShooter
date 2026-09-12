@@ -6,6 +6,7 @@ public class GameObjectsPoolManager : MonoBehaviour
     private ObjectPool<EnemyController> enemyObjectPool;
     private ObjectPool<BulletController> bulletObjectPool;
     private ObjectPool<PowerupController> powerupObjectPool;
+    private ObjectPool<BossController> bossObjectPool;
 
     void Start()
     {
@@ -35,7 +36,16 @@ public class GameObjectsPoolManager : MonoBehaviour
             collectionCheck: false,
             defaultCapacity: 10,
             maxSize: 20
-);
+        );
+        bossObjectPool = new ObjectPool<BossController>(
+            createFunc: () => Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("Boss")).GetComponent<BossController>(),
+            actionOnGet: (boss) => boss.gameObject.SetActive(true),
+            actionOnRelease: (boss) => boss.gameObject.SetActive(false),
+            actionOnDestroy: (boss) => Destroy(boss.gameObject),
+            collectionCheck: false,
+            defaultCapacity: 10,
+            maxSize: 20
+        );
     }
 
     public EnemyController GetEnemyFromPool()
@@ -51,6 +61,10 @@ public class GameObjectsPoolManager : MonoBehaviour
     {
         return powerupObjectPool.Get();
     }
+    public BossController GetBossFromPool()
+    {
+        return bossObjectPool.Get();
+    }
     public void ReleaseEnemyToPool(EnemyController enemy)
     {
         enemyObjectPool.Release(enemy);
@@ -63,5 +77,9 @@ public class GameObjectsPoolManager : MonoBehaviour
     public void ReleasePowerupToPool(PowerupController powerup)
     {
         powerupObjectPool.Release(powerup);
+    }
+    public void ReleaseBossToPool(BossController boss)
+    {
+        bossObjectPool.Release(boss);
     }
 }

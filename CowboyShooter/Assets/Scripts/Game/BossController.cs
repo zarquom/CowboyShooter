@@ -6,6 +6,7 @@ public class BossController : MonoBehaviour
     [SerializeField] private Animator bossAnimator;
     [SerializeField] private Rigidbody2D bossRigidbody;
     public event Action<BossController> OnEnemyDestroyed;
+    public event Action<BossController> OnEnemyDeactivated;
     public event Action<Transform> OnAttack;
     public event Action OnHit;
 
@@ -15,12 +16,17 @@ public class BossController : MonoBehaviour
     private float timerAttack = 0f;
     private bool canBeDestroyed = false;
     private int lifeHits;
+    private GameObject bulletSparklesPrefab;
 
     public void Initialize(bool bigBoss, GameVariablesSO gameVariables, PlayerController player)
     {
         lifeHits = bigBoss ? gameVariables.bossMaxLife : gameVariables.bossNormalLife;
         movement = gameVariables.bossMovement;
         state.startPosition = new Vector3(UnityEngine.Random.Range(-1f, 1f), 3f, 0f);
+        if (bulletSparklesPrefab == null)
+        {
+            bulletSparklesPrefab = ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles");
+        }
     }
 
     private void Update()
@@ -55,9 +61,9 @@ public class BossController : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet") && canBeDestroyed)
         {
             lifeHits--;
+            Instantiate(bulletSparklesPrefab, transform.position, transform.rotation);
             if (lifeHits <= 0)
             {
-                Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
                 bossAnimator.SetBool("Dead", true);
                 Deactivate();
             } else
@@ -65,7 +71,6 @@ public class BossController : MonoBehaviour
                 bossAnimator.SetTrigger("Hit");
                 OnHit?.Invoke();
             }
-            Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
         }
     }
@@ -90,9 +95,7 @@ public class BossController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.8f); // Wait for the death animation to finish
         if (this == null) yield break;
-        OnAttack = null;
-        OnEnemyDestroyed = null;
         OnHit = null;
-        gameObject.SetActive(false);
+        OnEnemyDeactivated?.Invoke(this);
     }
 }

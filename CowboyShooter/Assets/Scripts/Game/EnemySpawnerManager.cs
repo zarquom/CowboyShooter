@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemySpawnerManager : MonoBehaviour
@@ -56,22 +55,26 @@ public class EnemySpawnerManager : MonoBehaviour
     }
     public void SpawnBoss(bool bigBoss = false)
     {
-        BossController bossController = Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("Boss")).GetComponent<BossController>();
+        BossController bossController = gameObjectsPoolManager.GetBossFromPool();
         bossController.transform.position = new Vector3(0f, 7f, 0f);
         bossController.Initialize(bigBoss, gameManager.GameVariables, gameManager.Player);
         bossController.OnEnemyDestroyed += gameManager.OnBossDestroyed;
+        bossController.OnEnemyDeactivated += HandleBossDeactivated;
         bossController.OnAttack += gameManager.HandleEnemyAttack;
         bossController.OnHit += gameManager.HandleBulletHit;
     }
     private void HandleEnemyDeactivated(EnemyController enemy)
     {
-        OnDeactivateEnemy(enemy);
-    }
-    private void OnDeactivateEnemy(EnemyController enemy)
-    {
         enemy.OnEnemyDeactivated -= HandleEnemyDeactivated;
         enemy.OnEnemyDestroyed -= gameManager.OnEnemyDestroyed;
         enemy.OnAttack -= gameManager.HandleEnemyAttack;
         gameObjectsPoolManager.ReleaseEnemyToPool(enemy);
+    }
+    private void HandleBossDeactivated(BossController boss)
+    {
+        boss.OnEnemyDeactivated -= HandleBossDeactivated;
+        boss.OnEnemyDestroyed -= gameManager.OnBossDestroyed;
+        boss.OnAttack -= gameManager.HandleEnemyAttack;
+        gameObjectsPoolManager.ReleaseBossToPool(boss);
     }
 }

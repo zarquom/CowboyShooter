@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class BulletController : MonoBehaviour
 {
@@ -17,7 +16,7 @@ public class BulletController : MonoBehaviour
         targetDirection = customDirection;
         moveSpeed = bulletType == BulletType.Player ? gameVariables.playerBulletSpeed : gameVariables.enemyBulletSpeed;
         bulletImage.sprite = bulletImages[(int)bulletType];
-        gameObject.layer = bulletType == BulletType.Player ? 8 : 9;
+        gameObject.layer = bulletType == BulletType.Player ? LayerMask.NameToLayer("BulletPlayer") : LayerMask.NameToLayer("BulletEnemy");
         transform.localScale = bulletType == BulletType.Player ? new Vector3(1f, 1f, 1f) : new Vector3(1f, -1f, 1f);
     }
     void Update()

@@ -1,5 +1,4 @@
 using System;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,12 +18,16 @@ public class PlayerController : MonoBehaviour
     private float currentLife = 100f;
     private float bulletPowerup = 0f;
     private bool gameRunning = true;
+    private GameObject bulletSparklesPrefab;
+    private GameObject powerupSparklesPrefab;
     void Start()
     {
         inputActions = new InputSystem_Actions();
         inputActions.Enable();
         inputActions.Player.Attack.performed += OnAttackPerformed;
         bulletPowerup = 0f;
+        bulletSparklesPrefab = ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles");
+        powerupSparklesPrefab = ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("PowerupSparkles");
     }
 
     void OnDestroy()
@@ -70,14 +73,14 @@ public class PlayerController : MonoBehaviour
             TakeDamage(15f);
             OnHit?.Invoke();
             collision.gameObject.GetComponent<BulletController>().DeactivateBullet();
-            Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("BulletSparkles"), transform.position, transform.rotation);
+            Instantiate(bulletSparklesPrefab, transform.position, transform.rotation);
         }
         if (collision.gameObject.CompareTag("Powerup"))
         {
             PowerupController powerupController = collision.gameObject.GetComponent<PowerupController>();
             PowerupEffect(powerupController.PowerupType);
             powerupController.DeactivatePowerup(true);
-            Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("PowerupSparkles"), transform.position, transform.rotation);
+            Instantiate(powerupSparklesPrefab, transform.position, transform.rotation);
         }
     }
 

@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 public class MenuPreloader : MonoBehaviour
 {
-    private MaineMenuManager mainMenu;
+    private MainMenuManager mainMenu;
     private AudioManager mainMenuAudio;
     async void Awake()
     {
-        mainMenu = Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("MainMenu")).GetComponent<MaineMenuManager>();
+        mainMenu = Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("MainMenu")).GetComponent<MainMenuManager>();
         mainMenuAudio = Instantiate(ServiceLocator.GetService<IAssetLoader>().GetAsset<GameObject>("MenuAudio")).GetComponent<AudioManager>();
         mainMenu.SetAudioManager(mainMenuAudio);
         await ServiceLocator.GetService<IAssetLoader>().PreloadLabelAsync("Game");

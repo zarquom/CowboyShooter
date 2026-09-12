@@ -180,7 +180,7 @@ public class GameManager : MonoBehaviour
         audioManager.PlaySound(win ? "Win" : "Gameover");
         gameRunning = false;
         playerController.StopInput(win);
-        gameUIManager.ShowGameOverScreen(win, playerPoints, gameVariables.winCondition == WinCondition.Time);
+        gameUIManager.ShowGameOverScreen(win, playerPoints, gameVariables.winCondition == WinCondition.Time); //Saving score just for Time win condition, for not having different type of scores
     }
 
     public void OnEnemyDestroyed(EnemyController enemy)
