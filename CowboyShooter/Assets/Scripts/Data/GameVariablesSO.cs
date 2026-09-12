@@ -13,6 +13,7 @@ public class GameVariablesSO : ScriptableObject
     public MovementStrategy fastEnemyMovement;
     public MovementStrategy strongEnemyMovement;
     public MovementStrategy bossMovement;
+    public MovementStrategy bossMovementSecondary;
 
     [Header("Player")]
     public float playerBulletSpeed;
@@ -62,6 +63,8 @@ public class GameVariablesSO : ScriptableObject
     public float bossSpawnPositionY = 7f;
     public float bossActiveSpawnInterval = 6f;
     public float postBossDefeatSpawnInterval = 2f;
+    public float bossResetMovementPositionY = -2f;
+    public int bossAttacksCounterForChangeMovement = 3;
 
     [Header("Spawn Wobble (Boss / Orbit enemies)")]
     public float topStartPositionXRange = 1f;

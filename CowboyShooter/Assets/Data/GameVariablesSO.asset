@@ -15,17 +15,59 @@ MonoBehaviour:
   winCondition: 1
   pointsToWin: 500
   timeToWin: 180
-  enemySpawnIncreaseRate: 0.05
-  playerBulletSpeed: 10
-  enemyBulletSpeed: 5
-  enemyBasicChance: 60
-  enemyFastChance: 35
-  bossMaxLife: 50
-  bossNormalLife: 10
-  timeForBossAppearanceBossMode: 60
-  timeForBossAppearanceOtherModes: 30
-  powerupInterval: 10
   basicEnemyMovement: {fileID: 11400000, guid: e1c2a7f60a5114648be8cff9dc6f9e7a, type: 2}
   fastEnemyMovement: {fileID: 11400000, guid: 0a7807e986cc8764da4057959e6634b9, type: 2}
   strongEnemyMovement: {fileID: 11400000, guid: 5e5997040d818cb43906987b286f8a45, type: 2}
   bossMovement: {fileID: 11400000, guid: 6958346e7be309d42abafeb2a31c1b87, type: 2}
+  bossMovementSecondary: {fileID: 11400000, guid: 9a753959e7457474c82b35a143a13219, type: 2}
+  playerBulletSpeed: 10
+  playerMaxLife: 100
+  playerEnemyContactDamage: 1
+  playerBulletDamage: 15
+  playerLifePowerupHealAmount: 50
+  playerDamagePowerupAmount: 20
+  bulletPowerupDuration: 5
+  bulletSpreadOffset: 0.1
+  pointsBasicEnemy: 1
+  pointsStrongEnemy: 5
+  pointsBoss: 50
+  enemySpawnIncreaseRate: 0.05
+  enemyBulletSpeed: 5
+  enemyBasicChance: 60
+  enemyFastChance: 35
+  enemyBasicScale: 2
+  enemyStrongScale: 2.5
+  enemyBasicLifeHits: 1
+  enemyStrongLifeHits: 3
+  enemyAttackInitialDelay: 2
+  enemyAttackIntervalMin: 3
+  enemyAttackIntervalMax: 6
+  enemyDeathAnimationDuration: 0.5
+  initialEnemySpawnInterval: 2
+  minEnemySpawnInterval: 1
+  enemySpawnMinX: -8
+  enemySpawnMaxX: 8
+  enemySpawnPositionY: 10
+  enemyDespawnMinY: -10
+  enemyDespawnMaxX: 15
+  bossMaxLife: 50
+  bossNormalLife: 10
+  timeForBossAppearanceBossMode: 60
+  timeForBossAppearanceOtherModes: 30
+  bossAttackInitialDelay: 2
+  bossAttackIntervalMin: 2
+  bossAttackIntervalMax: 4
+  bossDeathAnimationDuration: 0.8
+  bossSpawnPositionY: 7
+  bossActiveSpawnInterval: 6
+  postBossDefeatSpawnInterval: 2
+  bossResetMovementPositionY: -2
+  bossAttacksCounterForChangeMovement: 3
+  topStartPositionXRange: 1
+  topStartPositionY: 3
+  powerupInterval: 10
+  screenBoundX: 10
+  screenBoundY: 10
+  powerupSpawnMinX: -6
+  powerupSpawnMaxX: 6
+  powerupSpawnPositionY: 6
